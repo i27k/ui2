@@ -1,0 +1,19 @@
+import React from "react";
+
+const variants = {
+  discord:
+    "border-[#3A3466] bg-gradient-to-b from-[#1D1B2E] to-[#141322] text-[#B9B4E0] hover:border-[#5B54A8] hover:text-[#D6D2F5] hover:shadow-[inset_0_0_16px_rgba(88,101,242,0.18)]",
+  neutral:
+    "border-[#2A313B] bg-gradient-to-b from-[#171C24] to-[#11161D] text-[#B6BEC7] hover:border-[#7A1C25] hover:text-[#F2EDE7] hover:shadow-[inset_0_0_16px_rgba(217,35,50,0.18)]",
+};
+
+export default function CHubButton({ icon: Icon, label, variant = "neutral", onClick, className = "" }) {
+  return (
+    <button onClick={onClick}
+      className={`flex items-center justify-center gap-2 border px-4 py-2.5 font-heading text-[11px] uppercase tracking-[0.18em] transition-all duration-150 active:translate-y-[1px] ${variants[variant]} ${className}`}
+      style={{ clipPath: "polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px)" }}>
+      {Icon && <Icon className="h-4 w-4" strokeWidth={1.75} />}
+      {label}
+    </button>
+  );
+}

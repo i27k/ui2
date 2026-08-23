@@ -1,0 +1,25 @@
+import React from "react";
+
+const STATUS = {
+  online: { color: "#2F7A4A", glow: "rgba(47,122,74,0.85)", label: "Online" },
+  idle: { color: "#C8862A", glow: "rgba(200,134,42,0.7)", label: "Idle" },
+  danger: { color: "#EF3943", glow: "rgba(239,57,67,0.9)", label: "Danger" },
+  offline: { color: "#4E5661", glow: "transparent", label: "Offline" },
+};
+
+export default function CHubStatusIndicator({ status = "online", showLabel = false }) {
+  const s = STATUS[status] ?? STATUS.online;
+  return (
+    <span className="inline-flex items-center gap-1.5">
+      <span className="relative flex h-2 w-2 items-center justify-center">
+        {status === "danger" && (
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full opacity-60" style={{ backgroundColor: s.color }} />
+        )}
+        <span className="relative inline-flex h-2 w-2 rounded-full ring-1 ring-black/50" style={{ backgroundColor: s.color, boxShadow: `0 0 6px ${s.glow}` }} />
+      </span>
+      {showLabel && (
+        <span className="text-[9px] uppercase tracking-[0.2em]" style={{ color: s.color }}>{s.label}</span>
+      )}
+    </span>
+  );
+}

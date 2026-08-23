@@ -1,0 +1,19 @@
+import React from "react";
+
+export default function CHubTab({ label, active, onClick }) {
+  return (
+    <button onClick={onClick}
+      className={`relative flex-1 border px-4 py-2.5 font-heading text-[11px] uppercase tracking-[0.18em] transition-all duration-150 active:translate-y-[1px] ${
+        active
+          ? "border-[#7A1C25] bg-gradient-to-b from-[#241419] to-[#171017] text-[#F2EDE7] shadow-[inset_0_0_18px_rgba(217,35,50,0.18)]"
+          : "border-[#232A33] bg-[#11161D] text-[#6E7883] hover:border-[#3A4450] hover:bg-[#151A21] hover:text-[#B6BEC7]"
+      }`}
+      style={{ clipPath: "polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px)" }}>
+      {active && <span className="absolute left-0 top-0 h-[2px] w-full bg-gradient-to-r from-transparent via-[#EF3943] to-transparent" />}
+      <span className="flex items-center justify-center gap-2">
+        {active && <span className="h-1.5 w-1.5 bg-[#EF3943] shadow-[0_0_6px_rgba(239,57,67,0.9)]" />}
+        {label}
+      </span>
+    </button>
+  );
+}

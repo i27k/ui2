@@ -1,0 +1,17 @@
+import React from "react";
+import { Search } from "lucide-react";
+
+export default function CHubSearch({ value, onChange }) {
+  return (
+    <div className="group relative">
+      <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#5A636E] transition-colors duration-150 group-focus-within:text-[#EF3943]" strokeWidth={1.75} />
+      <input
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        placeholder="Type to search commands..."
+        className="h-10 w-full border border-[#232A33] bg-[#080B0F] pl-9 pr-3 text-[13px] text-[#E7E2DB] placeholder:text-[#5A636E] outline-none shadow-[inset_0_1px_3px_rgba(0,0,0,0.8)] transition-all duration-150 focus:border-[#7A1C25] focus:shadow-[inset_0_1px_3px_rgba(0,0,0,0.8),0_0_0_1px_rgba(217,35,50,0.25)]"
+      />
+      <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[9px] uppercase tracking-[0.2em] text-[#3E4650]">cmd</span>
+    </div>
+  );
+}

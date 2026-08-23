@@ -1,0 +1,16 @@
+import React from "react";
+import { Users } from "lucide-react";
+
+export default function CHubPartyTab({ onClick }) {
+  return (
+    <button onClick={onClick}
+      className="group absolute left-full top-24 flex flex-col items-center gap-2 border border-l-0 border-[#2A313B] bg-gradient-to-r from-[#151A21] to-[#11161D] px-2.5 py-4 transition-all duration-150 hover:border-[#7A1C25] hover:from-[#1E1418]"
+      style={{ clipPath: "polygon(0 0,100% 8px,100% calc(100% - 8px),0 100%)" }}>
+      <Users className="h-4 w-4 text-[#E7E2DB] transition-colors duration-150 group-hover:text-[#EF3943]" strokeWidth={1.75} />
+      <span className="font-heading text-[10px] uppercase tracking-[0.28em] text-[#8A939E] transition-colors duration-150 group-hover:text-[#F2EDE7]" style={{ writingMode: "vertical-rl" }}>
+        Party
+      </span>
+      <span className="h-1.5 w-1.5 rounded-full bg-[#E7E2DB] group-hover:bg-[#EF3943]" />
+    </button>
+  );
+}

@@ -1,0 +1,32 @@
+import React from "react";
+import { ChevronRight } from "lucide-react";
+
+export default function CHubCommandCard({ icon: Icon, label, selected, disabled, wide, onClick }) {
+  return (
+    <button
+      disabled={disabled}
+      onClick={onClick}
+      className={`group relative flex items-center gap-3 border px-3.5 py-3 text-left transition-all duration-150 ${wide ? "col-span-2" : ""} ${
+        disabled
+          ? "cursor-not-allowed border-[#1B2028] bg-[#0E1216] opacity-50"
+          : selected
+          ? "border-[#7A1C25] bg-gradient-to-b from-[#241419] to-[#14181E] shadow-[inset_0_0_18px_rgba(217,35,50,0.16)]"
+          : "border-[#232A33] bg-gradient-to-b from-[#171C24] to-[#11161D] hover:border-[#5C1A22] hover:from-[#1D232C] hover:to-[#14181E] active:translate-y-[1px] active:from-[#101419] active:to-[#0D1117]"
+      }`}
+      style={{ clipPath: "polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px)" }}
+    >
+      <span className={`absolute left-0 top-0 h-full w-[2px] transition-opacity duration-150 ${selected ? "bg-[#EF3943] opacity-100" : "bg-[#D92332] opacity-0 group-hover:opacity-100"}`} />
+      <span className={`flex h-7 w-7 shrink-0 items-center justify-center border transition-colors duration-150 ${
+        disabled ? "border-[#1B2028] text-[#4E5661]" : selected ? "border-[#7A1C25] bg-[#1B1114] text-[#EF3943]" : "border-[#2A313B] bg-[#0F1318] text-[#B4373F] group-hover:border-[#5C1A22] group-hover:text-[#EF3943]"
+      }`}>
+        <Icon className="h-[15px] w-[15px]" strokeWidth={1.6} />
+      </span>
+      <span className={`flex-1 truncate text-[13px] font-medium tracking-wide ${disabled ? "text-[#5A636E]" : selected ? "text-[#F2EDE7]" : "text-[#C9D0D8] group-hover:text-[#F2EDE7]"}`}>
+        {label}
+      </span>
+      <ChevronRight className={`h-4 w-4 shrink-0 transition-all duration-150 ${
+        selected ? "text-[#EF3943]" : "translate-x-[-3px] text-[#3E4650] opacity-0 group-hover:translate-x-0 group-hover:text-[#EF3943] group-hover:opacity-100"
+      }`} strokeWidth={2} />
+    </button>
+  );
+}

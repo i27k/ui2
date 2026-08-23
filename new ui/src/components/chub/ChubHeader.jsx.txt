@@ -1,0 +1,35 @@
+import React from "react";
+import { X } from "lucide-react";
+
+export default function CHubHeader({ onClose }) {
+  return (
+    <div className="relative flex items-center justify-between border-b border-[#232A33] bg-gradient-to-b from-[#151A21] to-[#11161D] px-5 py-3">
+      <div className="flex items-center gap-3">
+        {/* custom emblem: clipped diamond with crimson core + survival notch */}
+        <div className="relative flex h-8 w-8 items-center justify-center bg-[#1B2028] ring-1 ring-[#3A2027]"
+          style={{ clipPath: "polygon(50% 0,100% 35%,100% 100%,0 100%,0 35%)" }}>
+          <span className="absolute inset-0 shadow-[inset_0_0_12px_rgba(217,35,50,0.3)]" />
+          <span className="absolute left-1/2 top-1 h-2 w-[2px] -translate-x-1/2 bg-[#EF3943]" />
+          <span className="font-heading text-[12px] font-bold tracking-tight text-[#EF3943]">c</span>
+          <span className="absolute bottom-1 right-1 h-[3px] w-[3px] bg-[#7A1C25]" />
+        </div>
+        <div className="leading-none">
+          <div className="flex items-baseline gap-2">
+            <span className="font-heading text-[17px] font-bold uppercase tracking-[0.08em] text-[#F2EDE7]">c/Hub</span>
+            <span className="font-heading text-[13px] uppercase tracking-[0.28em] text-[#6E7883]">Menu</span>
+          </div>
+          <div className="mt-1 flex items-center gap-1.5">
+            <span className="h-[2px] w-6 bg-[#D92332]" />
+            <span className="text-[9px] uppercase tracking-[0.3em] text-[#4E5661]">survival terminal // 01</span>
+            <span className="h-1 w-1 bg-[#7A1C25]" />
+            <span className="text-[9px] uppercase tracking-[0.24em] text-[#3E4650]">v7</span>
+          </div>
+        </div>
+      </div>
+      <button onClick={onClose}
+        className="group flex h-8 w-8 items-center justify-center border border-[#2A313B] bg-[#11161D] text-[#7A838E] transition-all duration-150 hover:border-[#7A1C25] hover:bg-[#1B1114] hover:text-[#EF3943]">
+        <X className="h-4 w-4" strokeWidth={1.75} />
+      </button>
+    </div>
+  );
+}

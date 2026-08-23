@@ -1,0 +1,33 @@
+import React from "react";
+import { CHubMaterials, CHubFrameMarks } from "./CHubMaterials";
+
+export default function CHubWindow({ children }) {
+  return (
+    <div className="relative">
+      {/* ambient crimson glow */}
+      <div className="pointer-events-none absolute -inset-10 bg-[radial-gradient(closest-side,rgba(217,35,50,0.14),transparent)] blur-2xl" />
+      {/* atmospheric smoke behind panel */}
+      <div className="pointer-events-none absolute -inset-6 bg-[radial-gradient(60% 50% at 50% 0%,rgba(120,100,90,0.10),transparent_70%)] blur-xl" />
+
+      <div className="relative w-[860px] max-w-[95vw] bg-[#0D1117]/95 backdrop-blur-sm shadow-[0_40px_120px_-20px_rgba(0,0,0,0.9)]"
+        style={{ clipPath: "polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px)" }}>
+        {/* frame edges */}
+        <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-[#2A313B]" />
+        <div className="pointer-events-none absolute inset-0 shadow-[inset_0_1px_0_rgba(255,255,255,0.05),inset_0_-40px_80px_-40px_rgba(217,35,50,0.16)]" />
+        <div className="pointer-events-none absolute left-0 top-3 h-16 w-[2px] bg-gradient-to-b from-[#D92332] to-transparent" />
+        <div className="pointer-events-none absolute right-0 bottom-3 h-16 w-[2px] bg-gradient-to-t from-[#D92332] to-transparent" />
+        {/* survival materials + frame marks */}
+        <CHubMaterials />
+        <CHubFrameMarks />
+        {/* base noise */}
+        <div className="pointer-events-none absolute inset-0 opacity-[0.05] mix-blend-overlay"
+          style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.8'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E\")" }} />
+        {/* industrial markings along bottom edge */}
+        <div className="pointer-events-none absolute bottom-1 left-1/2 -translate-x-1/2 text-[8px] uppercase tracking-[0.32em] text-[#2E3640]">
+          ch-sys // rev 7.0 // bloodmoon-protocol
+        </div>
+        <div className="relative">{children}</div>
+      </div>
+    </div>
+  );
+}

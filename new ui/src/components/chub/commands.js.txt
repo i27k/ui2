@@ -1,0 +1,83 @@
+import {
+  MapPin, Building2, Gift, Home, ScrollText, Settings,
+  ShoppingCart, UserRoundSearch, Landmark, Car, Store,
+  Layers, Bot,
+  UserX, Ban, VolumeX, AlertTriangle, Search, Megaphone,
+  Snowflake, HeartPulse, RotateCcw, Users, FileWarning,
+  Package, Clock, Cloud, RefreshCw, TerminalSquare, KeyRound,
+  Eraser, Bug, Skull, ShieldCheck, Wrench, Activity, Cpu, Shield,
+} from "lucide-react";
+
+export const LEFT_COMMANDS = [
+  { icon: MapPin, label: "Teleport Player" },
+  { icon: Building2, label: "City Teleport" },
+  { icon: Gift, label: "Daily Rewards" },
+  { icon: Home, label: "My Homes" },
+  { icon: ScrollText, label: "Quests" },
+  { icon: Settings, label: "Settings" },
+];
+
+export const RIGHT_COMMANDS = [
+  { icon: ShoppingCart, label: "Shop" },
+  { icon: UserRoundSearch, label: "Player Teleport" },
+  { icon: Landmark, label: "Economy" },
+  { icon: Car, label: "Vehicle Spawner" },
+  { icon: Store, label: "Marketplace" },
+];
+
+export const BOTTOM_COMMANDS = [
+  { icon: Layers, label: "Alt Systems" },
+  { icon: Bot, label: "c/Hub AI" },
+];
+
+export const STAFF_LEFT = [
+  { icon: UserX, label: "Kick Player" },
+  { icon: Ban, label: "Ban Player" },
+  { icon: VolumeX, label: "Mute Player" },
+  { icon: MapPin, label: "Teleport to Player" },
+  { icon: AlertTriangle, label: "Warn Player" },
+  { icon: Search, label: "Player Lookup" },
+];
+
+export const STAFF_RIGHT = [
+  { icon: Megaphone, label: "Server Announce" },
+  { icon: FileWarning, label: "View Reports" },
+  { icon: Snowflake, label: "Freeze Player" },
+  { icon: HeartPulse, label: "Heal Player" },
+  { icon: RotateCcw, label: "Restore Player" },
+  { icon: Users, label: "Staff List" },
+];
+
+export const STAFF_BOTTOM = [
+  { icon: ScrollText, label: "Audit Log" },
+  { icon: Settings, label: "Staff Settings" },
+];
+
+export const DEV_LEFT = [
+  { icon: Package, label: "Spawn Item" },
+  { icon: Clock, label: "Set Time" },
+  { icon: Cloud, label: "Weather Control" },
+  { icon: RefreshCw, label: "Reload Config" },
+  { icon: TerminalSquare, label: "Server Console" },
+  { icon: KeyRound, label: "Grant Permission" },
+];
+
+export const DEV_RIGHT = [
+  { icon: Eraser, label: "Wipe Region" },
+  { icon: Bug, label: "Debug Overlay" },
+  { icon: Skull, label: "Force Blood Moon" },
+  { icon: RotateCcw, label: "Reset Player" },
+  { icon: Landmark, label: "Economy Control" },
+  { icon: ShieldCheck, label: "Whitelist" },
+];
+
+export const DEV_BOTTOM = [
+  { icon: Wrench, label: "Dev Tools" },
+  { icon: Activity, label: "System Diagnostics" },
+];
+
+export const SECTION_META = {
+  "Player Menu": { title: "Player Commands", icon: TerminalSquare, left: LEFT_COMMANDS, right: RIGHT_COMMANDS, bottom: BOTTOM_COMMANDS },
+  "Staff Menu": { title: "Staff Commands", icon: Shield, left: STAFF_LEFT, right: STAFF_RIGHT, bottom: STAFF_BOTTOM },
+  "Dev / Owner": { title: "Dev Commands", icon: Cpu, left: DEV_LEFT, right: DEV_RIGHT, bottom: DEV_BOTTOM },
+};

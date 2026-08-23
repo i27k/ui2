@@ -1,0 +1,113 @@
+import React, { useState } from "react";
+import { MessageCircle, LogOut } from "lucide-react";
+import CHubWindow from "@/components/chub/CHubWindow";
+import CHubHeader from "@/components/chub/CHubHeader";
+import CHubTab from "@/components/chub/CHubTab";
+import CHubSearch from "@/components/chub/CHubSearch";
+import CHubSectionHeader from "@/components/chub/CHubSectionHeader";
+import CHubCommandCard from "@/components/chub/CHubCommandCard";
+import CHubPlayerStatus from "@/components/chub/CHubPlayerStatus";
+import CHubButton from "@/components/chub/CHubButton";
+import CHubPartyTab from "@/components/chub/CHubPartyTab";
+import { SECTION_META } from "@/components/chub/commands";
+
+const TABS = ["Player Menu", "Staff Menu", "Dev / Owner"];
+
+export default function PlayerMenu() {
+  const [tab, setTab] = useState("Player Menu");
+  const [query, setQuery] = useState("");
+  const [selected, setSelected] = useState(null);
+
+  const cfg = SECTION_META[tab];
+  const match = (c) => c.label.toLowerCase().includes(query.trim().toLowerCase());
+  const left = cfg.left.filter(match);
+  const right = cfg.right.filter(match);
+  const bottom = cfg.bottom.filter(match);
+
+  const card = (c) => (
+    <CHubCommandCard
+      key={c.label}
+      icon={c.icon}
+      label={c.label}
+      selected={selected === c.label}
+      onClick={() => setSelected(c.label)}
+    />
+  );
+
+  return (
+    <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#080B0F] p-8">
+      {/* atmosphere */}
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,rgba(217,35,50,0.10),transparent_60%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_120%,rgba(255,255,255,0.03),transparent_55%)]" />
+
+      <div className="relative">
+        <CHubWindow>
+          <CHubHeader onClose={() => {}} />
+
+          <div className="px-5 pt-4">
+            <div className="flex gap-2">
+              {TABS.map((t) => (
+                <CHubTab
+                  key={t}
+                  label={t}
+                  active={tab === t}
+                  onClick={() => { setTab(t); setSelected(null); setQuery(""); }}
+                />
+              ))}
+            </div>
+
+            <div className="mt-3">
+              <CHubSearch value={query} onChange={setQuery} />
+            </div>
+          </div>
+
+          <div className="mx-5 mt-4 border border-[#1E242C] bg-[#0A0E13]/70 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.03)]">
+            <CHubSectionHeader icon={cfg.icon} title={cfg.title} />
+
+            <div className="mt-4 grid grid-cols-2 gap-2.5">
+              <div className="flex flex-col gap-2.5">{left.map(card)}</div>
+              <div className="flex flex-col gap-2.5">{right.map(card)}</div>
+            </div>
+
+            {bottom.length > 0 && (
+              <div className="mt-2.5 grid grid-cols-2 gap-2.5">{bottom.map(card)}</div>
+            )}
+
+            {left.length === 0 && right.length === 0 && bottom.length === 0 && (
+              <div className="py-10 text-center text-[12px] uppercase tracking-[0.2em] text-[#5A636E]">
+                No commands found
+              </div>
+            )}
+          </div>
+
+          <div className="px-5 pt-4">
+            <CHubPlayerStatus
+              name="i27k"
+              level={1}
+              gs={1}
+              xp={35}
+              xpMax={100}
+              coins={1250}
+              status="online"
+              rank="Survivor"
+            />
+          </div>
+
+          <div className="flex items-center gap-2.5 px-5 pt-3">
+            <CHubButton icon={MessageCircle} label="Discord" variant="discord" className="flex-1" />
+            <CHubButton icon={LogOut} label="Close Menu" variant="neutral" className="flex-1" />
+          </div>
+
+          <div className="mt-3 flex items-center justify-center gap-2 border-t border-[#1B2028] bg-[#0A0E13] py-2">
+            <span className="h-1.5 w-1.5 bg-[#2F7A4A] shadow-[0_0_6px_rgba(47,122,74,0.8)]" />
+            <span className="text-[9px] uppercase tracking-[0.24em] text-[#4E5661]">
+              Menu active — press <span className="text-[#8A939E]">F4</span> to toggle
+            </span>
+          </div>
+        </CHubWindow>
+
+        <CHubPartyTab />
+      </div>
+    </div>
+  );
+}

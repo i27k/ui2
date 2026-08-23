@@ -1,0 +1,18 @@
+import React from "react";
+
+/**
+ * Clan rank badge synced from Discord roles.
+ * `rank` — mapped survival-clan label (e.g. "Survivor", "Warlord").
+ * `syncing` — true while fetching from Discord.
+ */
+export default function CHubRankBadge({ rank, syncing = false }) {
+  if (!rank && !syncing) return null;
+  return (
+    <span className="inline-flex items-center gap-1 border border-[#3A2027] bg-[#1B1114] px-1.5 py-0.5">
+      <span className="h-1 w-1 bg-[#EF3943] shadow-[0_0_4px_rgba(239,57,67,0.8)]" />
+      <span className="font-heading text-[9px] font-semibold uppercase tracking-[0.18em] text-[#E7B0B4]">
+        {syncing ? "syncing…" : rank}
+      </span>
+    </span>
+  );
+}

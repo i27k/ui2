@@ -1,0 +1,57 @@
+import React from "react";
+
+/**
+ * Shared survival-world material overlays.
+ * Extremely restrained: worn metal, scratches, dust, dried-blood specks,
+ * industrial markings. Sits above surfaces, below content, never affects layout.
+ */
+export function CHubMaterials() {
+  return (
+    <div className="pointer-events-none absolute inset-0 overflow-hidden">
+      {/* worn metal micro-scratches */}
+      <div className="absolute inset-0 opacity-[0.06] mix-blend-screen"
+        style={{
+          backgroundImage:
+            "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg stroke='white' stroke-width='0.4' fill='none' opacity='0.5'%3E%3Cpath d='M12 40 L70 38'/%3E%3Cpath d='M90 12 L150 14'/%3E%3Cpath d='M180 60 L210 58'/%3E%3Cpath d='M30 120 L60 119'/%3E%3Cpath d='M150 150 L200 152'/%3E%3Cpath d='M100 180 L140 181'/%3E%3Cpath d='M8 200 L40 199'/%3E%3C/g%3E%3C/svg%3E\")",
+        }}
+      />
+      {/* dust / grime vignette */}
+      <div className="absolute inset-0 opacity-[0.5] mix-blend-overlay"
+        style={{
+          background:
+            "radial-gradient(120% 90% at 50% 0%, transparent 55%, rgba(0,0,0,0.35) 100%), radial-gradient(80% 60% at 100% 100%, rgba(60,40,30,0.10), transparent 60%)",
+        }}
+      />
+      {/* dried-blood crimson specks near edges */}
+      <div className="absolute inset-0 opacity-[0.5]"
+        style={{
+          backgroundImage:
+            "radial-gradient(1.5px 1.5px at 18px 90px, rgba(120,28,32,0.55), transparent), radial-gradient(1px 1px at 40px 160px, rgba(120,28,32,0.4), transparent), radial-gradient(1.5px 1.5px at calc(100% - 30px) 120px, rgba(120,28,32,0.45), transparent), radial-gradient(1px 1px at calc(100% - 60px) 200px, rgba(120,28,32,0.35), transparent)",
+        }}
+      />
+      {/* faint atmospheric smoke behind content */}
+      <div className="absolute inset-0 opacity-[0.18] mix-blend-soft-light"
+        style={{
+          background:
+            "radial-gradient(60% 40% at 20% 30%, rgba(180,170,160,0.10), transparent 70%), radial-gradient(50% 35% at 85% 75%, rgba(140,130,120,0.08), transparent 70%)",
+        }}
+      />
+    </div>
+  );
+}
+
+/** Tiny industrial corner bolts + edge notches on the frame. */
+export function CHubFrameMarks() {
+  return (
+    <div className="pointer-events-none absolute inset-0">
+      {/* corner bolts */}
+      <span className="absolute left-2 top-2 h-1 w-1 rounded-full bg-[#3A4450] shadow-[inset_0_0_1px_rgba(0,0,0,0.9)]" />
+      <span className="absolute right-2 top-2 h-1 w-1 rounded-full bg-[#3A4450] shadow-[inset_0_0_1px_rgba(0,0,0,0.9)]" />
+      <span className="absolute left-2 bottom-2 h-1 w-1 rounded-full bg-[#3A4450] shadow-[inset_0_0_1px_rgba(0,0,0,0.9)]" />
+      <span className="absolute right-2 bottom-2 h-1 w-1 rounded-full bg-[#3A4450] shadow-[inset_0_0_1px_rgba(0,0,0,0.9)]" />
+      {/* edge notches */}
+      <span className="absolute left-0 top-1/2 h-3 w-[2px] -translate-y-1/2 bg-[#1B2028]" />
+      <span className="absolute right-0 top-1/2 h-3 w-[2px] -translate-y-1/2 bg-[#1B2028]" />
+    </div>
+  );
+}

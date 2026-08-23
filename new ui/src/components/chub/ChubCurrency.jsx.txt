@@ -1,0 +1,13 @@
+import React from "react";
+import { Coins } from "lucide-react";
+
+export default function CHubCurrency({ amount }) {
+  return (
+    <div className="flex items-center gap-2 border border-[#3A2F17] bg-[#15120C] px-3 py-1.5">
+      <Coins className="h-3.5 w-3.5 text-[#D9A02A]" strokeWidth={1.75} />
+      <span className="font-heading text-[13px] font-semibold tracking-wide text-[#F0C25A]">
+        {amount.toLocaleString()}
+      </span>
+    </div>
+  );
+}
