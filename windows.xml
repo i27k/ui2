@@ -1723,8 +1723,8 @@
 
 				<label name="otherSystemsLabel"
 					   depth="12"
-					   pos="14,-350"
-					   width="160"
+					   pos="14,-344"
+					   width="490"
 					   height="24"
 					   font_size="16"
 					   text="OTHER SYSTEMS"
@@ -1733,10 +1733,10 @@
 
 				<sprite name="otherSystemsLine"
 						depth="11"
-						pos="139,-360"
-						width="365"
-						height="1"
-						color="80,22,29,230"
+						pos="132,-353"
+						width="372"
+						height="2"
+						color="105,10,15,255"
 						foregroundlayer="true" />
 
 
@@ -2184,89 +2184,7 @@
 		<!-- END c/HUB BASE44 MAIN MENU V1                         -->
 		<!-- ====================================================== -->
 		
-        <!-- Live XP toast: only exists on the main c/Hub menu page. -->
-        <rect name="xpGainPopup" depth="75" pos="374,-642" width="146" height="46" visible="{chub_xp_gain_visible}">
-          <sprite depth="1" width="146" height="46" sprite="menu_empty3px" color="3,0,1,220" type="sliced" />
-          <sprite depth="8" width="146" height="46" sprite="menu_empty3px" color="255,45,56,255" type="sliced" fillcenter="false" />
-          <sprite depth="9" pos="11,-10" size="25,25" sprite="ui_game_symbol_quest" color="255,205,35,255" />
-          <label depth="12" pos="42,-7" width="94" height="31" justify="center" font_size="22" text="{chub_xp_gain_text}" color="255,218,72,255" effect="outline" effect_color="75,24,0,255" effect_distance="2,-2" foregroundlayer="true" />
-        </rect>
 
-        <rect pos="22,-96" width="516" height="48">
-          <grid rows="1" cols="3" cell_width="172" cell_height="44" arrangement="horizontal">
-            <rect name="tabPlayer" controller="SimpleButton" width="164" height="42"><sprite depth="2" sprite="menu_empty3px" color="95,10,17,78" type="sliced" visible="{chub_tab_player_active}" /><sprite depth="7" sprite="menu_empty3px" color="150,30,39,220" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="125,18,27,145" /><sprite depth="4" pos="14,-10" size="21,21" sprite="ui_game_symbol_players" color="245,65,73,245" /><label depth="5" pos="42,-9" width="116" height="26" font_size="18" text="PLAYER MENU" color="245,235,236,255" /></rect>
-            <rect name="tabStaff" controller="SimpleButton" width="164" height="42" visible="{chub_is_staff}"><sprite depth="2" sprite="menu_empty3px" color="95,10,17,78" type="sliced" visible="{chub_tab_staff_active}" /><sprite depth="7" sprite="menu_empty3px" color="120,28,36,205" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="125,18,27,145" /><sprite depth="8" pos="13,-9" size="23,23" sprite="ui_game_symbol_shield" color="245,65,73,245" foregroundlayer="true" /><label depth="9" pos="42,-9" width="116" height="26" font_size="18" text="STAFF MENU" color="225,216,218,255" /></rect>
-            <rect name="tabDev" controller="SimpleButton" width="164" height="42" visible="{chub_is_owner}"><sprite depth="2" sprite="menu_empty3px" color="95,10,17,78" type="sliced" visible="{chub_tab_dev_active}" /><sprite depth="7" sprite="menu_empty3px" color="120,28,36,205" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="125,18,27,145" /><texture depth="8" pos="14,-10" width="21" height="21" texture="@modfolder:UI/crown.png" color="235,48,55,245" /><label depth="9" pos="42,-9" width="116" height="26" font_size="18" text="DEV / OWNER" color="225,216,218,255" /></rect>
-          </grid>
-        </rect>
-
-        <rect pos="22,-158" width="516" height="52">
-          <sprite depth="1" sprite="menu_empty3px" color="0,0,0,225" type="sliced" />
-          <sprite depth="4" sprite="menu_empty3px" color="105,25,33,220" type="sliced" fillcenter="false" />
-          <sprite depth="5" pos="2,-2" width="512" height="48" sprite="menu_empty3px" color="235,48,58,235" type="sliced" fillcenter="false" visible="{chub_search_active}" />
-          <sprite depth="6" pos="52,-9" width="1" height="32" sprite="menu_empty3px" color="125,15,22,190" />
-          <sprite depth="7" pos="15,-11" size="29,29" sprite="ui_game_symbol_search" color="255,55,63,255" />
-          <label name="searchPlaceholder" depth="8" pos="65,-14" width="405" height="28" font_size="17" text="Type to search commands..." color="125,119,121,255" />
-          <textfield name="searchCommands" depth="9" pos="63,-13" width="425" height="29" font_size="18" value="" color="248,245,245,255" search_field="true" clear_button="true" />
-        </rect>
-
-        <rect pos="20,-224" width="520" height="466">
-          <sprite depth="1" sprite="menu_empty3px" color="0,0,0,82" type="sliced" />
-          <sprite depth="6" sprite="menu_empty3px" color="105,25,33,205" type="sliced" fillcenter="false" />
-          <sprite depth="12" pos="16,-13" size="21,21" sprite="ui_game_symbol_players" color="247,62,70,255" foregroundlayer="true" /><label depth="12" pos="44,-15" width="458" height="27" font_size="19" text="PLAYER COMMANDS" color="247,72,80,255" foregroundlayer="true" />
-
-          <!-- Icon buttons matching the compact c/Hub reference layout. -->
-          <rect name="playerCommandsScroll" pos="0,-42" width="516" height="294" depth="20">
-            <rect name="playerCommandsScrollView" pos="0,0" width="510" height="294">
-          <rect name="btnPlayerList" controller="SimpleButton" pos="14,-52" width="238" height="44" visible="{chub_show_player_list}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="130,13,18,255" selectedcolor="170,18,24,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_players" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Teleport Player" color="230,210,210,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnShop" controller="SimpleButton" pos="266,-52" width="238" height="44" visible="{chub_show_shop}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_shopping_cart" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Shop" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnCityTeleport" controller="SimpleButton" pos="14,-100" width="238" height="44" visible="{chub_show_city_teleport}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_map_waypoint_set" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="City Teleport" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnPlayerTeleport" controller="SimpleButton" pos="266,-100" width="238" height="44" visible="{chub_show_player_teleport}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_players" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Player Teleport" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnDailyRewards" controller="SimpleButton" pos="14,-148" width="238" height="44" visible="{chub_show_daily_rewards}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_quest" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Daily Rewards" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnEconomy" controller="SimpleButton" pos="266,-148" width="238" height="44" visible="{chub_show_economy}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_coin" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Economy" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnHomes" controller="SimpleButton" pos="14,-196" width="238" height="44" visible="{chub_show_homes}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_map_bed" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="My Homes" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnVehicles" controller="SimpleButton" pos="266,-196" width="238" height="44" visible="{chub_show_vehicles}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_map" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Vehicle Spawner" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnQuests" controller="SimpleButton" pos="14,-244" width="238" height="44" visible="{chub_show_quests}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_quest" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Quests" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnMarketplace" controller="SimpleButton" pos="266,-244" width="238" height="44" visible="{chub_show_marketplace}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_shopping_cart" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Marketplace" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnSettings" controller="SimpleButton" pos="14,-292" width="238" height="44" visible="{chub_show_settings}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_wrench" color="255,55,62,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Settings" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnRot" controller="SimpleButton" pos="266,-292" width="238" height="44" visible="false"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="110,20,12,255" /><sprite depth="4" pos="14,-9" size="26,26" sprite="ui_game_symbol_zombie" color="154,204,68,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Rot" color="220,232,190,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-            </rect>
-          </rect>
-
-          <label name="otherSystemsLabel" depth="12" pos="14,-350" width="490" height="24" font_size="18" text="OTHER SYSTEMS" color="247,72,80,255" foregroundlayer="true" />
-          <sprite name="otherSystemsLine" depth="11" pos="136,-361" width="368" height="2" color="105,10,15,255" foregroundlayer="true" />
-          <rect name="btnAltSystems" controller="SimpleButton" pos="14,-388" width="238" height="44" visible="{chub_show_alt_systems}"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><texture depth="4" pos="13,-8" width="27" height="27" texture="@modfolder:UI/chub-emblem.png" color="255,255,255,255" /><label depth="5" pos="50,-8" width="174" height="28" font_size="22" text="Alt Systems" color="210,195,195,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" /></rect>
-          <rect name="btnAssistant" controller="SimpleButton" pos="266,-388" width="238" height="44"><sprite depth="7" sprite="menu_empty3px" color="{chub_accent}" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,9,13,255" /><texture depth="9" pos="10,-5" width="34" height="34" texture="@modfolder:UI/chub-ai-logo-v1.png" color="255,255,255,255" foregroundlayer="true" /><label depth="10" pos="50,-8" width="174" height="28" font_size="22" text="c/Hub AI" color="220,205,205,255" effect="outline" effect_color="42,2,5,255" effect_distance="1,-1" foregroundlayer="true" /></rect>
-        </rect>
-
-        <rect pos="20,-696" width="520" height="104">
-          <sprite depth="1" sprite="menu_empty3px" color="0,0,0,118" type="sliced" />
-          <texture depth="12" pos="14,-12" width="30" height="30" texture="@modfolder:UI/crown.png" color="255,210,35,255" foregroundlayer="true" />
-          <label depth="12" pos="51,-7" width="168" height="27" font_size="23" text="{chub_local_player}" color="255,207,45,255" effect="outline" effect_color="70,38,0,255" effect_distance="2,-2" foregroundlayer="true" />
-          <label name="localLevelStageLabel" depth="12" pos="51,-34" width="205" height="22" font_size="17" text="LVL {chub_local_level}  •  GS {chub_local_gamestage}" color="190,172,174,255" foregroundlayer="true" />
-          <sprite depth="5" pos="51,-62" width="188" height="7" sprite="menu_empty3px" color="35,10,14,255" type="sliced" />
-          <sprite name="localXpProgressFill" depth="8" pos="51,-62" width="188" height="7" pivot="left" sprite="menu_empty3px" color="255,43,55,255" type="sliced" foregroundlayer="true" />
-          <label name="localXpLabel" depth="12" pos="51,-72" width="188" height="20" font_size="14" justify="center" text="{chub_local_xp}" color="220,202,204,255" foregroundlayer="true" />
-          <sprite depth="12" pos="246,-18" size="25,25" sprite="ui_game_symbol_coin" color="255,190,20,255" foregroundlayer="true" />
-          <label depth="12" pos="275,-14" width="27" height="30" font_size="20" text="{chub_currency}" color="255,207,45,255" justify="left" effect="outline" effect_color="70,38,0,255" effect_distance="2,-2" foregroundlayer="true" />
-          <rect name="btnDiscord" controller="SimpleButton" depth="50" pos="302,-18" width="80" height="52"><sprite depth="2" sprite="menu_empty3px" color="70,35,115,255" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="88,101,242,210" /><label depth="8" pos="4,-11" width="72" height="30" justify="center" font_size="17" text="DISCORD" color="235,225,240,255" foregroundlayer="true" /></rect>
-          <rect name="btnCloseFooter" controller="SimpleButton" depth="50" pos="390,-18" width="114" height="52"><sprite depth="2" sprite="menu_empty3px" color="70,8,11,255" type="sliced" fillcenter="false" /><button name="clickable" depth="40" sprite="menu_empty3px" foregroundlayer="true" type="sliced" defaultcolor="0,0,0,0" hovercolor="95,10,14,255" /><label depth="8" pos="4,-11" width="106" height="30" justify="center" font_size="20" text="Close Menu" color="235,225,225,255" foregroundlayer="true" /></rect>
-          <label depth="14" pos="302,-72" width="202" height="20" font_size="14" justify="right" text="CAPSLOCK  •  {chub_interaction_mode}" color="145,120,120,255" foregroundlayer="true" />
-        </rect>
-
-        <!-- Independent movable Discord popup, positioned above its footer button. -->
-        <rect name="discordPopup" depth="80" pos="196,-474" width="340" height="194" visible="{chub_discord_popup}">
-          <sprite depth="1" sprite="menu_empty3px" color="3,1,8,205" type="sliced" />
-          <sprite depth="25" sprite="menu_empty3px" color="105,86,235,255" type="sliced" fillcenter="false" />
-          <rect name="discordDrag" pos="18,-8" width="270" height="42" depth="26" on_drag="true" />
-          <label depth="8" pos="22,-12" width="260" height="34" font_size="25" text="c/Hub Discord" color="190,190,255,255" effect="outline" effect_color="30,20,75,255" effect_distance="2,-2" />
-          <simplebutton name="btnCloseDiscord" depth="30" pos="298,-10" width="32" height="32" caption="×" font_size="25" bordercolor="0,0,0,0" defaultcolor="0,0,0,0" hovercolor="88,101,242,90" />
-          <rect pos="18,-58" width="304" height="42"><sprite depth="1" sprite="menu_empty3px" color="0,0,0,100" type="sliced" /><sprite depth="5" sprite="menu_empty3px" color="82,69,188,255" type="sliced" fillcenter="false" /><label pos="10,-8" width="284" height="27" font_size="17" text="{chub_discord_url}" color="230,230,245,255" /></rect>
-          <simplebutton depth="50" name="btnOpenDiscord" pos="18,-110" width="144" height="42" caption="OPEN DISCORD" font_size="19" bordercolor="88,101,242,255" defaultcolor="0,0,0,0" hovercolor="88,101,242,210" />
-          <simplebutton depth="50" name="btnCopyDiscord" pos="178,-110" width="144" height="42" caption="COPY LINK" font_size="19" bordercolor="88,101,242,255" defaultcolor="0,0,0,0" hovercolor="88,101,242,210" />
-          <label pos="18,-158" width="304" height="26" justify="center" font_size="16" text="{chub_discord_status}" color="175,170,210,255" />
-          <rect name="discordResize" pos="314,-168" width="26" height="26" depth="40" on_drag="true" style="press"><label width="24" height="24" font_size="18" text="//" color="120,105,235,255" /></rect>
-        </rect>
 
       <!-- Persistent c/Hub Party directory backed by the vanilla party transport. -->
       <rect name="partyPage" width="760" height="820" visible="{chub_page_party}">
