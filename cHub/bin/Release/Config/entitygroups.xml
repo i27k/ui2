@@ -1,0 +1,13 @@
+<configs>
+  <!-- A normal uncommon roll in the standard all-biome pool; gamestage scaling
+       remains owned by the vanilla spawn groups that consume ZombiesAll. -->
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
+    <e n="zombieZombiIon" p="0.35" />
+    <e n="zombieCHubDormant" p="0.22" />
+    <e n="zombieCHubScreecher" p="0.08" />
+    <e n="zombieCHubToxic" p="0.10" />
+    <e n="zombieCHubElectric" p="0.07" />
+    <e n="zombieCHubStalker" p="0.12" />
+    <e n="zombieCHubVolatile" p="0.025" />
+  </append>
+</configs>

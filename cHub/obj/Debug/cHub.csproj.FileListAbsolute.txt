@@ -1,0 +1,343 @@
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\cHub.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\cHub.pdb
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\0Harmony.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Assembly-CSharp.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Mono.Cecil.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\MonoMod.Backports.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\MonoMod.Utils.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\MonoMod.RuntimeDetour.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\System.ValueTuple.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\MonoMod.Core.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UI.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.ClothModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.Animation.Rigging.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\NGUI.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.Postprocessing.Runtime.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\LogLibrary.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\HBAO.Runtime.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\AstarPathfindingProject.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Discord.Sdk.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Noemax.GZip.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\InControl.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.VehiclesModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\LiteNetLib.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.Profiling.Core.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.Addressables.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.ResourceManager.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.Burst.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.Collections.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.Mathematics.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Backtrace.Unity.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\NCalc.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.VideoModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\BhvrAnalytics.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\EOS.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\com.thenakeddev.fsr.Runtime.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\com.thenakeddev.dlss.Runtime.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\ScreenSpaceReflections.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.WindModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\MemoryPack.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\zxing.unity.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Utf8Json.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\SpaceWizards_HttpListener.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.Microsoft.GDK.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\com.rlabrecque.steamworks.net.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.StreamingModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.JSONSerializeModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\enum2int.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\netstandard.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.DSPGraphModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UnityCurlModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.ContentLoadModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.PropertiesModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.TLSModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.AndroidJNIModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.AccessibilityModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UnityConnectModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.AIModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UnityAnalyticsCommonModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.ClusterInputModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.ClusterRendererModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.CrashReportingModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.VFXModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.VRModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.GridModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.SubsystemsModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.LocalizationModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.NVIDIAModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.VirtualTexturingModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.GameCenterModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.SpriteMaskModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.SpriteShapeModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.XRModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.ARModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\UnityEngine.InputModule.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\MonoMod.ILHelpers.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\MonoMod.Iced.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Pathfinding.Ionic.Zip.Reduced.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Pathfinding.ClipperLib.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Pathfinding.Poly2Tri.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.Burst.Unsafe.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Unity.Collections.LowLevel.ILSupport.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Antlr3.Runtime.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\BhvrAnalyticsMS.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Polly.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Polly.Core.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zeqlz\source\repos\cHub\cHub\obj\Debug\cHub.csproj.AssemblyReference.cache
+C:\Users\zeqlz\source\repos\cHub\cHub\obj\Debug\cHub.csproj.CoreCompileInputs.cache
+C:\Users\zeqlz\source\repos\cHub\cHub\obj\Debug\cHub.csproj.Up2Date
+C:\Users\zeqlz\source\repos\cHub\cHub\obj\Debug\cHub.dll
+C:\Users\zeqlz\source\repos\cHub\cHub\obj\Debug\cHub.pdb
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Config\XUi_InGame\windows.xml
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\Config\XUi_InGame\xui.xml
+C:\Users\zeqlz\source\repos\cHub\cHub\bin\Debug\ModInfo.xml
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Config\XUi_InGame\xui.xml
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\ModInfo.xml
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Config\XUi_InGame\windows.xml
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UI\chub-emblem.png
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UI\crown.png
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UI\panel-arrow.png
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\cHub.dll
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\cHub.pdb
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\obj\Debug\cHub.csproj.AssemblyReference.cache
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\obj\Debug\cHub.csproj.CoreCompileInputs.cache
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\obj\Debug\cHub.csproj.Up2Date
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\obj\Debug\cHub.dll
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\obj\Debug\cHub.pdb
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\netstandard.dll
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Config\entityclasses.xml
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Config\entitygroups.xml
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Config\Localization.txt
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UI\ZombiIon.png
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UI\ZombiIon-concept-source.png
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UI\NightglassR01.png
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\asset-manifest.json
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\PIPELINE.md
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Concepts\Weapons\NightglassR01-source.png
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\CHUB_BRAND_STANDARD.md
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01-cues.json
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_bolt_charge.wav
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_fire_close.wav
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_fire_distant.wav
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_align.wav
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_extract.wav
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_grab.wav
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_insert.wav
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_release.wav
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_seat.wav
+C:\Users\zeqlz\Documents\Codex\2026-08-10\referenced-chatgpt-conversation-this-is-an-3\work\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_reload_reference.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Config\XUi_InGame\windows.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Config\XUi_InGame\xui.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Config\XUi_Menu\windows.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Config\entityclasses.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Config\entitygroups.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Config\buffs.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Config\items.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Config\recipes.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Config\loot.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Config\Localization.txt
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\chub-emblem.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\crown.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\chub-ai-logo-v1.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\panel-arrow.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\chub-panel-surface-v2.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\chub-startup-wallpaper-v1.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\chub-loading-forest-v1.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\chub-loading-eclipse-v1.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\chub-loading-bunker-v1.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\chub-loading-forest-v2.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\chub-loading-eclipse-v2.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\chub-loading-bunker-v2.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\ZombiIon.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\ZombiIon-concept-source.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UI\NightglassR01.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\asset-manifest.json
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\PIPELINE.md
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\CHUB_BRAND_STANDARD.md
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Concepts\Weapons\NightglassR01-source.png
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01-cues.json
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_bolt_charge.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_fire_close.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_fire_distant.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_align.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_extract.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_grab.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_insert.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_release.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_mag_seat.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assets\Audio\NightglassR01\chub_ng_reload_reference.wav
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\ModInfo.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\cHub.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\cHub.pdb
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\0Harmony.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assembly-CSharp.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Mono.Cecil.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\MonoMod.Backports.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\MonoMod.Utils.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\MonoMod.RuntimeDetour.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\System.ValueTuple.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\MonoMod.Core.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UI.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.ClothModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.Animation.Rigging.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\NGUI.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.Postprocessing.Runtime.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\LogLibrary.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\HBAO.Runtime.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\AstarPathfindingProject.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Discord.Sdk.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Noemax.GZip.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\InControl.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.VehiclesModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\LiteNetLib.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.Profiling.Core.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.Addressables.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.ResourceManager.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.Burst.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.Collections.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.Mathematics.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Backtrace.Unity.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\NCalc.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.VideoModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\BhvrAnalytics.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\EOS.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\com.thenakeddev.fsr.Runtime.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\com.thenakeddev.dlss.Runtime.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\ScreenSpaceReflections.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.WindModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\MemoryPack.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\zxing.unity.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Utf8Json.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\SpaceWizards_HttpListener.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.Microsoft.GDK.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\com.rlabrecque.steamworks.net.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.StreamingModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.JSONSerializeModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\enum2int.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\netstandard.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.DSPGraphModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UnityCurlModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.ContentLoadModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.PropertiesModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.TLSModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.AndroidJNIModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.AccessibilityModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UnityConnectModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.AIModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UnityAnalyticsCommonModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.ClusterInputModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.ClusterRendererModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.CrashReportingModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.VFXModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.VRModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.GridModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.SubsystemsModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.LocalizationModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.NVIDIAModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.VirtualTexturingModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.GameCenterModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.SpriteMaskModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.SpriteShapeModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.XRModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.ARModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\UnityEngine.InputModule.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\MonoMod.ILHelpers.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\MonoMod.Iced.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Pathfinding.Ionic.Zip.Reduced.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Pathfinding.ClipperLib.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Pathfinding.Poly2Tri.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.Burst.Unsafe.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Unity.Collections.LowLevel.ILSupport.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Antlr3.Runtime.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\BhvrAnalyticsMS.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Polly.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Polly.Core.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\obj\Debug\cHub.csproj.AssemblyReference.cache
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\obj\Debug\cHub.csproj.CoreCompileInputs.cache
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\obj\Debug\cHub.csproj.Up2Date
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\obj\Debug\cHub.dll
+C:\Users\zeqlz\Desktop\Proiect 8.10.26\chub-build\cHub\obj\Debug\cHub.pdb

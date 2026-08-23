@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "identity": "realism-horror-sci-fi",
+  "serverAuthoritative": true,
+  "clientVisualsOnly": true,
+  "systems": {
+    "nutrition": true,
+    "fatigue": true,
+    "temperature": true,
+    "disease": true,
+    "radiation": true,
+    "anomalies": true,
+    "dynamicEvents": true,
+    "mutantInfected": true,
+    "rareLoot": true
+  },
+  "events": {
+    "blackout": { "enabled": true, "minimumDay": 3 },
+    "toxicFog": { "enabled": true, "minimumDay": 4 },
+    "energyFlux": { "enabled": true, "minimumDay": 6 },
+    "temporalDistortion": { "enabled": true, "minimumDay": 8 },
+    "meteorFall": { "enabled": true, "minimumDay": 10 }
+  },
+  "compatibility": {
+    "usesVanillaPrefabs": true,
+    "requiresExternalAssetBundle": false,
+    "safeClientVisualFallback": true
+  }
+}

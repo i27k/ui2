@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D20C0F1E-96F7-44BE-B931-FBEF1893DDF5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cHub</RootNamespace>
+    <AssemblyName>cHub</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Modules\AdminPanel\AdminPanelService.cs" />
+    <Compile Include="Modules\AdminPanel\GameAssistantService.cs" />
+    <Compile Include="Modules\AdminPanel\RotService.cs" />
+    <Compile Include="Modules\AdminPanel\AdminPanelController.cs" />
+    <Compile Include="Modules\AdminPanel\AdminPanelLauncherController.cs" />
+    <Compile Include="Modules\AdminPanel\PauseToolsController.cs" />
+    <Compile Include="Modules\AdminPanel\MainMenuBrandController.cs" />
+    <Compile Include="Modules\AdminPanel\LoadingScreenController.cs" />
+    <Compile Include="Modules\AdminPanel\InGameMenuController.cs" />
+    <Compile Include="Modules\AdminPanel\CompassController.cs" />
+    <Compile Include="Modules\Inventory\BookKnowledgeController.cs" />
+    <Compile Include="Modules\Inventory\ItemSearchController.cs" />
+    <Compile Include="Modules\Inventory\MultiInventoryService.cs" />
+    <Compile Include="Networking\NetPackageMultiInventory.cs" />
+    <Compile Include="Modules\Optimizations\Client\EscSaveOptimization.cs" />
+    <Compile Include="Modules\Optimizations\Client\FastEscMenuOptimization.cs" />
+    <Compile Include="Modules\Optimizations\Client\PauseSaveBypassOptimization.cs" />
+    <Compile Include="Modules\Party\PartyService.cs" />
+    <Compile Include="Networking\NetPackageOpenAdminPanel.cs" />
+    <Compile Include="Modules\Commands\AdminPanelCommand.cs" />
+    <Compile Include="Modules\Commands\PermClearCommand.cs" />
+    <Compile Include="Modules\Commands\PermGrantCommand.cs" />
+    <Compile Include="Modules\Commands\PermListCommand.cs" />
+    <Compile Include="Modules\Commands\PermRevokeCommand.cs" />
+    <Compile Include="Modules\Commands\PermsCommand.cs" />
+    <Compile Include="Services\Events\PlayerJoinedGameListener.cs" />
+    <Compile Include="Modules\AdminPanel\AdminPanelConfig.cs" />
+    <Compile Include="Config\AudioConfig.cs" />
+    <Compile Include="Config\cHubConfig.cs" />
+    <Compile Include="Modules\AdminPanel\DailyRewards\DailyReward.cs" />
+    <Compile Include="Modules\AdminPanel\DailyRewards\DailyRewardsConfig.cs" />
+    <Compile Include="Config\DatabaseConfig.cs" />
+    <Compile Include="Config\DiscordConfig.cs" />
+    <Compile Include="Config\DonationConfig.cs" />
+    <Compile Include="Modules\AdminPanel\DailyRewards\DailyRewardsModule.cs" />
+    <Compile Include="Modules\AdminPanel\DailyRewards\DailyRewardsService.cs" />
+    <Compile Include="Modules\AdminPanel\DailyRewards\RewardType.cs" />
+    <Compile Include="Modules\Commands\HasPermissionCommand.cs" />
+    <Compile Include="Modules\Commands\RoleAddCommand.cs" />
+    <Compile Include="Modules\Commands\RoleClearCommand.cs" />
+    <Compile Include="Modules\Commands\RoleListCommand.cs" />
+    <Compile Include="Modules\Commands\RoleRemoveCommand.cs" />
+    <Compile Include="Services\Commands\ChatCommandBridge.cs" />
+    <Compile Include="Services\Commands\ChatCommandListener.cs" />
+    <Compile Include="Services\Commands\CommandContext.cs" />
+    <Compile Include="Services\Commands\CommandDefinition.cs" />
+    <Compile Include="Core\CommandInstaller.cs" />
+    <Compile Include="Services\Commands\CommandRegistry.cs" />
+    <Compile Include="Services\Commands\CommandResponseSender.cs" />
+    <Compile Include="Services\Commands\CommandResult.cs" />
+    <Compile Include="Services\Inventory\InventorySecurity.cs" />
+    <Compile Include="Services\Permissions\PermissionDefinition.cs" />
+    <Compile Include="Services\Permissions\PermissionPersistence.cs" />
+    <Compile Include="Services\Permissions\PermissionRegistry.cs" />
+    <Compile Include="Services\Permissions\PermissionService.cs" />
+    <Compile Include="Modules\Economy\EconomyConfig.cs" />
+    <Compile Include="Modules\Leaderboards\LeaderboardsConfig.cs" />
+    <Compile Include="Modules\Marketplace\MarketplaceConfig.cs" />
+    <Compile Include="Config\NotificationConfig.cs" />
+    <Compile Include="Config\PermissionConfig.cs" />
+    <Compile Include="Config\SchedulerConfig.cs" />
+    <Compile Include="Modules\Teleport\TeleportConfig.cs" />
+    <Compile Include="Config\UIConfig.cs" />
+    <Compile Include="Config\WindowConfig.cs" />
+    <Compile Include="Core\cHubContext.cs" />
+    <Compile Include="Core\EventBus.cs" />
+    <Compile Include="Core\ModuleInstaller.cs" />
+    <Compile Include="Core\ModuleRegistry.cs" />
+    <Compile Include="Core\Scheduler.cs" />
+    <Compile Include="Core\ServiceInstaller.cs" />
+    <Compile Include="Core\ServiceRegistry.cs" />
+    <Compile Include="Core\HarmonyLoader.cs" />
+    <Compile Include="Core\cHubVersion.cs" />
+    <Compile Include="Development\Benchmark.cs" />
+    <Compile Include="Development\DebugCommands.cs" />
+    <Compile Include="Development\Sandbox.cs" />
+    <Compile Include="Development\TestModule.cs" />
+    <Compile Include="Modules\Commands\RotCommand.cs" />
+    <Compile Include="Modules\Commands\TopRotCommand.cs" />
+    <Compile Include="Core\Bootstrap.cs" />
+    <Compile Include="Core\StartupTerminal.cs" />
+    <Compile Include="Modules\Economy\Currency.cs" />
+    <Compile Include="Modules\Economy\EconomyModule.cs" />
+    <Compile Include="Modules\Economy\EconomyService.cs" />
+    <Compile Include="Modules\Economy\EconomyWindow.cs" />
+    <Compile Include="Modules\Economy\Wallet.cs" />
+    <Compile Include="Modules\Leaderboards\LeaderboardService.cs" />
+    <Compile Include="Managers\PlayerManager.cs" />
+    <Compile Include="Managers\UIManager.cs" />
+    <Compile Include="Patches\Player\PlayerPatch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Modules\UI\cHubWindow.cs" />
+    <Compile Include="Services\Audio\AudioCategory.cs" />
+    <Compile Include="Services\Audio\AudioClip.cs" />
+    <Compile Include="Services\Audio\AudioRequest.cs" />
+    <Compile Include="Services\Audio\AudioVolume.cs" />
+    <Compile Include="Services\Chat\ChatChannel.cs" />
+    <Compile Include="Services\Chat\ChatColor.cs" />
+    <Compile Include="Services\Chat\ChatCommand.cs" />
+    <Compile Include="Services\Chat\ChatFilter.cs" />
+    <Compile Include="Services\Chat\ChatFormatter.cs" />
+    <Compile Include="Services\Chat\ChatHistory.cs" />
+    <Compile Include="Services\Chat\ChatMessage.cs" />
+    <Compile Include="Services\Chat\DiscordBridgeService.cs" />
+    <Compile Include="Services\Chat\ChatParser.cs" />
+    <Compile Include="Services\Chat\ChatService.cs" />
+    <Compile Include="Services\Commands\CommandService.cs" />
+    <Compile Include="Services\Config\ConfigCache.cs" />
+    <Compile Include="Services\Config\ConfigLoader.cs" />
+    <Compile Include="Services\Config\ConfigService.cs" />
+    <Compile Include="Services\Config\ConfigWatcher.cs" />
+    <Compile Include="Services\Config\ConfigWriter.cs" />
+    <Compile Include="Services\Database\DatabaseProvider.cs" />
+    <Compile Include="Services\Database\DatabaseService.cs" />
+    <Compile Include="Services\Database\Providers\JsonProvider.cs" />
+    <Compile Include="Services\Database\Providers\SQLiteProvider.cs" />
+    <Compile Include="Services\Database\Providers\XmlProvider.cs" />
+    <Compile Include="Services\Events\EventService.cs" />
+    <Compile Include="Services\Inventory\InventoryService.cs" />
+    <Compile Include="Services\Notification\NotificationService.cs" />
+    <Compile Include="Services\Permissions\PlayerPermissionStore.cs" />
+    <Compile Include="Services\Players\PlayerIdentityPersistence.cs" />
+    <Compile Include="Services\Players\PlayerIdentityResolver.cs" />
+    <Compile Include="Services\Players\PlayerIdentityService.cs" />
+    <Compile Include="Services\Players\PlayerIdentityStore.cs" />
+    <Compile Include="Services\Players\PlayerResolver.cs" />
+    <Compile Include="Services\Popup\PopupAnimation.cs" />
+    <Compile Include="Services\Popup\PopupPriority.cs" />
+    <Compile Include="Services\Popup\PopupQueue.cs" />
+    <Compile Include="Services\Popup\PopupRequest.cs" />
+    <Compile Include="Services\Popup\PopupService.cs" />
+    <Compile Include="Services\Audio\AudioService.cs" />
+    <Compile Include="Services\Popup\PopupType.cs" />
+    <Compile Include="Services\Roles\PlayerRoleStore.cs" />
+    <Compile Include="Services\Roles\RemoveRole.cs" />
+    <Compile Include="Services\Roles\RoleDefinition.cs" />
+    <Compile Include="Services\Roles\RoleManagementService.cs" />
+    <Compile Include="Services\Roles\RolePersistence.cs" />
+    <Compile Include="Services\Roles\RoleRegistry.cs" />
+    <Compile Include="Services\Roles\RoleService.cs" />
+    <Compile Include="Services\Scheduler\SchedulerQueue.cs" />
+    <Compile Include="Services\Scheduler\SchedulerService.cs" />
+    <Compile Include="Services\Scheduler\SchedulerTask.cs" />
+    <Compile Include="Services\Scheduler\SchedulerTimer.cs" />
+    <Compile Include="Services\Window\WindowAnimation.cs" />
+    <Compile Include="Services\Window\WindowCache.cs" />
+    <Compile Include="Services\Window\WindowManager.cs" />
+    <Compile Include="Services\Window\WindowService.cs" />
+    <Compile Include="Services\Window\WindowType.cs" />
+    <Compile Include="Shared\Base\Initializable.cs" />
+    <Compile Include="Shared\Base\Module.cs" />
+    <Compile Include="Shared\Base\Service.cs" />
+    <Compile Include="Shared\Constants\AudioIds.cs" />
+    <Compile Include="Shared\Constants\Colors.cs" />
+    <Compile Include="Shared\Constants\Permissions.cs" />
+    <Compile Include="Shared\Constants\PopupIds.cs" />
+    <Compile Include="Shared\Constants\WindowIds.cs" />
+    <Compile Include="Shared\Enums\AudioCategory.cs" />
+    <Compile Include="Shared\Enums\ModuleState.cs" />
+    <Compile Include="Shared\Enums\NotificationType.cs" />
+    <Compile Include="Shared\Enums\PlayerState.cs" />
+    <Compile Include="Shared\Enums\PopupType.cs" />
+    <Compile Include="Shared\Enums\WindowType.cs" />
+    <Compile Include="Shared\Extensions\EntityPlayerExtension.cs" />
+    <Compile Include="Shared\Extensions\StringExtension.cs" />
+    <Compile Include="Shared\Extensions\Vector3Extension.cs" />
+    <Compile Include="Shared\Interfaces\IConfigurationProvider.cs" />
+    <Compile Include="Shared\Interfaces\IDatabaseProvider.cs" />
+    <Compile Include="Shared\Interfaces\IModule.cs" />
+    <Compile Include="Shared\Interfaces\IService.cs" />
+    <Compile Include="Shared\Results\CommandResult.cs" />
+    <Compile Include="Shared\Results\DatabaseResult.cs" />
+    <Compile Include="Shared\Results\Result.cs" />
+    <Compile Include="Shared\Results\ValidationResult.cs" />
+    <Compile Include="Shared\Utils\Logger.cs" />
+    <Compile Include="Shared\Validation\ValidationContext.cs" />
+    <Compile Include="Shared\Validation\ValidationException.cs" />
+    <Compile Include="Shared\Validation\Validator.cs" />
+    <Compile Include="Development\TestServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Database\" />
+    <Folder Include="Integrations\Asylum\" />
+    <Folder Include="Integrations\Discord\" />
+    <Folder Include="Integrations\Integrations\" />
+    <Folder Include="Integrations\ServerKit\" />
+    <Folder Include="Integrations\WebApi\" />
+    <Folder Include="Modules\Achievements\" />
+    <Folder Include="Modules\AdminPanel\ChunkTools\" />
+    <Folder Include="Modules\AdminPanel\ModuleControl\" />
+    <Folder Include="Modules\AdminPanel\PlayerManagement\" />
+    <Folder Include="Modules\AdminPanel\Roles\" />
+    <Folder Include="Modules\AdminPanel\ServerTools\" />
+    <Folder Include="Modules\Admin\" />
+    <Folder Include="Modules\Clans\" />
+    <Folder Include="Modules\Events\" />
+    <Folder Include="Modules\Optimizations\Server\" />
+    <Folder Include="Modules\Statistics\" />
+    <Folder Include="Patches\Chat\" />
+    <Folder Include="Patches\GameManager\" />
+    <Folder Include="Patches\Inventory\" />
+    <Folder Include="Patches\Quest\" />
+    <Folder Include="Patches\UI\" />
+    <Folder Include="Shared\Events\" />
+    <Folder Include="Shared\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XUi_InGame\windows.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\XUi_InGame\xui.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\XUi_Menu\windows.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\entityclasses.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\entitygroups.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\buffs.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\items.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\recipes.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\loot.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Localization.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\chub-emblem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\crown.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\chub-ai-logo-v1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\panel-arrow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\chub-panel-surface-v2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\chub-startup-wallpaper-v1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\chub-loading-forest-v1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\chub-loading-eclipse-v1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\chub-loading-bunker-v1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\chub-loading-forest-v2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\chub-loading-eclipse-v2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\chub-loading-bunker-v2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\ZombiIon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\ZombiIon-concept-source.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\NightglassR01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\asset-manifest.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\PIPELINE.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\CHUB_BRAND_STANDARD.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Concepts\Weapons\NightglassR01-source.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Audio\NightglassR01-cues.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Audio\NightglassR01\*.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ModInfo.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Tools\Setup-cHubOpenAI.ps1" />
+    <None Include="Tools\Setup-cHubDiscord.ps1" />
+    <None Include="Tools\README-DEV-BRIDGE.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "$(SolutionDir)dist\cHub\Config\XUi_InGame" mkdir "$(SolutionDir)dist\cHub\Config\XUi_InGame"
+if not exist "$(SolutionDir)dist\cHub\Config\XUi_Menu" mkdir "$(SolutionDir)dist\cHub\Config\XUi_Menu"
+
+copy /Y "$(TargetPath)" "$(SolutionDir)dist\cHub\"
+copy /Y "$(ProjectDir)ModInfo.xml" "$(SolutionDir)dist\cHub\"
+
+xcopy /Y /I "$(ProjectDir)Config\XUi_InGame\*.xml" "$(SolutionDir)dist\cHub\Config\XUi_InGame\"
+xcopy /Y /I "$(ProjectDir)Config\XUi_Menu\*.xml" "$(SolutionDir)dist\cHub\Config\XUi_Menu\"
+
+if not exist "$(SolutionDir)dist\cHub\UI" mkdir "$(SolutionDir)dist\cHub\UI"
+xcopy /Y /I "$(ProjectDir)UI\*.png" "$(SolutionDir)dist\cHub\UI\"
+
+if not exist "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Config\XUi_InGame" mkdir "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Config\XUi_InGame"
+
+if not exist "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Config\XUi_Menu" mkdir "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Config\XUi_Menu"
+
+copy /Y "$(TargetPath)" "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\"
+copy /Y "$(ProjectDir)ModInfo.xml" "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\"
+
+xcopy /Y /I "$(ProjectDir)Config\XUi_InGame\*.xml" "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Config\XUi_InGame\"
+
+xcopy /Y /I "$(ProjectDir)Config\XUi_Menu\*.xml" "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Config\XUi_Menu\"
+
+if not exist "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\UI" mkdir "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\UI"
+
+xcopy /Y /I "$(ProjectDir)UI\*.png" "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\UI\"
+
+if exist "$(ProjectDir)Data" (
+    if not exist "$(SolutionDir)dist\cHub\Data" mkdir "$(SolutionDir)dist\cHub\Data"
+    xcopy /Y /E /I "$(ProjectDir)Data\*" "$(SolutionDir)dist\cHub\Data\"
+
+    if not exist "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Data" mkdir "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Data"
+    xcopy /Y /E /I "$(ProjectDir)Data\*" "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Data\"
+)
+
+if exist "$(ProjectDir)Assets" (
+    if not exist "$(SolutionDir)dist\cHub\Assets" mkdir "$(SolutionDir)dist\cHub\Assets"
+    xcopy /Y /E /I "$(ProjectDir)Assets\*" "$(SolutionDir)dist\cHub\Assets\"
+
+    if not exist "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Assets" mkdir "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Assets"
+    xcopy /Y /E /I "$(ProjectDir)Assets\*" "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Assets\"
+)
+
+if exist "$(ProjectDir)Tools" (
+    if not exist "$(SolutionDir)dist\cHub\Tools" mkdir "$(SolutionDir)dist\cHub\Tools"
+    xcopy /Y /E /I "$(ProjectDir)Tools\*" "$(SolutionDir)dist\cHub\Tools\"
+
+    if not exist "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Tools" mkdir "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Tools"
+    xcopy /Y /E /I "$(ProjectDir)Tools\*" "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\cHub\Tools\"
+)</PostBuildEvent>
+  </PropertyGroup>
+</Project>

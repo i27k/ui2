@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <append xpath="/xui">
+    <window_group name="chubAdminPanel" defaultselected="tabPlayer" close_compass_on_open="true" actionset="true" always_update="true">
+      <window name="chubAdminPanel" />
+    </window_group>
+    <window_group name="chubMagicTeleportRequest" close_compass_on_open="false">
+      <window name="chubMagicTeleportRequest" />
+    </window_group>
+    <window_group name="serverinfowindow" actionset="false" always_update="true">
+      <window name="serverinfowindow" />
+    </window_group>
+  </append>
+  <append xpath="/xui/window_group[@name='ingameMenu']">
+    <window name="serverinfowindow" />
+  </append>
+</configs>

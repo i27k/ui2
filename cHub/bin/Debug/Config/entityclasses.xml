@@ -1,0 +1,63 @@
+<configs>
+  <!--
+    ZombiIon intentionally inherits a shipped prefab so both dedicated servers and
+    clients can resolve the entity without a fragile external Unity asset bundle.
+    Its c/Hub concept portrait is used by Zombie Director; a bespoke 3D prefab can
+    later replace Mesh without changing the entity id or network protocol.
+  -->
+  <append xpath="/entity_classes">
+    <entity_class name="zombieZombiIon" extends="zombieBiker">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="Tags" value="entity,zombie,walker,allbiome,chub,zombiion" />
+      <property name="SizeScale" value="1.06" />
+      <property name="MoveSpeedAggro" value="0.42, 1.12" />
+      <property name="Mass" value="225" />
+      <property name="Weight" value="82" />
+      <property name="PushFactor" value="22" />
+      <property name="ExperienceGain" value="750" />
+      <property name="LootDropProb" value="0.05" />
+      <!-- c/Hub hunter profile: retains the engine's mature navigation and
+           replication while using a purpose-tuned decision stack. -->
+      <property name="WalkType" value="7" />
+      <property name="CrouchType" value="1" />
+      <property name="AIFeralSense" value="2.1" />
+      <property name="AINoiseSeekDist" value="24" />
+      <property name="AIPathCostScale" value="0.08, 0.24" />
+      <property name="MaxViewAngle" value="300" />
+      <property name="SightRange" value="42" />
+      <property name="SightLightThreshold" value="-1.6,-1.2" />
+      <property name="AITask" value="
+        BreakBlock|
+        DestroyArea|
+        Territorial|
+        ApproachDistraction|
+        ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityAnimal|
+        ApproachSpot|
+        Look|
+        Wander|
+      " />
+      <property name="AITarget" value="
+        SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal|
+        BlockingTargetTask|
+        SetNearestCorpseAsTarget flags=edible|
+        SetNearestEntityAsTarget class=EntityPlayer,30,24,EntityBandit,12,-16,EntityAnimalRabbit,8,14|
+      " />
+      <property class="FallLandBehavior">
+        <property name="cHubLowStalk" data="anim=LandLow;height=0,2;weight=0.55" />
+        <property name="cHubLowStumble" data="anim=Stumble;height=0,2;weight=0.15;ragePer=0.25,0.65;rageTime=0.8,1.8" />
+        <property name="cHubHardRecovery" data="anim=LandHard;height=2,6;weight=0.45;ragePer=0.45,1.1;rageTime=1.5,4" />
+        <property name="cHubRagdoll" data="anim=Ragdoll;height=5;weight=0.25" />
+      </property>
+      <effect_group name="cHub ZombiIon Base Effects">
+        <passive_effect name="HealthMax" operation="perc_add" value="0.35" />
+        <passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+      </effect_group>
+    </entity_class>
+    <entity_class name="zombieCHubDormant" extends="zombieArlene"><property name="Tags" value="entity,zombie,walker,allbiome,chub,horror,dormant"/><property name="MoveSpeed" value="0.03"/><property name="MoveSpeedAggro" value="0.55,1.25"/><property name="SightRange" value="7"/><property name="AINoiseSeekDist" value="30"/><property name="ExperienceGain" value="520"/><effect_group name="Dormant Horror"><passive_effect name="HealthMax" operation="perc_add" value="0.20"/></effect_group></entity_class>
+    <entity_class name="zombieCHubScreecher" extends="zombieScreamer"><property name="Tags" value="entity,zombie,walker,allbiome,chub,horror,screecher"/><property name="SightRange" value="46"/><property name="AINoiseSeekDist" value="55"/><property name="ExperienceGain" value="850"/><effect_group name="Screecher"><passive_effect name="HealthMax" operation="perc_add" value="0.30"/><passive_effect name="EntityDamage" operation="perc_subtract" value="0.12"/></effect_group></entity_class>
+    <entity_class name="zombieCHubToxic" extends="zombieFatHawaiian"><property name="Tags" value="entity,zombie,walker,allbiome,chub,mutant,toxic"/><property name="SizeScale" value="1.10"/><property name="ExperienceGain" value="900"/><property name="LootDropProb" value="0.08"/><effect_group name="Toxic Mutant"><passive_effect name="HealthMax" operation="perc_add" value="0.55"/><passive_effect name="PhysicalDamageResist" operation="base_add" value="7"/></effect_group></entity_class>
+    <entity_class name="zombieCHubElectric" extends="zombieSoldier"><property name="Tags" value="entity,zombie,walker,allbiome,chub,mutant,electric"/><property name="MoveSpeedAggro" value="0.55,1.35"/><property name="ExperienceGain" value="1050"/><effect_group name="Electric Mutant"><passive_effect name="HealthMax" operation="perc_add" value="0.45"/><passive_effect name="ElementalDamageResist" operation="base_add" value="40" tags="electrical"/></effect_group></entity_class>
+    <entity_class name="zombieCHubStalker" extends="zombieSpider"><property name="Tags" value="entity,zombie,walker,allbiome,chub,horror,stealth"/><property name="SightLightThreshold" value="-2.1,-1.5"/><property name="SightRange" value="34"/><property name="MoveSpeedAggro" value="0.65,1.45"/><property name="ExperienceGain" value="950"/><effect_group name="Night Stalker"><passive_effect name="HealthMax" operation="perc_add" value="0.25"/><passive_effect name="EntityDamage" operation="perc_add" value="0.12"/></effect_group></entity_class>
+    <entity_class name="zombieCHubVolatile" extends="zombieDemolition"><property name="Tags" value="entity,zombie,walker,allbiome,chub,mutant,volatile"/><property name="SizeScale" value="0.92"/><property name="ExperienceGain" value="1400"/><effect_group name="Volatile"><passive_effect name="HealthMax" operation="perc_subtract" value="0.20"/><passive_effect name="WalkSpeed" operation="perc_add" value="0.12"/></effect_group></entity_class>
+  </append>
+</configs>

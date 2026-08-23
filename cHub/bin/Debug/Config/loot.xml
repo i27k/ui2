@@ -1,0 +1,4 @@
+<configs>
+  <append xpath="/lootcontainers/lootgroup[@name='groupMedicalRare']"><item name="chubNaniteSerum" loot_prob_template="veryLow"/><item name="chubRadShieldDose" loot_prob_template="low"/></append>
+  <append xpath="/lootcontainers/lootgroup[@name='groupRareElectrical']"><item name="chubEnergyCell" count="1,4" loot_prob_template="low"/><item name="chubRadiationDetector" loot_prob_template="veryLow"/><item name="chubAnomalyScanner" loot_prob_template="veryLow"/></append>
+</configs>

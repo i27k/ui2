@@ -1,0 +1,40 @@
+<configs>
+  <append xpath="/buffs">
+    <buff name="buffCHubFatigue" name_key="buffCHubFatigueName" description_key="buffCHubFatigueDesc" icon="ui_game_symbol_stamina" icon_color="115,145,190">
+      <duration value="900"/><stack_type value="replace"/>
+      <effect_group><passive_effect name="StaminaMax" operation="perc_subtract" value="0.18"/><passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.06"/></effect_group>
+    </buff>
+    <buff name="buffCHubMalnutrition" name_key="buffCHubMalnutritionName" description_key="buffCHubMalnutritionDesc" icon="ui_game_symbol_fork" icon_color="190,125,65">
+      <duration value="1200"/><stack_type value="replace"/>
+      <effect_group><passive_effect name="StaminaMax" operation="perc_subtract" value="0.12"/><passive_effect name="EntityDamage" operation="perc_subtract" value="0.08"/></effect_group>
+    </buff>
+    <buff name="buffCHubDehydration" name_key="buffCHubDehydrationName" description_key="buffCHubDehydrationDesc" icon="ui_game_symbol_water" icon_color="175,105,55">
+      <duration value="900"/><stack_type value="replace"/>
+      <effect_group><passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.10"/><passive_effect name="WalkSpeed" operation="perc_subtract" value="0.08"/></effect_group>
+    </buff>
+    <buff name="buffCHubRadiation" name_key="buffCHubRadiationName" description_key="buffCHubRadiationDesc" icon="ui_game_symbol_radiation" icon_color="170,255,40" icon_blink="true">
+      <duration value="240"/><stack_type value="duration"/>
+      <effect_group><passive_effect name="HealthChangeOT" operation="base_subtract" value="0.35"/><passive_effect name="StaminaMax" operation="perc_subtract" value="0.20"/><passive_effect name="WaterChangeOT" operation="base_subtract" value="0.15"/></effect_group>
+    </buff>
+    <buff name="buffCHubToxicCloud" name_key="buffCHubToxicCloudName" description_key="buffCHubToxicCloudDesc" icon="ui_game_symbol_poison" icon_color="95,225,105" icon_blink="true">
+      <duration value="90"/><stack_type value="duration"/>
+      <effect_group><passive_effect name="HealthChangeOT" operation="base_subtract" value="0.55"/><passive_effect name="WalkSpeed" operation="perc_subtract" value="0.12"/></effect_group>
+    </buff>
+    <buff name="buffCHubEmpDisruption" name_key="buffCHubEmpDisruptionName" description_key="buffCHubEmpDisruptionDesc" icon="ui_game_symbol_electricity" icon_color="70,185,255" icon_blink="true">
+      <duration value="35"/><stack_type value="replace"/>
+      <effect_group><passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.15"/><passive_effect name="ReloadSpeedMultiplier" operation="perc_subtract" value="0.18"/></effect_group>
+    </buff>
+    <buff name="buffCHubTemporalDistortion" name_key="buffCHubTemporalDistortionName" description_key="buffCHubTemporalDistortionDesc" icon="ui_game_symbol_time" icon_color="185,85,255" icon_blink="true">
+      <duration value="45"/><stack_type value="replace"/>
+      <effect_group><passive_effect name="WalkSpeed" operation="perc_subtract" value="0.16"/><passive_effect name="ReloadSpeedMultiplier" operation="perc_subtract" value="0.12"/></effect_group>
+    </buff>
+    <buff name="buffCHubNanoBoost" name_key="buffCHubNanoBoostName" description_key="buffCHubNanoBoostDesc" icon="ui_game_symbol_medical" icon_color="45,235,225">
+      <duration value="180"/><stack_type value="replace"/>
+      <effect_group><passive_effect name="HealthChangeOT" operation="base_add" value="0.25"/><passive_effect name="StaminaChangeOT" operation="perc_add" value="0.12"/><passive_effect name="EntityDamage" operation="perc_add" value="0.08"/></effect_group>
+    </buff>
+    <buff name="buffCHubRadiationShield" name_key="buffCHubRadiationShieldName" description_key="buffCHubRadiationShieldDesc" icon="ui_game_symbol_radiation" icon_color="70,255,210">
+      <duration value="600"/><stack_type value="replace"/>
+      <effect_group><passive_effect name="ElementalDamageResist" operation="base_add" value="35" tags="radiation,chemical"/></effect_group>
+    </buff>
+  </append>
+</configs>

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "target": "7 Days To Die 3.1 (b14)",
+  "bundleName": "chub_content",
+  "characters": [
+    {
+      "id": "zombieZombiIon",
+      "sourceFolder": "Source/ZombiIon",
+      "concept": "../UI/ZombiIon.png",
+      "requiredPrefab": "Assets/cHub/Characters/ZombiIon/ZombiIon.prefab",
+      "rig": "humanoid-compatible custom deformation rig",
+      "clips": ["idle", "walk", "run", "attack_a", "attack_b", "hit_a", "hit_b", "death_a", "death_b"],
+      "audioEvents": ["zombiion_roam", "zombiion_alert", "zombiion_attack", "zombiion_hurt", "zombiion_death"]
+    }
+  ],
+  "weapons": [
+    {
+      "id": "gunCHubNightglassR01",
+      "displayName": "c/Hub Nightglass R-01",
+      "sourceFolder": "Source/Weapons/NightglassR01",
+      "concept": "Concepts/Weapons/NightglassR01-source.png",
+      "icon": "../UI/NightglassR01.png",
+      "requiredPrefab": "Assets/cHub/Weapons/NightglassR01/NightglassR01.prefab",
+      "lodTriangleBudgets": [65000, 28000, 9000],
+      "textureSets": ["receiver", "furniture", "optic"],
+      "textureResolution": 4096,
+      "requiredClips": ["equip", "idle", "fire", "reload_tactical", "reload_empty", "inspect", "sprint_enter", "sprint_exit"]
+    }
+  ]
+}
