@@ -1,0 +1,187 @@
+﻿<!-- Defines global world information -->
+<worldglobal>
+  <environment>
+    <!-- day, night -->
+    <property name="ambientEquatorScale" value=".7, .35">
+      <!--Attribute "value" replaced by: "AtmosphericWeather"-->
+      <!--Attribute "value" replaced by: "TheAsylumCore"-->
+    </property>
+    <property name="ambientGroundScale" value=".3, .03">
+      <!--Attribute "value" replaced by: "AtmosphericWeather"-->
+      <!--Attribute "value" replaced by: "TheAsylumCore"-->
+    </property>
+    <property name="ambientSkyScale" value="1, .5">
+      <!--Attribute "value" replaced by: "AtmosphericWeather"-->
+      <!--Attribute "value" replaced by: "TheAsylumCore"-->
+    </property>
+    <property name="ambientSkyDesat" value=".7, .7" />
+    <property name="ambientMoon" value=".8, .3">
+      <!--Attribute "value" replaced by: "AtmosphericWeather"-->
+      <!--Attribute "value" replaced by: "TheAsylumCore"-->
+    </property>
+    <!-- add, scale -->
+    <property name="ambientInsideSpeed" value="0.5">
+      <!--Attribute "value" replaced by: "TheAsylumCore"-->
+    </property>
+    <property name="ambientInsideThreshold" value="0.1">
+      <!--Attribute "value" replaced by: "TheAsylumCore"-->
+    </property>
+    <property name="ambientInsideEquatorScale" value=".55, .4">
+      <!--Attribute "value" replaced by: "AtmosphericWeather"-->
+      <!--Attribute "value" replaced by: "TheAsylumCore"-->
+    </property>
+    <!-- day, night -->
+    <property name="ambientInsideGroundScale" value=".2, .02">
+      <!--Attribute "value" replaced by: "AtmosphericWeather"-->
+      <!--Attribute "value" replaced by: "TheAsylumCore"-->
+    </property>
+    <property name="ambientInsideSkyScale" value=".8, .15">
+      <!--Attribute "value" replaced by: "AtmosphericWeather"-->
+      <!--Attribute "value" replaced by: "TheAsylumCore"-->
+    </property>
+    <property name="fogPower" value="1, 1" />
+    <!-- day, night -->
+    <property name="fogWater" value=".47, .2" />
+    <!-- density, speed -->
+    <property name="fogWaterColor" value=".38, .42, .38" />
+    <property name="test" value="1" />
+  </environment>
+  <microsplat-voxel name="voxelBauxite0">
+    <!--Element appended by: "TheAsylumCore"-->
+    <texture name="25" weight="1" />
+  </microsplat-voxel>
+  <microsplat-texture name="25">
+    <!--Element appended by: "TheAsylumCore"-->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_diff_tarray[0]" />
+    <property name="Normal" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_norm_tarray[0]" />
+    <property name="Specular" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_shao_tarray[0]" />
+    <property name="SwitchNormal" value="false" />
+    <property name="SplatUVScale" value="4,4" />
+  </microsplat-texture>
+  <microsplat-voxel name="voxelChromite0">
+    <!--Element appended by: "TheAsylumCore"-->
+    <texture name="29" weight="1" />
+  </microsplat-voxel>
+  <microsplat-texture name="29">
+    <!--Element appended by: "TheAsylumCore"-->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_diff_tarray[1]" />
+    <property name="Normal" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_norm_tarray[1]" />
+    <property name="Specular" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_shao_tarray[1]" />
+    <property name="SwitchNormal" value="false" />
+    <property name="SplatUVScale" value="4,4" />
+  </microsplat-texture>
+  <microsplat-voxel name="voxelCobalt0">
+    <!--Element appended by: "TheAsylumCore"-->
+    <texture name="26" weight="1" />
+  </microsplat-voxel>
+  <microsplat-texture name="26">
+    <!--Element appended by: "TheAsylumCore"-->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_diff_tarray[2]" />
+    <property name="Normal" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_norm_tarray[2]" />
+    <property name="Specular" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_shao_tarray[2]" />
+    <property name="SwitchNormal" value="false" />
+    <property name="SplatUVScale" value="4,4" />
+  </microsplat-texture>
+  <microsplat-voxel name="voxelCopper0">
+    <!--Element appended by: "TheAsylumCore"-->
+    <texture name="27" weight="1" />
+  </microsplat-voxel>
+  <microsplat-texture name="27">
+    <!--Element appended by: "TheAsylumCore"-->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_diff_tarray[3]" />
+    <property name="Normal" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_norm_tarray[3]" />
+    <property name="Specular" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_shao_tarray[3]" />
+    <property name="SwitchNormal" value="false" />
+    <property name="SplatUVScale" value="4,4" />
+  </microsplat-texture>
+  <microsplat-voxel name="voxelQuartz0">
+    <!--Element appended by: "TheAsylumCore"-->
+    <texture name="24" weight="1" />
+  </microsplat-voxel>
+  <microsplat-texture name="24">
+    <!--Element appended by: "TheAsylumCore"-->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_diff_tarray[5]" />
+    <property name="Normal" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_norm_tarray[5]" />
+    <property name="Specular" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_shao_tarray[5]" />
+    <property name="SwitchNormal" value="false" />
+    <property name="SplatUVScale" value="4,4" />
+  </microsplat-texture>
+  <microsplat-voxel name="voxelTitanium0">
+    <!--Element appended by: "TheAsylumCore"-->
+    <texture name="31" weight="1" />
+  </microsplat-voxel>
+  <microsplat-texture name="31">
+    <!--Element appended by: "TheAsylumCore"-->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_diff_tarray[6]" />
+    <property name="Normal" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_norm_tarray[6]" />
+    <property name="Specular" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_shao_tarray[6]" />
+    <property name="SwitchNormal" value="false" />
+    <property name="SplatUVScale" value="4,4" />
+  </microsplat-texture>
+  <microsplat-voxel name="voxelZinc0">
+    <!--Element appended by: "TheAsylumCore"-->
+    <texture name="28" weight="1" />
+  </microsplat-voxel>
+  <microsplat-texture name="28">
+    <!--Element appended by: "TheAsylumCore"-->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_diff_tarray[7]" />
+    <property name="Normal" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_norm_tarray[7]" />
+    <property name="Specular" value="#@modfolder(TheAsylumCore):Resources/AsylumMining.unity3d?neffasOreVoxels_shao_tarray[7]" />
+    <property name="SwitchNormal" value="false" />
+    <property name="SplatUVScale" value="4,4" />
+  </microsplat-texture>
+  <microsplat-shader map-only="*">
+    <!--Element appended by: "OcbMicroSplat"-->
+    <!-- you may define your own shader if wanted, but we don't really recommend to mess with this directly -->
+    <property name="ShaderDetail" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.unity3d?assets/OcbMicroSplat/OcbMicroSplat{1}{0}Vertex" />
+    <property name="ShaderDistant" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.unity3d?assets/OcbMicroSplat/OcbMicroSplat{1}{0}Distant" />
+    <property name="ShaderDetailTess" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.unity3d?assets/OcbMicroSplat/OcbMicroSplat{1}{0}VertexTess" />
+    <property name="ShaderDistantTess" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.unity3d?assets/OcbMicroSplat/OcbMicroSplat{1}{0}DistantTess" />
+    <!-- metal means the mac graphics api, which requires a platform specific bundle (can't be bundles into one unfortunately) -->
+    <property name="MetalShaderDetail" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.metal.unity3d?assets/OcbMicroSplat/OcbMicroSplat{1}{0}Vertex" />
+    <property name="MetalShaderDistant" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.metal.unity3d?assets/OcbMicroSplat/OcbMicroSplat{1}{0}Distant" />
+    <property name="MetalShaderDetailTess" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.metal.unity3d?assets/OcbMicroSplat/OcbMicroSplat{1}{0}VertexTess" />
+    <property name="MetalShaderDistantTess" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.metal.unity3d?assets/OcbMicroSplat/OcbMicroSplat{1}{0}DistantTess" />
+    <property name="NoisePerlin" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.unity3d?assets/OcbMicroSplat/microsplat_def_perlin" />
+    <property name="NoiseDetail" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.unity3d?assets/OcbMicroSplat/microsplat_def_detail_noise" />
+    <property name="NoiseDistant" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.unity3d?assets/OcbMicroSplat/microsplat_def_detail_noise" />
+    <property name="NoiseNormal1" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.unity3d?assets/OcbMicroSplat/microsplat_def_detail_normal_01" />
+    <property name="NoiseNormal2" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.unity3d?assets/OcbMicroSplat/microsplat_def_detail_normal_02" />
+    <property name="NoiseNormal3" value="#@modfolder(OcbMicroSplat):Resources/OcbMicroSplat.unity3d?assets/OcbMicroSplat/microsplat_def_detail_normal_03" />
+    <property name="NoiseHeightData" value="0.5, 0.275" />
+    <property name="WorldHeightRange" value="0, 500" />
+    <property name="DistanceResampleAlbedoStrength" value="0.85" />
+    <property name="DistanceResampleNormalStrength" value="0.65" />
+    <property name="DistanceResampleMaterialStrength" value="0.35" />
+    <property name="NoiseNormal1Params" value="0.6, 0.225" />
+    <property name="NoiseNormal2Params" value="0.325, 0.175" />
+    <property name="NoiseNormal3Params" value="0.135, 0.125" />
+    <property name="ResampleDistanceParams" value="0.25, 0.5, 100" />
+    <property name="DetailNoiseScaleStrengthFade" value="20, 0.4, 15" />
+    <property name="DistanceNoiseScaleStrengthFade" value="0.25, 0.5, 100, 500" />
+    <property name="TriplanarContrast" value="8" />
+    <property name="TriplanarUVScale" value="1, 1, 0, 0" />
+    <!-- Below are the default shader settings (looks weird)
+
+			<property name="NoiseHeightData" value="1.0, 0.15"/>
+			<property name="WorldHeightRange" value="0.0, 250"/>
+
+			<property name="NoiseNormal1Params" value="10.0, 0.5"/>
+			<property name="NoiseNormal2Params" value="80.0, 1.0"/>
+			<property name="NoiseNormal3Params" value="8.0, 0.5"/>
+
+			<property name="DistanceResampleAlbedoStrength" value="1.0"/>
+			<property name="DistanceResampleNormalStrength" value="1.0"/>
+			<property name="DistanceResampleMaterialStrength" value="0.35"/>
+
+			<property name="ResampleDistanceParams" value="0.08, 50.0, 100.0"/>
+
+			<property name="DetailNoiseScaleStrengthFade" value="4.0, 0.5, 5.0"/>
+			<property name="DistanceNoiseScaleStrengthFade" value="100, 2, 10, 50"/>
+
+			<property name="TriplanarContrast" value="8"/>
+			<property name="TriplanarUVScale" value="1, 1, 0, 0"/>
+
+			-->
+  </microsplat-shader>
+</worldglobal>

@@ -1,0 +1,63 @@
+﻿<doc>
+  <!--Element removed by: "AsylumCustomMenu" (XPath: "doc/backgrounds")-->
+  <!--Element removed by: "AsylumCustomMenu" (XPath: "doc/tips")-->
+  <backgrounds>
+    <!--Element appended by: "AsylumCustomMenu"-->
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/1.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/2.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/3.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/4.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/5.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/6.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/7.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/8.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/9.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/10.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/11.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/12.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/13.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/15.png" />
+    <tex file="@modfolder(AsylumCustomMenu):/Images/bgs/16.png" />
+  </backgrounds>
+  <tips>
+    <!--Element appended by: "AsylumCustomMenu"-->
+    <!-- Horror Icons & Classic Killers -->
+    <tip key="loading_AsylumHorrorClowns" />
+    <tip key="loading_AsylumClassicKillers" />
+    <tip key="loading_AsylumUberDemons" />
+    <!-- Medical & Professional Horrors -->
+    <tip key="loading_AsylumMedicalHorrors" />
+    <tip key="loading_AsylumProfessionalKillers" />
+    <tip key="loading_AsylumReligiousHorrors" />
+    <tip key="loading_AsylumUrbanNightmares" />
+    <!-- Supernatural Entities -->
+    <tip key="loading_AsylumDemonicEntities" />
+    <tip key="loading_AsylumCursedDolls" />
+    <tip key="loading_AsylumSuccubusLegion" />
+    <tip key="loading_AsylumSkeletalHordes" />
+    <!-- Mutant Creatures -->
+    <tip key="loading_AsylumMutantBeasts" />
+    <tip key="loading_AsylumInfernalCreatures" />
+    <tip key="loading_AsylumSpecialAnimals" />
+    <tip key="loading_AsylumMythicalBeasts" />
+    <tip key="loading_AsylumInsectSwarms" />
+    <!-- Entity Variants & Tiers -->
+    <tip key="loading_AsylumFeralVariants" />
+    <tip key="loading_AsylumRadiatedHorrors" />
+    <tip key="loading_AsylumInfernalBeasts" />
+    <tip key="loading_AsylumWorkstations" />
+    <tip key="loading_AsylumCursedVariants" />
+    <tip key="loading_AsylumAlphaBeasts" />
+    <tip key="loading_AsylumEntityTiers" />
+    <!-- Specialized Threats -->
+    <tip key="loading_AsylumApocBandits" />
+    <tip key="loading_AsylumStalkerClaws" />
+    <tip key="loading_AsylumManiacFamilies" />
+    <tip key="loading_AsylumRattlerSwarms" />
+    <tip key="loading_AsylumSmileyTerror" />
+    <!-- Asylum Lore -->
+    <tip key="loading_AsylumEntityVariety" />
+    <tip key="loading_AsylumNightmareReality" />
+    <tip key="loading_AsylumCruelExperiments" />
+  </tips>
+</doc>

@@ -1,0 +1,276 @@
+﻿<npc>
+  <!-- trader ids 3,4 and 5 are taken by vending machines -->
+  <!--Element removed by: "AsylumTraderModels" (XPath: "//npc_info[@id='traitorjoel']")-->
+  <!--Element removed by: "AsylumTraderModels" (XPath: "//npc_info[@id='traderjen']")-->
+  <!--Element removed by: "AsylumTraderModels" (XPath: "//npc_info[@id='traderbob']")-->
+  <!--Element removed by: "AsylumTraderModels" (XPath: "//npc_info[@id='traderhugh']")-->
+  <!--Element removed by: "AsylumTraderModels" (XPath: "//npc_info[@id='traderrekt']")-->
+  <npc_info id="traderTest" name="Trader Test" name_key="Trader Test" faction="whiteriver" portrait="npc_hugh" greeting_type="nearby" trader_id="9" stance="Like" voice_set="trader_hugh" dialog_id="traderTest" quest_list="test_quests" localization_id="npcTraderTest" />
+  <npc_info id="NPCjunkDrone" name="Junk Drone" name_key="npc_junkDrone" faction="trader" portrait="npc_joel" greeting_type="nearby" dialog_id="junkDrone" stance="Like" voice_set="trader" trader_id="1" />
+  <npc_info id="NPCSampleDialog" name="NPC" name_key="npc_traitorJoel" faction="whiteriver" portrait="npc_joel" greeting_type="nearby" stance="Like" voice_set="" trader_id="1" dialog_id="GenericNPCWithQuest" localization_id="npcTraderBob">
+    <!--Element inserted by: "0-XNPCCore"-->
+  </npc_info>
+  <npc_info id="spheretest" name="NPC" name_key="npc_traitorJoel" faction="whiteriver" portrait="npc_joel" greeting_type="nearby" stance="Like" voice_set="" trader_id="1" dialog_id="GenericNPC" localization_id="npcTraderBob">
+    <!--Element inserted by: "0-XNPCCore"-->
+  </npc_info>
+  <npc_info id="xythtest" name="NPC" name_key="npc_traitorJoel" faction="whiteriver" portrait="npc_xyth" greeting_type="nearby" stance="Neutral" voice_set="" trader_id="1" dialog_id="trader" quest_list="trader_quests" localization_id="npcTraderBob">
+    <!--Element inserted by: "0-XNPCCore"-->
+  </npc_info>
+  <npc_info id="NPCAnimalGeneric" name="NPCAnimal" name_key="npc_traitorJoel" faction="whiteriver" portrait="npc_warwolf" greeting_type="nearby" stance="Like" voice_set="" trader_id="1" dialog_id="GenericNPCAnimal" localization_id="npcTraderBob">
+    <!--Element inserted by: "0-XNPCCore"-->
+  </npc_info>
+  <npc_info id="NPCGenericNurse" name="NPC" name_key="npc_traitorJoel" faction="whiteriver" portrait="npc_joel" greeting_type="nearby" stance="Like" voice_set="" trader_id="1" dialog_id="GenericNPC" localization_id="npcTraderBob">
+    <!--Element inserted by: "0-XNPCCore"-->
+  </npc_info>
+  <factions>
+    <faction name="none">
+      <relationship name="*" value="neutral" />
+    </faction>
+    <faction name="animals">
+      <relationship name="*" value="neutral" />
+    </faction>
+    <faction name="undead">
+      <relationship name="trader" value="neutral" />
+      <relationship name="*" value="hate" />
+      <relationship name="whisperers" value="love">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+      <relationship name="zombieanimals" value="love">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+      <relationship name="mechs" value="neutral">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+      <relationship name="bandits" value="hate">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+    </faction>
+    <faction name="bandits">
+      <relationship name="*" value="hate" />
+    </faction>
+    <faction name="whiteriver">
+      <relationship name="*" value="neutral" />
+      <relationship name="undead" value="hate" />
+      <relationship name="bandits" value="hate" />
+      <relationship name="aggressiveanimalssmall" value="hate">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+      <relationship name="aggressiveanimalsmedium" value="hate">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+      <relationship name="aggressiveanimalslarge" value="hate">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+      <relationship name="zombieanimals" value="hate">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+      <relationship name="mechs" value="hate">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+      <relationship name="whisperers" value="hate">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+      <relationship name="bandits" value="hate">
+        <!--Element appended by: "0-XNPCCore"-->
+      </relationship>
+    </faction>
+    <faction name="duke">
+      <relationship name="*" value="neutral" />
+      <relationship name="whiteriver" value="dislike" />
+      <relationship name="undead" value="hate" />
+      <relationship name="bandits" value="dislike" />
+    </faction>
+    <faction name="trader">
+      <relationship name="*" value="neutral" />
+      <relationship name="bandits" value="dislike" />
+      <relationship name="undead" value="hate" />
+    </faction>
+    <faction name="bandits">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="hate" />
+      <relationship name="passiveanimalssmall" value="neutral" />
+      <relationship name="passiveanimalsmedium" value="neutral" />
+      <relationship name="passiveanimalslarge" value="neutral" />
+    </faction>
+    <faction name="companionanimals">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="neutral" />
+      <relationship name="aggressiveanimalssmall" value="hate" />
+      <relationship name="aggressiveanimalsmedium" value="hate" />
+      <relationship name="aggressiveanimalslarge" value="hate" />
+      <relationship name="undead" value="hate" />
+      <relationship name="whisperers" value="hate" />
+      <relationship name="bandits" value="hate" />
+      <relationship name="zombieanimals" value="hate" />
+      <relationship name="mechs" value="hate" />
+    </faction>
+    <faction name="zombieanimals">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="hate" />
+      <relationship name="undead" value="like" />
+      <relationship name="whisperers" value="like" />
+    </faction>
+    <faction name="passiveanimalssmall">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="neutral" />
+    </faction>
+    <faction name="passiveanimalsmedium">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="neutral" />
+    </faction>
+    <faction name="passiveanimalslarge">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="neutral" />
+    </faction>
+    <faction name="aggressiveanimals">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="hate" />
+    </faction>
+    <faction name="aggressiveanimalssmall">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="hate" />
+      <relationship name="passiveanimalsmedium" value="neutral" />
+      <relationship name="passiveanimalslarge" value="neutral" />
+      <relationship name="aggressiveanimalsmedium" value="neutral" />
+      <relationship name="aggressiveanimalslarge" value="neutral" />
+      <relationship name="trader" value="neutral" />
+    </faction>
+    <faction name="aggressiveanimalsmedium">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="hate" />
+      <relationship name="passiveanimalssmall" value="neutral" />
+      <relationship name="passiveanimalslarge" value="neutral" />
+      <relationship name="aggressiveanimalssmall" value="neutral" />
+      <relationship name="aggressiveanimalslarge" value="neutral" />
+      <relationship name="trader" value="neutral" />
+    </faction>
+    <faction name="aggressiveanimalslarge">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="hate" />
+      <relationship name="passiveanimalssmall" value="neutral" />
+      <relationship name="passiveanimalsmedium" value="neutral" />
+      <relationship name="aggressiveanimalssmall" value="neutral" />
+      <relationship name="aggressiveanimalsmedium" value="neutral" />
+      <relationship name="trader" value="neutral" />
+    </faction>
+    <faction name="whisperers">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="trader" value="neutral" />
+      <relationship name="undead" value="love" />
+      <relationship name="zombieanimals" value="love" />
+      <relationship name="passiveanimalssmall" value="neutral" />
+      <relationship name="passiveanimalsmedium" value="neutral" />
+      <relationship name="passiveanimalslarge" value="neutral" />
+      <relationship name="aggressiveanimalssmall" value="hate" />
+      <relationship name="aggressiveanimalsmedium" value="hate" />
+      <relationship name="aggressiveanimalslarge" value="hate" />
+      <relationship name="*" value="hate" />
+    </faction>
+    <faction name="vault">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="trader" value="neutral" />
+      <relationship name="undead" value="hate" />
+      <relationship name="whisperers" value="hate" />
+      <relationship name="bandits" value="hate" />
+      <relationship name="*" value="neutral" />
+      <relationship name="aggressiveanimalssmall" value="hate" />
+      <relationship name="aggressiveanimalsmedium" value="hate" />
+      <relationship name="aggressiveanimalslarge" value="hate" />
+      <relationship name="zombieanimals" value="hate" />
+      <relationship name="mechs" value="hate" />
+    </faction>
+    <faction name="military">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="neutral" />
+      <relationship name="undead" value="hate" />
+      <relationship name="whisperers" value="hate" />
+      <relationship name="bandits" value="hate" />
+      <relationship name="aggressiveanimalssmall" value="hate" />
+      <relationship name="aggressiveanimalsmedium" value="hate" />
+      <relationship name="aggressiveanimalslarge" value="hate" />
+      <relationship name="zombieanimals" value="hate" />
+      <relationship name="mechs" value="hate" />
+    </faction>
+    <faction name="redteam">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="neutral" />
+      <relationship name="blueteam" value="hate" />
+      <relationship name="greenteam" value="hate" />
+      <relationship name="undead" value="hate" />
+      <relationship name="whisperers" value="hate" />
+      <relationship name="bandits" value="hate" />
+      <relationship name="aggressiveanimalssmall" value="hate" />
+      <relationship name="aggressiveanimalsmedium" value="hate" />
+      <relationship name="aggressiveanimalslarge" value="hate" />
+      <relationship name="zombieanimals" value="hate" />
+      <relationship name="mechs" value="hate" />
+    </faction>
+    <faction name="blueteam">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="neutral" />
+      <relationship name="redteam" value="hate" />
+      <relationship name="greenteam" value="hate" />
+      <relationship name="undead" value="hate" />
+      <relationship name="whisperers" value="hate" />
+      <relationship name="bandits" value="hate" />
+      <relationship name="aggressiveanimalssmall" value="hate" />
+      <relationship name="aggressiveanimalsmedium" value="hate" />
+      <relationship name="aggressiveanimalslarge" value="hate" />
+      <relationship name="zombieanimals" value="hate" />
+      <relationship name="mechs" value="hate" />
+    </faction>
+    <faction name="greenteam">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="*" value="neutral" />
+      <relationship name="blueteam" value="hate" />
+      <relationship name="redteam" value="hate" />
+      <relationship name="undead" value="hate" />
+      <relationship name="whisperers" value="hate" />
+      <relationship name="bandits" value="hate" />
+      <relationship name="aggressiveanimalssmall" value="hate" />
+      <relationship name="aggressiveanimalsmedium" value="hate" />
+      <relationship name="aggressiveanimalslarge" value="hate" />
+      <relationship name="zombieanimals" value="hate" />
+      <relationship name="mechs" value="hate" />
+    </faction>
+    <faction name="mechs">
+      <!--Element appended by: "0-XNPCCore"-->
+      <relationship name="trader" value="neutral" />
+      <relationship name="undead" value="hate" />
+      <relationship name="*" value="hate" />
+      <relationship name="passiveanimalssmall" value="neutral" />
+      <relationship name="passiveanimalsmedium" value="neutral" />
+      <relationship name="passiveanimalslarge" value="neutral" />
+    </faction>
+    <faction name="allymechs">
+      <!--Element appended by: "0-XNPCCore"-->
+      <!-- placeholder  -->
+      <relationship name="*" value="neutral" />
+      <relationship name="undead" value="hate" />
+      <relationship name="bandits" value="hate" />
+      <relationship name="whisperers" value="hate" />
+      <relationship name="aggressiveanimalssmall" value="hate" />
+      <relationship name="aggressiveanimalsmedium" value="hate" />
+      <relationship name="aggressiveanimalslarge" value="hate" />
+      <relationship name="passiveanimalssmall" value="neutral" />
+      <relationship name="passiveanimalsmedium" value="neutral" />
+      <relationship name="passiveanimalslarge" value="neutral" />
+      <relationship name="zombieanimals" value="hate" />
+    </faction>
+  </factions>
+  <npc_info id="traitorjoel" name="Dr. Pestilence" name_key="npc_traitorJoel" faction="whiteriver" portrait="npc_joel" greeting_type="nearby" stance="Like" voice_set="trader_joel" trader_id="1" dialog_id="trader" quest_faction="1" localization_id="npcTraderJoel" quest_list="trader_joel_quests" dms_section_type="TraderJoel">
+    <!--Element appended by: "AsylumTraderModels"-->
+  </npc_info>
+  <npc_info id="traderbob" name="Cyborg Zero" name_key="npc_traderBob" faction="whiteriver" portrait="npc_bob" greeting_type="nearby" stance="Like" voice_set="trader_bob" trader_id="6" dialog_id="trader" quest_faction="1" localization_id="npcTraderBob" quest_list="trader_bob_quests" dms_section_type="TraderBob">
+    <!--Element appended by: "AsylumTraderModels"-->
+  </npc_info>
+  <npc_info id="traderhugh" name="Tracker Voss" name_key="npc_traderHugh" faction="whiteriver" portrait="npc_hugh" greeting_type="nearby" stance="Neutral" voice_set="trader_hugh" trader_id="7" dialog_id="trader" quest_faction="1" localization_id="npcTraderHugh" quest_list="trader_hugh_quests" dms_section_type="TraderHugh">
+    <!--Element appended by: "AsylumTraderModels"-->
+  </npc_info>
+  <npc_info id="traderjen" name="Nymphadora" name_key="npc_traderJen" faction="whiteriver" portrait="npc_jen" greeting_type="nearby" stance="Like" voice_set="trader_jen" trader_id="2" dialog_id="trader" quest_faction="1" localization_id="npcTraderJen" quest_list="trader_jen_quests" dms_section_type="TraderJen">
+    <!--Element appended by: "AsylumTraderModels"-->
+  </npc_info>
+  <npc_info id="traderrekt" name="Lee Gon" name_key="npc_traderRekt" faction="whiteriver" portrait="npc_rekt" greeting_type="nearby" stance="Dislike" voice_set="trader_rekt" trader_id="8" dialog_id="trader" quest_faction="1" localization_id="npcTraderRekt" quest_list="trader_rekt_quests" dms_section_type="TraderRekt">
+    <!--Element appended by: "AsylumTraderModels"-->
+  </npc_info>
+</npc>

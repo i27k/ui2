@@ -1,0 +1,753 @@
+﻿<xui scale="1.255" stackpanel_scale="1.05">
+  <window_group name="crafting" controller="XUiC_CraftingWindowGroup" open_backpack_on_open="true" defaultselected="bp.content" always_update="true">
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+  </window_group>
+  <window_group name="character" controller="XUiC_CharacterSheetWindowGroup" open_backpack_on_open="true" defaultselected="bp.content">
+    <window name="CharacterFrameWindow" />
+    <window name="buffInfoPanel" />
+    <window name="ActiveBuffsWindow" />
+  </window_group>
+  <window_group name="cosmetics" controller="XUiC_CharacterCosmeticWindowGroup" close_compass_on_open="true" defaultselected="content">
+    <window name="CharacterCosmeticWindow" />
+    <window name="windowCharacterCosmeticsList" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="combine" controller="XUiC_CombineWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <window name="windowCombine" />
+    <window name="windowCombineAffixChooser">
+      <!--Element inserted by: "RAM"-->
+    </window>
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_campfire" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsForge" />
+    <window name="windowFuel" />
+    <window name="windowForgeInput" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_forge_nosmelting" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsForge" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_cementMixer" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowFuel02" fuel_sprite="ammoGasCan" fuel_tags="gasoline">
+      <!--Element inserted by: "OcbAlternateFuel"-->
+    </window>
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_workbench" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_chemistryStation" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="looting" left_panel_valign_top="false" controller="XUiC_LootWindowGroup" close_compass_on_open="true">
+    <window name="windowLooting" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="dewcollector" left_panel_valign_top="false" controller="XUiC_DewCollectorWindowGroup" close_compass_on_open="true" defaultselected="0">
+    <window name="windowDewCollectorMods" />
+    <window name="windowDewCollector" />
+    <window name="windowCollectorCatalyst" />
+    <window name="windowCollectorFuel" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="creative" controller="XUiC_Creative2WindowGroup" open_backpack_on_open="true" defaultselected="queue">
+    <window name="windowCreative2" />
+  </window_group>
+  <!-- Backpack can be set to be selected from other windows using name="bp.content" -->
+  <window_group name="backpack" actionset="false">
+    <window name="itemInfoPanel" />
+    <window name="emptyInfoPanel" />
+    <window name="windowBackpackAGF">
+      <!--Attribute "name" replaced by: "AGF-BackpackPlus-119Slots"-->
+    </window>
+  </window_group>
+  <window_group name="death">
+    <window name="windowDeathBar" />
+  </window_group>
+  <window_group name="dragAndDrop" actionset="false">
+    <window name="dragAndDropItemStack" />
+  </window_group>
+  <window_group name="compass" actionset="false">
+    <window name="windowCompass" />
+    <window name="windowEntering" />
+    <window name="windowTargetBar" />
+    <window name="windowZombieBuffs" anchor="CenterTop">
+      <!--Element inserted by: "WMMZombieRandomBuffs"-->
+    </window>
+    <window name="onScreenIcons" />
+    <window name="windowAnimalTargetWild">
+      <!--Element appended by: "Companions"-->
+    </window>
+    <window name="windowAnimalTargetTamed">
+      <!--Element appended by: "Companions"-->
+    </window>
+    <window name="windowCompanionFollowHud">
+      <!--Element appended by: "Companions"-->
+    </window>
+    <window name="windowCompanionNotification">
+      <!--Element appended by: "Companions"-->
+    </window>
+    <window name="windowCompanionAlert">
+      <!--Element appended by: "Companions"-->
+    </window>
+  </window_group>
+  <window_group name="toolTip" actionset="false">
+    <window name="toolTip" />
+    <window name="toolTipPopups" />
+  </window_group>
+  <window_group name="popupMenu" actionset="false">
+    <window name="popupMenu" />
+  </window_group>
+  <window_group name="interactionPrompt" actionset="false">
+    <window name="interactionPrompt" />
+  </window_group>
+  <window_group name="focusedBlockHealth" actionset="false">
+    <window name="focusedBlockHealth" />
+  </window_group>
+  <window_group name="tipWindow" defaultselected="btnContinue">
+    <window name="windowTip" />
+  </window_group>
+  <window_group name="questOffer" defaultselected="btnAccept">
+    <window name="windowQuestOffer" />
+  </window_group>
+  <window_group name="questTurnIn" controller="XUiC_QuestTurnInWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="content">
+    <window name="windowQuestTurnInDescription" />
+    <window name="windowQuestTurnInRewards" />
+  </window_group>
+  <window_group name="timer">
+    <window name="windowTimer" />
+  </window_group>
+  <window_group name="throwpower" actionset="false">
+    <window name="windowThrow" />
+  </window_group>
+  <window_group name="toolbelt" actionset="false">
+    <window name="windowToolbelt" />
+    <window name="HUDLeftStatBars" anchor="LeftTop">
+      <!--Attribute "anchor" added/overwritten by: "CATUI"-->
+    </window>
+    <window name="HUDRightStatBars" />
+    <window name="windowLocation" />
+    <window name="windowQuestTracker" />
+    <window name="windowRecipeTracker" />
+    <window name="windowGroupBars" anchor="LeftBottom">
+      <!--Attribute "anchor" added/overwritten by: "CATUI"-->
+    </window>
+    <window name="QuestAreaTimer" anchor="CenterTop">
+      <!--Element appended by: "TheAsylumCore"-->
+    </window>
+    <window name="windowChallengerHud">
+      <!--Element appended by: "ChallengerEvent"-->
+    </window>
+    <window name="chubBuffHud">
+      <!--Element appended by: "cHub"-->
+    </window>
+    <window name="windowCAFEnergyBar">
+      <!--Element appended by: "CustomActionEffectFramework"-->
+    </window>
+    <window name="windowCAFCritNumberHud">
+      <!--Element appended by: "CustomActionEffectFramework"-->
+    </window>
+    <window name="windowSmartCrosshair">
+      <!--Element appended by: "KnuckleOverhauls"-->
+    </window>
+    <window name="HUDLeftBottomStat" anchor="LeftBottom">
+      <!--Element appended by: "CATUI"-->
+    </window>
+    <window name="HUDCenterBottomStat" anchor="CenterBottom">
+      <!--Element appended by: "CATUI"-->
+    </window>
+    <window name="HUDCenterCenterStat" anchor="CenterCenter">
+      <!--Element appended by: "CATUI"-->
+    </window>
+  </window_group>
+  <window_group name="twitch" actionset="false">
+    <window name="windowTwitch" />
+  </window_group>
+  <window_group name="vehicle" controller="XUiC_VehicleWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="content">
+    <window name="windowVehicle" />
+    <window name="windowNonPagingHeader" />
+    <!-- <window name="windowVehicleStats" /> -->
+    <!-- <window name="windowVehicleStorage" /> -->
+  </window_group>
+  <window_group name="bagStorage" controller="XUiC_BagStorageWindowGroup" close_compass_on_open="true" defaultselected="queue">
+    <window name="windowNonPagingHeader" />
+    <window name="windowBagStorage" />
+  </window_group>
+  <window_group name="windowpaging" actionset="false" close_compass_on_open="true">
+    <window name="windowPagingHeader" />
+  </window_group>
+  <window_group name="junkDrone" controller="XUiC_DroneWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="content">
+    <window name="windowNonPagingHeader" />
+    <window name="windowAssembleDrone" />
+  </window_group>
+  <window_group name="map" defaultselected="mapView">
+    <window name="mapTrackingPopup" />
+    <!-- keep this on top -->
+    <window name="mapAreaSetWaypoint" />
+    <!-- keep this on top -->
+    <window name="mapAreaChooseWaypoint" />
+    <!-- keep this on top -->
+    <window name="mapAreaEnterWaypointName" />
+    <!-- keep this on top -->
+    <window name="mapArea" />
+    <window name="mapTracking" />
+    <window name="mapInvites" />
+  </window_group>
+  <window_group name="players" defaultselected="playerList">
+    <window name="players" />
+  </window_group>
+  <window_group name="assemble" controller="XUiC_AssembleWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="content">
+    <window name="windowAssemble" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="radial" actionset="keyboard" controller="Radial" always_update="true">
+    <window name="windowRadial" />
+  </window_group>
+  <window_group name="skills" controller="XUiC_SkillWindowGroup">
+    <window name="windowSkillList" />
+    <window name="windowSkillAttributeInfo" />
+    <window name="windowSkillSkillInfo" />
+    <window name="windowSkillPerkInfo" />
+    <window name="windowSkillBookInfo" />
+    <window name="windowSkillCraftingInfo" />
+  </window_group>
+  <window_group name="quests" controller="XUiC_QuestWindowGroup">
+    <window name="windowQuestList" />
+    <window name="windowQuestSharedList" />
+    <window name="windowQuestDescription" />
+    <window name="windowQuestObjectives" />
+    <window name="windowQuestRewards" />
+  </window_group>
+  <window_group name="challenges" controller="XUiC_ChallengeWindowGroup">
+    <window name="windowChallengeList" />
+    <window name="windowChallengeEntryDescription" />
+  </window_group>
+  <window_group name="twitchWindowpaging" actionset="false" close_compass_on_open="true">
+    <window name="windowTwitchPagingHeader" />
+  </window_group>
+  <window_group name="twitchInfo" controller="XUiC_TwitchInfoWindowGroup" close_compass_on_open="true" defaultselected="content">
+    <window name="windowTwitchInfoList" />
+    <window name="windowTwitchInfoDescription" />
+    <window name="windowTwitchInfoHowTo" />
+  </window_group>
+  <window_group name="CalloutGroup" actionset="false">
+    <window name="GamepadCallouts" />
+  </window_group>
+  <window_group name="trader" controller="XUiC_TraderWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <window name="windowTrader" />
+    <window name="windowNonPagingHeader" />
+    <window name="serviceInfoPanel" />
+  </window_group>
+  <window_group name="dialog" controller="XUiC_DialogWindowGroup" close_compass_on_open="true">
+    <window name="windowResponses" />
+  </window_group>
+  <window_group name="signSeparateLines" defaultselected="input1">
+    <window name="windowSignEditSeparateLines" />
+  </window_group>
+  <window_group name="signMultiline" defaultselected="input1">
+    <window name="windowSignEditMultiline" />
+  </window_group>
+  <window_group name="keypadEdit" defaultselected="content">
+    <window name="windowKeypadEdit" />
+  </window_group>
+  <window_group name="powersource" controller="XUiC_PowerSourceWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="content">
+    <window name="windowPowerSourceStats" />
+    <window name="windowPowerSourceSlots" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="powertrigger" controller="XUiC_PowerTriggerWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="content">
+    <window name="windowPowerTriggerOptions" />
+    <window name="windowPowerCameraControlPreview" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="powerrangedtrap" controller="XUiC_PowerRangedTrapWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="content">
+    <window name="windowPowerRangedTrapOptions" />
+    <window name="windowPowerTrapSlots" />
+    <window name="windowPowerCameraControlPreview" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="powercamera" controller="XUiC_PowerCameraWindowGroup" actionset="controller" close_compass_on_open="true" defaultselected="cameraDrag">
+    <window name="windowPowerCameraControl" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="powerspotlight" controller="XUiC_PoweredSpotlightWindowGroup" close_compass_on_open="true" defaultselected="cameraClick">
+    <window name="windowPowerCameraControlPreview" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="materials" close_compass_on_open="true" defaultselected="searchControls">
+    <window name="windowMaterials" />
+    <window name="windowMaterialInfo" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="signGallery" close_compass_on_open="true" defaultselected="searchControls">
+    <window name="windowSignGallery" />
+    <window name="windowSignInfo" />
+    <window name="windowSignInstance" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="signEditor" close_compass_on_open="true" defaultselected="searchControls">
+    <window name="windowSignEditor" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="signEditor" close_compass_on_open="true" defaultselected="searchControls">
+    <window name="windowSignEditor" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="shapes" close_compass_on_open="true" defaultselected="searchControls">
+    <window name="windowShapeBlocks" />
+    <window name="windowShapeInfo" />
+    <window name="windowShapeMaterial" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="spawnMenu" defaultselected="content">
+    <window name="spawnMenu" />
+  </window_group>
+  <window_group name="gameEventMenu" defaultselected="content">
+    <window name="gameEventMenu" />
+  </window_group>
+  <window_group name="poiTeleportMenu" defaultselected="content">
+    <window name="poiTeleportMenu" />
+  </window_group>
+  <window_group name="ingameMenu">
+    <window name="ingameMenu" />
+    <window name="ingameMenuSCore">
+      <!--Element appended by: "0-SCore_sphereii"-->
+    </window>
+    <window name="ingameMenuAsylum">
+      <!--Element appended by: "TheAsylumCore"-->
+    </window>
+    <window name="serverinfowindow">
+      <!--Element appended by: "cHub"-->
+    </window>
+  </window_group>
+  <window_group name="exportPrefab" defaultselected="content">
+    <window name="exportPrefab" />
+  </window_group>
+  <window_group name="woPropsSleeperVolume" defaultselected="content">
+    <window name="woPropsSleeperVolume" />
+  </window_group>
+  <window_group name="saveDirtyPrefab" defaultselected="btnCancel">
+    <window name="saveDirtyPrefab" />
+  </window_group>
+  <window_group name="prefabPropertiesEditor" defaultselected="tabsContents">
+    <window name="prefabPropertiesEditor" />
+  </window_group>
+  <window_group name="prefabMarkers" defaultselected="content">
+    <window name="prefabMarkers" />
+  </window_group>
+  <window_group name="startPointEditor" defaultselected="content">
+    <window name="startPointEditor" />
+  </window_group>
+  <window_group name="editorPanelSelector">
+    <window name="editorPanelSelector" />
+    <window name="editorInfo" />
+  </window_group>
+  <window_group name="ingameDebugMenu">
+    <window name="ingameDebugMenu" />
+  </window_group>
+  <window_group name="levelTools" defaultselected="content">
+    <window name="levelTools" />
+  </window_group>
+  <window_group name="levelTools2a" defaultselected="content">
+    <window name="levelTools2a" />
+  </window_group>
+  <window_group name="levelTools2b" defaultselected="content">
+    <window name="levelTools2b" />
+  </window_group>
+  <window_group name="levelTools3" defaultselected="content">
+    <window name="levelTools3" />
+  </window_group>
+  <window_group name="worldTools" defaultselected="content">
+    <window name="worldTools" />
+  </window_group>
+  <window_group name="prefabList" defaultselected="content">
+    <window name="prefabList" />
+  </window_group>
+  <window_group name="createPoi">
+    <window name="createPoi" />
+  </window_group>
+  <window_group name="prefabeditorhelp" defaultselected="buttons">
+    <window name="prefabeditorhelp" />
+  </window_group>
+  <window_group name="serverjoinrulesdialog" defaultselected="btnLeave">
+    <window name="serverjoinrulesdialog" />
+  </window_group>
+  <window_group name="lightProperties" defaultselected="content">
+    <window name="lightProperties" />
+  </window_group>
+  <window_group name="triggerProperties" defaultselected="content">
+    <window name="triggerProperties" />
+  </window_group>
+  <window_group name="spawnBlockProperties" defaultselected="content">
+    <window name="spawnBlockProperties" />
+  </window_group>
+  <window_group name="chatoutput" actionset="false">
+    <window name="chatoutput" />
+  </window_group>
+  <window_group name="chat" defaultselected="input">
+    <window name="chat" />
+  </window_group>
+  <window_group name="messageBox" controller="XUiC_MessageBoxWindowGroup">
+    <window name="messageBox" />
+  </window_group>
+  <window_group name="demo" defaultselected="input">
+    <window name="windowDemo" />
+  </window_group>
+  <window_group name="progress" actionset="false">
+    <window name="progress" />
+  </window_group>
+  <window_group name="sandboxOptions">
+    <window name="sandboxOptions" />
+  </window_group>
+  <window_group name="subtitlesDisplay" actionset="false">
+    <window name="subtitlesDisplay" />
+  </window_group>
+  <!-- Uncomment this window group and the according window in windows.xml and adapt the latter to your needs, it will show up whenever the user has the ingame menu (ESC) open -->
+  <!--
+	<window_group name="serverinfowindow">
+		<window name="serverinfowindow" />
+	</window_group>
+-->
+  <window_group name="LockPicking">
+    <!--Element appended by: "0-SCore_sphereii"-->
+    <window name="windowLockPicking" />
+  </window_group>
+  <window_group name="SCoreUtilitiesGroup" close_compass_on_open="true">
+    <!--Element appended by: "0-SCore_sphereii"-->
+    <window name="windowSCoreUtilities" />
+  </window_group>
+  <window_group name="SCoreCompanionsGroup" close_compass_on_open="true">
+    <!--Element appended by: "0-SCore_sphereii"-->
+    <window name="windowSCoreCompanions" />
+  </window_group>
+  <window_group name="workstation_advancedForge" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultSelected="bp.content">
+    <!--Element appended by: "TheAsylumCore"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsAdvancedForge" />
+    <window name="windowFuel" fuel_sprite="ammoGasCan" fuel_tags="gasoline" />
+    <window name="windowAdvancedForgeInput" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_SVETGStove" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TheAsylumCore"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsSVETGStove" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_SVETGCuttingBoard" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TheAsylumCore"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsSVETGCuttingBoard" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_SVETGBarCounter" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TheAsylumCore"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsSVETGBarCounter" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_SVETGButcherTable" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TheAsylumCore"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+    <!--  <window name="windowCombine" />  -->
+  </window_group>
+  <window_group name="workstation_SVETGFermentingBarrel" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TheAsylumCore"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_SVETGCompostbin" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TheAsylumCore"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="HireInformation">
+    <!--Element appended by: "0-XNPCCore"-->
+    <window name="windowHireInformationPopup" anchor="CenterTop" />
+  </window_group>
+  <window_group name="JoinInformation">
+    <!--Element appended by: "0-XNPCCore"-->
+    <window name="windowJoinInformationPopup" anchor="CenterTop" />
+  </window_group>
+  <window_group name="EntityInformation">
+    <!--Element appended by: "0-XNPCCore"-->
+    <window name="windowEntityInformationPanel" anchor="CenterTop" />
+  </window_group>
+  <window_group name="SetCode">
+    <!--Element appended by: "0-XNPCCore"-->
+    <window name="windowPathFindingKeypad" />
+  </window_group>
+  <window_group name="workstation_AmmoBench" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TrulyAccurateFirearmAssembly"-->
+    <window name="windowCraftingListAmmoBench" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsAmmoBench" />
+    <window name="windowOutputAmmoBench" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_GunsmithingBench" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TrulyAccurateFirearmAssembly"-->
+    <window name="windowCraftingListGunBench" />
+    <!--<window name="windowStallionCombineTAFA"/>-->
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueueGunBench" />
+    <window name="windowToolsGunBench" />
+    <window name="windowOutputGunBench" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_PowerHammer" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TrulyAccurateFirearmAssembly"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutputAmmoBench" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_MillingMachine" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TrulyAccurateFirearmAssembly"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsMillingMachine" />
+    <window name="windowOutputAmmoBench" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_LathingMachine" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "TrulyAccurateFirearmAssembly"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsLathingMachine" />
+    <window name="windowOutputAmmoBench" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_asylumCrusher" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "AsylumCrusher"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_asylumAdvancedWorkbench" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultSelected="bp.content">
+    <!--Element appended by: "AsylumWorkstations"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_asylumAdvancedChemistryStation" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultSelected="bp.content">
+    <!--Element appended by: "AsylumWorkstations"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_TAIOMiner" controller="XUiC_WorkstationWindowGroup" close_compass_on_open="true">
+    <!--Element appended by: "AsylumWorkstations"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+    <window name="windowToolsTAIOMiner" />
+    <window name="windowBackpack" />
+  </window_group>
+  <window_group name="Workstation_DataCenter" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "AsylumWorkstations"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="challengerGuide" defaultselected="btnContinue">
+    <!--Element appended by: "ChallengerEvent"-->
+    <window name="windowChallengerGuide" />
+  </window_group>
+  <window_group name="chubAdminPanel" defaultselected="tabPlayer" close_compass_on_open="true" actionset="true" always_update="true">
+    <!--Element appended by: "cHub"-->
+    <window name="chubAdminPanel" />
+  </window_group>
+  <window_group name="chubMagicTeleportRequest" close_compass_on_open="false">
+    <!--Element appended by: "cHub"-->
+    <window name="chubMagicTeleportRequest" />
+  </window_group>
+  <window_group name="serverinfowindow" actionset="false" always_update="true">
+    <!--Element appended by: "cHub"-->
+    <window name="serverinfowindow" />
+  </window_group>
+  <window_group name="AnimalName" defaultSelected="input">
+    <!--Element appended by: "Companions"-->
+    <window name="windowAnimalName" />
+  </window_group>
+  <window_group name="AnimalStats">
+    <!--Element appended by: "Companions"-->
+    <window name="windowAnimalStats" />
+  </window_group>
+  <window_group name="CompanionTransfer">
+    <!--Element appended by: "Companions"-->
+    <window name="windowCompanionTransfer" />
+  </window_group>
+  <window_group name="CompanionTransferConfirm">
+    <!--Element appended by: "Companions"-->
+    <window name="windowCompanionTransferConfirm" />
+  </window_group>
+  <window_group name="EfficientBaseRepair" controller="XUiC_EfficientBaseRepair, EfficientBaseRepair" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "EfficientBaseRepair"-->
+    <window name="craftingInfoPanel" />
+    <window name="windowNonPagingHeader" />
+    <window name="windowEfficientBaseRepairStats" />
+    <window name="windowEfficientBaseRepairMaterials" />
+    <window name="windowLooting" />
+  </window_group>
+  <window_group name="workstation_GF_Workbench" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultSelected="bp.content">
+    <!--Element appended by: "GFMacabreCatalogue"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_ZT_Microwave" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultSelected="bp.content">
+    <!--Element appended by: "LittleRedSonja_UBBI_V2"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_ZT_Stove" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultSelected="bp.content">
+    <!--Element appended by: "LittleRedSonja_UBBI_V2"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_ZT_StoveTop" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultSelected="bp.content">
+    <!--Element appended by: "LittleRedSonja_UBBI_V2"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_ZT_Oven" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultSelected="bp.content">
+    <!--Element appended by: "LittleRedSonja_UBBI_V2"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_ZT_Toaster" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultSelected="bp.content">
+    <!--Element appended by: "LittleRedSonja_UBBI_V2"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_ZT_CoffeeMaker" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultSelected="bp.content">
+    <!--Element appended by: "LittleRedSonja_UBBI_V2"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_VMAutoWorkbench" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+    <!--Element appended by: "VehicleMadnessModlet_v5_Beta_4"-->
+    <window name="windowCraftingList" />
+    <window name="craftingInfoPanel" />
+    <window name="windowCraftingQueue" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  <window_group name="workstation_ramAffixBench" controller="WeaponAffixesProject.XUiC_RamBenchWindowGroup,WeaponAffixesProject" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="affixGrid">
+    <!--Element appended by: "RAM"-->
+    <window name="windowCraftingList" visible="false" />
+    <window name="craftingInfoPanel" visible="false" />
+    <window name="windowCraftingQueue" visible="false" />
+    <window name="windowRamAffixBrowser" />
+  </window_group>
+  <window_group name="ext_status">
+    <!--Element appended by: "Vita_Action_Mastery"-->
+    <window name="windowExtStatus" />
+  </window_group>
+</xui>

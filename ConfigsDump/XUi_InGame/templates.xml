@@ -1,0 +1,1496 @@
+﻿<templates>
+  <!--Element removed by: "CATUI" (XPath: "/templates/recipe_entry")-->
+  <item_action_entry>
+    <rect height="43" controller="ItemActionEntry" disabled_font_color="[disabledLabelColor]" default_font_color="[labelColor]" default_background_color="[mediumGrey]">
+      <sprite depth="3" name="background" color="[mediumGrey]" type="sliced" on_press="true" on_hover="true" width="147" sound_play_on_hover="[default_hover]" gamepad_selectable="false" />
+      <sprite depth="4" name="Icon" sprite="{actionicon}" size="24,24" color="{statuscolor}" pos="2,-10" foregroundlayer="true" />
+      <label depth="4" name="Name" pos="32,-22" width="78" height="26" text="{actionname}" font_size="26" color="{statuscolor}" effect="shadow" pivot="left" />
+      <gamepad_icon depth="4" name="gamepadIcon" size="44,44" pos="146,-22" pivot="Right" visible="{inspectheld}" />
+      <label depth="4" name="keyboardButton" pos="145,-22" width="36" height="26" text="&lt;W&gt;" font_size="26" color="{statuscolor}" effect="shadow" pivot="right" justify="center" />
+    </rect>
+  </item_action_entry>
+  <skill_action_entry>
+    <rect height="43" controller="ItemActionEntry" disabled_font_color="[disabledLabelColor]" default_font_color="[labelColor]" default_background_color="[mediumGrey]">
+      <sprite depth="3" name="background" color="[mediumGrey]" type="sliced" on_press="true" on_hover="true" sound_play_on_hover="[default_hover]" gamepad_selectable="false" />
+      <sprite depth="4" name="Icon" sprite="{actionicon}" size="24,24" color="{statuscolor}" pos="2,-10" foregroundlayer="true" />
+      <label depth="4" name="Name" pos="32,-22" width="78" height="26" text="{actionname}" font_size="26" color="{statuscolor}" effect="shadow" pivot="left" />
+      <gamepad_icon depth="4" name="gamepadIcon" pos="145,-22" size="44,44" pivot="Right" />
+      <label depth="4" name="keyboardButton" pos="145,-22" width="36" height="26" text="&lt;W&gt;" font_size="26" color="{statuscolor}" effect="shadow" pivot="right" justify="center" />
+    </rect>
+  </skill_action_entry>
+  <ingredient_header>
+    <!--Element contents replaced by: "TheAsylumCore"-->
+    <rect name="header" width="519" height="43">
+      <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+      <rect depth="2" width="65" height="41">
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="71" height="46" color="[black]" type="sliced" fillcenter="false" />
+        <sprite color="[darkGrey]" type="sliced" />
+        <label depth="3" text="ITEM" text_key="lblitem" pos="32,-23" height="26" font_size="26" justify="center" pivot="center" />
+      </rect>
+      <rect depth="2" width="308" height="41" pos="68,0">
+        <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="314" height="46" color="[black]" type="sliced" fillcenter="false">
+          <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+        </sprite>
+        <sprite color="[darkGrey]" type="sliced" />
+        <label depth="3" text="NAME" text_key="mmTextName" pos="154,-23" width="302" height="26" font_size="26" justify="center" pivot="center">
+          <!--Attribute "pos" replaced by: "AGF-BackpackPlus-119Slots"-->
+          <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+        </label>
+      </rect>
+      <rect depth="2" width="140" height="41" pos="379,0">
+        <!--Attribute "pos" replaced by: "AGF-BackpackPlus-119Slots"-->
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="146" height="46" color="[black]" type="sliced" fillcenter="false" />
+        <sprite color="[darkGrey]" type="sliced" />
+        <label depth="3" text="COUNT" text_key="lblContextCraftCount" pos="70,-23" width="120" height="26" font_size="26" justify="center" pivot="center" />
+      </rect>
+    </rect>
+  </ingredient_header>
+  <ingredient_row>
+    <!--Element contents replaced by: "TheAsylumCore"-->
+    <rect name="row" width="519" height="43" controller="IngredientEntry">
+      <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+      <rect depth="2" width="65" height="41">
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="71" height="52" color="[black]" type="sliced" fillcenter="false">
+          <!--Attribute "height" replaced by: "AGF-BackpackPlus-119Slots"-->
+        </sprite>
+        <sprite color="[lightGrey]" type="sliced" />
+        <sprite depth="2" name="icon" width="36" height="36" atlas="ItemIconAtlas" sprite="{itemicon}" color="{itemicontint}" pos="32,-22" pivot="center" foregroundlayer="true" />
+      </rect>
+      <rect depth="2" width="308" height="41" pos="68,0">
+        <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="314" height="52" color="[black]" type="sliced" fillcenter="false">
+          <!--Attribute "height" replaced by: "AGF-BackpackPlus-119Slots"-->
+          <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+        </sprite>
+        <sprite color="[lightGrey]" type="sliced" />
+        <label depth="3" name="name" pos="154,-23" width="302" height="26" font_size="26" color="[labelColor]" justify="center" pivot="center" text="{itemname}">
+          <!--Attribute "pos" replaced by: "AGF-BackpackPlus-119Slots"-->
+          <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+        </label>
+      </rect>
+      <rect depth="2" width="140" height="41" pos="379,0">
+        <!--Attribute "pos" replaced by: "AGF-BackpackPlus-119Slots"-->
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="146" height="52" color="[black]" type="sliced" fillcenter="false">
+          <!--Attribute "height" replaced by: "AGF-BackpackPlus-119Slots"-->
+        </sprite>
+        <sprite color="[lightGrey]" type="sliced" />
+        <label depth="3" name="needCount" pos="70,-26" width="120" height="26" font_size="26" color="[labelColor]" justify="center" pivot="center" text="{haveneedcount}" />
+      </rect>
+    </rect>
+  </ingredient_row>
+  <unlocked_by_header>
+    <!--Element contents replaced by: "TheAsylumCore"-->
+    <rect name="header" width="514" height="43">
+      <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+      <rect depth="2" width="60" height="41">
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="66" height="46" color="[black]" type="sliced" fillcenter="false" />
+        <sprite color="[darkGrey]" type="sliced" />
+        <label depth="3" text="TYPE" text_key="xuiType" pos="30,-23" height="26" font_size="26" justify="center" pivot="center" />
+      </rect>
+      <rect depth="2" width="380" height="41" pos="63,0">
+        <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="381" height="46" color="[black]" type="sliced" fillcenter="false">
+          <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+        </sprite>
+        <sprite color="[darkGrey]" type="sliced" />
+        <label depth="3" text="UNLOCKED BY" text_key="xuiUnlockedBy" pos="0,-10" height="26" font_size="26" justify="center" />
+      </rect>
+      <rect depth="2" width="82" height="41" pos="440,0">
+        <!--Attribute "pos" replaced by: "AGF-BackpackPlus-119Slots"-->
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-2,3" width="83" height="46" color="[black]" type="sliced" fillcenter="false" />
+        <sprite color="[darkGrey]" type="sliced" />
+        <label depth="3" text="LEVEL" text_key="xuiLevel" pos="-3,-10" height="26" font_size="26" justify="center" />
+      </rect>
+    </rect>
+  </unlocked_by_header>
+  <unlocked_by_row>
+    <!--Element contents replaced by: "TheAsylumCore"-->
+    <rect name="row" width="514" height="43" controller="UnlockByEntry">
+      <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+      <rect depth="2" width="60" height="41">
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="66" height="52" color="[black]" type="sliced" fillcenter="false">
+          <!--Attribute "height" replaced by: "AGF-BackpackPlus-119Slots"-->
+        </sprite>
+        <sprite color="[lightGrey]" type="sliced" />
+        <sprite depth="2" name="icon" width="36" height="36" atlas="{itemiconatlas}" sprite="{itemicon}" pos="30,-22" pivot="center" foregroundlayer="true" />
+      </rect>
+      <rect depth="2" width="380" height="41" pos="63,0">
+        <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="381" height="52" color="[black]" type="sliced" fillcenter="false">
+          <!--Attribute "height" replaced by: "AGF-BackpackPlus-119Slots"-->
+          <!--Attribute "width" replaced by: "AGF-BackpackPlus-119Slots"-->
+        </sprite>
+        <sprite color="[lightGrey]" type="sliced" />
+        <label depth="3" name="name" pos="0,-13" height="26" font_size="26" color="[labelColor]" justify="center" text="{name}" />
+      </rect>
+      <rect depth="2" width="82" height="41" pos="440,0">
+        <!--Attribute "pos" replaced by: "AGF-BackpackPlus-119Slots"-->
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-2,2" width="83" height="52" color="[black]" type="sliced" fillcenter="false">
+          <!--Attribute "height" replaced by: "AGF-BackpackPlus-119Slots"-->
+        </sprite>
+        <sprite color="[lightGrey]" type="sliced" />
+        <label depth="3" name="name" pos="-2,-13" height="26" font_size="26" color="[labelColor]" justify="center" text="{level}" />
+      </rect>
+    </rect>
+  </unlocked_by_row>
+  <!--Element removed by: "CATUI" (XPath: "/templates/item_stack")-->
+  <equipment_stack slot="" empty_sprite="" empty_tooltip="">
+    <rect depth="1" controller="EquipmentStack" style="itemStack, hover" tooltip="test" slot="${slot}" empty_sprite="${empty_sprite}" empty_tooltip="${empty_tooltip}">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="73" height="73" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="3" name="background" sprite="menu_empty3px" width="68" height="68" color="{selectionbordercolor}" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="66" height="66" color="[mediumGrey]" pos="1,-1" type="sliced" />
+      <sprite depth="6" name="itemIcon" width="64" height="64" atlas="ItemIconAtlas" sprite="campfire" pos="34,-34" pivot="center" foregroundlayer="true" />
+      <sprite depth="8" name="lockTypeIcon" width="24" height="24" sprite="" pos="2,-2" foregroundlayer="true" />
+      <sprite depth="2" name="durabilityBackground" width="64" height="10" color="185,0,0,255" type="sliced" pos="2, -56" globalopacitymod="0" />
+      <filledsprite depth="4" name="durabilityRemoveBackground" width="64" height="10" color="[darkGrey]" type="filled" pos="2, -56" globalopacitymod="0" />
+      <filledsprite depth="5" name="durability" width="64" height="10" color="[transparent]" type="filled" pos="2, -56" globalopacitymod="0" />
+      <label depth="8" name="stackValue" pos="0,-45" width="68" height="28" text="" font_size="26" justify="center" />
+    </rect>
+  </equipment_stack>
+  <!--Element removed by: "CATUI" (XPath: "/templates/equipment_stack_sdcs")-->
+  <equipment_weather_stack empty_sprite="" empty_tooltip="">
+    <rect depth="1" controller="EquipmentStack" style="itemStack, hover" tooltip="test" allow_remove_item="true" width="83" height="83" empty_sprite="${empty_sprite}" empty_tooltip="${empty_tooltip}">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="3" name="background" sprite="menu_empty3px" pos="3,-3" width="77" height="77" color="{selectionbordercolor}" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="highlightOverlay" color="[mediumGrey]" type="sliced" />
+      <sprite depth="6" name="itemIcon" width="74" height="74" atlas="ItemIconAtlas" sprite="campfire" pos="41,-41" pivot="center" foregroundlayer="true" />
+      <sprite depth="8" name="lockTypeIcon" width="34" height="34" sprite="" pos="2,-12" foregroundlayer="true" />
+      <sprite depth="3" name="durabilityBackground" width="77" height="10" color="[darkGrey]" type="sliced" pos="3, -66" globalopacitymod="0" />
+      <sprite depth="4" name="durability" width="77" height="10" color="[transparent]" type="filled" fillspritepad="true" pos="3, -66" globalopacitymod="0" />
+      <label depth="8" name="stackValue" pos="0,-50" width="78" height="28" text="" font_size="26" justify="center" />
+    </rect>
+  </equipment_weather_stack>
+  <!--Element removed by: "CATUI" (XPath: "/templates/drag_item_stack")-->
+  <dewcollector_stack controller="DewCollectorStack" on_scroll="false" allow_dropping="true" prefix_id="false" show_favorites="false">
+    <rect controller="DewCollectorStack" style="itemStack, hover" on_scroll="${on_scroll}" allow_dropping="${allow_dropping}" prefix_id="${prefix_id}" show_favorites="${show_favorites}" tooltip="{tooltip}">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="78" height="78" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="3" name="background" sprite="menu_empty3px" width="73" height="73" color="{selectionbordercolor}" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="72" height="72" color="{backgroundcolor}" pos="0,0" type="sliced" />
+      <texture depth="3" name="backgroundTexture" material="Materials/Transparent Colored" size="73,73" />
+      <sprite depth="8" name="favoriteIcon" width="24" height="24" sprite="server_favorite" pos="2,-2" foregroundlayer="true" visible="{isfavorite}" />
+      <sprite depth="6" name="itemIcon" width="64" height="64" atlas="{itematlas}" sprite="{itemicon}" pos="35,-35" pivot="center" foregroundlayer="true" color="{iconcolor}" visible="{showitem}" />
+      <sprite depth="6" name="fillIcon" width="40" height="40" sprite="ui_game_symbol_water" pos="35,-35" pivot="center" foregroundlayer="true" color="[darkGrey]" visible="{showempty}" />
+      <sprite depth="3" name="durabilityBackground" width="70" height="10" sprite="menu_empty3px" color="[darkGrey]" type="sliced" pos="1, -60" globalopacitymod="0" visible="{hasdurability}" />
+      <sprite depth="4" name="durability" width="70" height="10" sprite="menu_empty2px" color="{durabilitycolor}" fill="{durabilityfill}" type="filled" fillspritepad="true" pos="1, -60" globalopacitymod="0" visible="{hasdurability}" />
+      <label depth="7" name="stackValue" pos="-2,-45" width="70" height="28" text="{itemcount}" font_size="26" effect="outline" justify="{#hasdurability ? 'Center' : 'Right'}" />
+      <label depth="7" name="timer" pos="35,-38" width="70" height="24" font_size="24" justify="center" pivot="center" effect="outline" color="[beige]" />
+      <sprite depth="9" name="cancel" sprite="ui_game_symbol_x" width="70" height="70" color="255,0,0,255" type="sliced" visible="{# ishovered and islocked}" foregroundlayer="true" />
+      <sprite depth="13" name="assembleIcon" size="40,40" sprite="{stacklockicon}" color="{stacklockcolor}" visible="{isassemblelocked}" pos="14,-14" foregroundlayer="true" />
+      <rect pos="66, 0" width="64" height="74" visible="{hasfill}">
+        <sprite width="6" height="73" depth="3" pos="1,0" color="[darkGrey]" globalopacitymod="0" type="sliced" />
+        <sprite depth="5" pos="1,1" width="6" name="BarContent" color="{fillcolor}" globalopacitymod="0" type="filled" fillspritepad="true" fill="{waterfill}" filldirection="Vertical" />
+      </rect>
+    </rect>
+  </dewcollector_stack>
+  <cosmetic_item_stack>
+    <rect controller="CharacterCosmeticEntry" style="itemStack, hover" on_scroll="true" tooltip="{tooltip}" use_selection_box="false">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="70" height="70" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="3" name="background" sprite="menu_empty3px" width="65" height="65" color="{selectionbordercolor}" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="64" height="64" color="{backgroundcolor}" pos="0,0" type="sliced" />
+      <texture depth="3" name="backgroundTexture" material="Materials/Transparent Colored" size="65,65" />
+      <sprite depth="6" name="itemIcon" width="64" height="64" atlas="{iconatlas}" sprite="{itemicon}" pos="35,-30" pivot="center" foregroundlayer="true" color="{iconcolor}" />
+      <sprite depth="8" name="lockTypeIcon" width="24" height="24" sprite="ui_game_symbol_lock" pos="2,-2" foregroundlayer="true" visible="{islocked}" />
+    </rect>
+  </cosmetic_item_stack>
+  <recipe_stack>
+    <rect controller="RecipeStack" width="72" height="72" always_update="true">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty2px" pos="-1,1" width="74" height="74" color="96,96,96,150" type="sliced" fillcenter="false">
+        <!--Attribute "color" added/overwritten by: "CATUI"-->
+        <!--Attribute "height" added/overwritten by: "CATUI"-->
+        <!--Attribute "width" added/overwritten by: "CATUI"-->
+        <!--Attribute "pos" added/overwritten by: "CATUI"-->
+        <!--Attribute "sprite" added/overwritten by: "CATUI"-->
+      </sprite>
+      <sprite name="background" color="25,25,25,255" type="sliced" style="press" on_hover="true">
+        <!--Attribute "color" added/overwritten by: "CATUI"-->
+      </sprite>
+      <sprite depth="1" name="backgroundIcon" pos="36,-35" size="35,35" sprite="catui_icon_queue" color="96,96,96" pivot="center">
+        <!--Element inserted by: "CATUI"-->
+      </sprite>
+      <sprite depth="1" name="itemIcon" width="64" height="64" atlas="ItemIconAtlas" sprite="" pos="36,-35" pivot="center" foregroundlayer="true" />
+      <sprite depth="4" name="lockIcon" width="24" height="24" sprite="ui_game_symbol_hammer" pos="2,-2" foregroundlayer="true" />
+      <label depth="4" name="count" pos="0,-50" width="70" height="26" text="Test" font_size="24" justify="right" effect="outline" />
+      <label depth="4" name="timer" pos="36,-36" width="70" height="26" font_size="24" justify="center" pivot="center" color="[beige]" effect="outline" effect_distance="1,1" effect_color="0,0,0,255" />
+      <sprite depth="2" name="overlay" width="72" height="72" color="32,32,32,128" type="sliced" />
+      <sprite depth="3" name="cancel" sprite="ui_game_symbol_x" width="72" height="72" color="255,0,0,0" type="sliced" foregroundlayer="true" />
+    </rect>
+  </recipe_stack>
+  <material_stack>
+    <rect controller="MaterialStack" style="itemStack, hover, scroll" collider_scale="1.1" sound="[recipe_click]" sound_play_on_hover="[default_hover]">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="78" height="78" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="5" name="background" sprite="menu_empty3px" width="73" height="73" color="[darkGrey]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="72" height="72" color="[mediumGrey]" pos="0,0" type="sliced" />
+      <texture depth="4" name="textMaterial" width="70" height="70" pos="36,-36" pivot="center" material="Materials/Transparent Colored" size="70,70" globalopacitymod="0" />
+      <sprite depth="13" name="lockIcon" size="40,40" sprite="ui_game_symbol_lock" visible="{islocked}" pos="14,-14" foregroundlayer="true" />
+    </rect>
+  </material_stack>
+  <sign_stack>
+    <rect controller="SignStack" style="signStack, hover, scroll" sound="[recipe_click]" sound_play_on_hover="[default_hover]" lib_marker_color_default="151,47,187,255" lib_marker_color_prefab="52,88,189,255">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="133" height="133" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="5" name="background" sprite="menu_empty3px" width="128" height="128" color="[darkGrey]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="127" height="127" color="[mediumGrey]" pos="0,0" type="sliced" />
+      <texture depth="3" name="signMaterial" width="125" height="125" pos="63,-63" pivot="center" material="Materials/SignUI" size="125,125" globalopacitymod="0" />
+      <sprite depth="4" name="libraryMarker" sprite="menu_empty3px" width="128" height="128" globalopacitymod="0" type="sliced" fillcenter="false" />
+      <!-- <sprite depth="13" name="lockIcon" size="40,40" sprite="ui_game_symbol_lock" visible="{islocked}" pos="14,-14" foregroundlayer="true" /> -->
+    </rect>
+  </sign_stack>
+  <sign_layer width="105" pos="53,-53">
+    <rect controller="SignLayer" style="signStack, hover, scroll, drag" width="${width}" height="${width}" sound="[recipe_click]" sound_play_on_hover="[default_hover]" select_color="[signEditorLayerSelected]" multi_select_color="[signEditorLayerMultiSelected]">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="${8+width}" height="${8+width}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="5" name="background" sprite="menu_empty3px" width="${3+width}" height="${3+width}" color="[darkGrey]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="${2+width}" height="${2+width}" color="[mediumGrey]" pos="0,0" type="sliced" />
+      <texture depth="4" name="signMaterial" width="${width}" height="${width}" pos="${pos}" pivot="center" material="Materials/SignUI" size="${width},${width}" globalopacitymod="0" />
+      <label depth="5" pos="6,-${width}" width="${-24+width}" height="30" text="{layernumber}" font_size="24" pivot="bottomleft" />
+      <sprite depth="13" name="maskicon" style="icon32px" width="32" height="32" pos="${-6+width},-6" pivot="topright" globalopacitymod="0" sprite="{maskicon}" visible="{showmaskicon}" />
+      <rect name="leftInsertPoint" pos="-5,0" />
+      <rect name="rightInsertPoint" pos="${5+width},0" />
+      <!--
+			Alternate maskicon placement. This possibly helps clarify the mask applies to the next layer in the stack, but makes it less clear which layer controls the mask.
+			<sprite depth="13" name="maskicon" style="icon32px" width="32" height="32" pos="${6+width},-52" pivot="center" globalopacitymod="0" sprite="{maskicon}" visible="{showmaskicon}"/>
+			-->
+    </rect>
+  </sign_layer>
+  <sign_layer_type width="330" height="80" icon="ui_game_symbol_paint_bucket" label="Type">
+    <rect controller="SignLayerType" style="signStack, hover, scroll" width="${width}" height="${height}" sound="[recipe_click]" sound_play_on_hover="[default_hover]">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="${6+width}" height="${6+height}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="5" name="background" sprite="menu_empty3px" width="${width}" height="${height}" color="[darkGrey]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="${width}" height="${height}" color="[mediumGrey]" pos="0,0" type="sliced" />
+      <sprite depth="6" name="typeicon" style="icon32px" width="${height}" height="${height}" pos="${width},0" pivot="topright" globalopacitymod="0" sprite="${icon}" />
+      <sprite depth="4" name="labelArea" width="${width}" height="${30}" color="[darkGrey]" pos="0,-${3+height}" pivot="bottomleft" type="sliced" />
+      <label depth="5" pos="16,-${height}" width="${-32+width}" height="30" text_key="${label_key}" font_size="24" pivot="bottomleft" justify="left" />
+      <!-- <sprite depth="13" name="lockIcon" size="40,40" sprite="ui_game_symbol_lock" visible="{islocked}" pos="14,-14" foregroundlayer="true" /> -->
+    </rect>
+  </sign_layer_type>
+  <sign_warp_type width="160" height="60" icon="ui_game_symbol_paint_bucket" label="Type">
+    <rect controller="SignLayerType" style="signStack, hover, scroll" width="${width}" height="${height}" sound="[recipe_click]" sound_play_on_hover="[default_hover]">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="${6+width}" height="${6+height}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="5" name="background" sprite="menu_empty3px" width="${width}" height="${height}" color="[darkGrey]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="${width}" height="${height}" color="[mediumGrey]" pos="0,0" type="sliced" />
+      <sprite depth="3" name="typeicon" style="icon32px" width="${height}" height="${height}" pos="${width},0" pivot="topright" globalopacitymod="0" sprite="${icon}" />
+      <sprite depth="4" name="labelArea" width="${width}" height="${30}" color="[darkGrey]" pos="0,-${3+height}" pivot="bottomleft" type="sliced" />
+      <label depth="5" pos="16,-${height}" width="${-32+width}" height="30" text_key="${label_key}" font_size="24" pivot="bottomleft" justify="left" />
+      <!-- <sprite depth="13" name="lockIcon" size="40,40" sprite="ui_game_symbol_lock" visible="{islocked}" pos="14,-14" foregroundlayer="true" /> -->
+    </rect>
+  </sign_warp_type>
+  <sign_drag_and_drop width="64" height="64">
+    <rect controller="SignLayerDragAndDropIcon" depth="50" visible="{showdraganddrop}">
+      <texture depth="3" name="signMaterial" width="64" height="64" pos="32,-32" pivot="center" material="Materials/SignUI" size="64,64" globalopacitymod="0" />
+    </rect>
+  </sign_drag_and_drop>
+  <!--
+	<category_icon categoryname="" spritename="" displayname="">
+		<rect depth="1" size="43,43" controller="CategoryEntry" categoryname="${categoryname}" spritename="${spritename}" displayname="${displayname}">
+			<button name="categoryIcon" depth="1" size="28,28" pos="21, -14" sprite="{categoryicon}" tooltip="{categorydisplayname}" pivot="center" collider_scale="1.5" sound="[paging_click]" />
+		</rect>
+	</category_icon>
+-->
+  <category_icon categoryname="" spritename="" displayname="" displayname_key="">
+    <button name="categoryIcon" controller="CategoryEntry" categoryname="${categoryname}" spritename="${spritename}" displayname="${displayname}" displayname_key="${displayname_key}" depth="1" size="28,28" sprite="{categoryicon}" tooltip="{categorydisplayname}" pivot="center" collider_scale="1.5" globalopacitymod="0" sound="[paging_click]" use_selection_box="false" visible="{# categoryicon != '' }">
+      <!--Attribute "visible" added/overwritten by: "CATUI"-->
+    </button>
+  </category_icon>
+  <category_icon_creative_filter categoryname="" spritename="" displayname="" displayname_key="">
+    <button name="categoryIcon" controller="CategoryEntry" filtertype="${filtertype}" filtertext="${filtertext}" categoryname="${categoryname}" spritename="${spritename}" displayname="${displayname}" displayname_key="${displayname_key}" depth="1" size="28,28" sprite="{categoryicon}" tooltip="{categorydisplayname}" pivot="center" collider_scale="1.5" sound="[paging_click]" use_selection_box="false" />
+  </category_icon_creative_filter>
+  <active_buff_entry>
+    <rect height="43" controller="ActiveBuffEntry" width="314" style="press" sound="[recipe_click]" on_hover="true" on_scroll="true" sound_play_on_hover="[default_hover]">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="320" height="49" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="0" name="background" color="[darkGrey]" type="sliced" height="45" width="316" pos="-1,1" />
+      <sprite depth="2" name="Icon" sprite="{bufficon}" color="{buffcolor}" style="icon32px" pos="5,-5" />
+      <label depth="2" pos="45,-8" width="260" height="30" text="{buffname}  [DECEA3]{buffdisplayinfo}[-]" font_size="28" color="{fontcolor}" pivot="topleft" />
+    </rect>
+  </active_buff_entry>
+  <map_popup_sub_line>
+    <rect depth="3" height="43">
+      <sprite depth="3" color="[darkGrey]" type="sliced" style="press" on_hover="true" on_scroll="false" disabled_font_color="148,148,148,255" controller="MapSubPopupEntry" sound="[craft_click]" sound_play_on_hover="[default_hover]" />
+      <sprite depth="4" name="Icon" sprite="ui_game_symbol_map_waypoint_set" style="icon32px" pos="8,-3" />
+    </rect>
+  </map_popup_sub_line>
+  <waypoint_entry>
+    <rect width="348" height="43" pos="6,-98" controller="MapWaypointListEntry">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="354" height="49" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" pos="-1,1" height="45" width="350" color="[darkGrey]" type="sliced" on_hover="true" style="press,scroll" sound="[recipe_click]" sound_play_on_hover="[default_hover]" gamepad_selectable="false" />
+      <sprite depth="4" name="Icon" sprite="ui_game_symbol_pen" style="icon32px" pos="8,-3" foregroundlayer="true" />
+      <sprite depth="4" name="Tracking" sprite="ui_game_symbol_check" style="icon32px" pos="48,-3" foregroundlayer="true" />
+      <label depth="4" name="Name" pos="180,-20" width="180" height="30" text="Name" font_size="28" justify="center" pivot="center" />
+      <label depth="4" name="Distance" pos="312,-20" width="60" height="30" text="0.7KM" font_size="28" justify="center" pivot="center" />
+    </rect>
+  </waypoint_entry>
+  <buffIcon>
+    <!--Element inserted by: "WMMZombieRandomBuffs"-->
+    <rect height="33">
+      <sprite depth="8" sprite="menu_empty3px" height="36" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" color="[mediumGrey]" type="sliced" />
+      <sprite depth="3" name="Icon" pivot="center" pos="18,-18" size="28,28" sprite="${bufficon}" />
+      <label depth="3" pos="37,-10" width="168" font_size="16" text="${textcontent}" justify="left" color="[white]" />
+    </rect>
+  </buffIcon>
+  <buffLevel>
+    <!--Element inserted by: "WMMZombieRandomBuffs"-->
+    <rect height="28">
+      <sprite depth="8" sprite="menu_empty3px" height="28" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" color="${backgroundcolor}" type="sliced" />
+      <label depth="3" pos="10,-6" width="168" font_size="16" text="${textcontent}" justify="left" color="[darkestGrey]" />
+    </rect>
+  </buffLevel>
+  <zombie_buff_icon>
+    <!--Element inserted by: "WMMZombieRandomBuffs"-->
+    <rect controller="XUiC_WMMZombieBuffIcon, WMMZombieRandomBuffs">
+      <sprite depth="2" name="Icon" size="42,42" pivot="center" globalopacity="true" />
+    </rect>
+  </zombie_buff_icon>
+  <invites_entry>
+    <rect controller="MapInvitesListEntry" width="348" height="43" pos="6,-98">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="354" height="49" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" pos="-1,1" height="45" width="350" color="[darkGrey]" type="sliced" on_hover="true" style="press" sound="[recipe_click]" />
+      <sprite depth="4" name="Icon" sprite="ui_game_symbol_pen" style="icon32px" pos="8,-3" foregroundlayer="true" />
+      <label depth="4" name="Name" pos="160,-20" width="200" height="28" text="Name" font_size="28" justify="center" pivot="center" />
+      <label depth="4" name="Distance" pos="312,-20" width="60" height="28" text="0.7KM" font_size="28" justify="center" pivot="center" />
+    </rect>
+  </invites_entry>
+  <players_header pos="0,0">
+    <rect name="header" depth="0" pos="${pos}" width="1320" height="50">
+      <sprite depth="10" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="1320" height="47" color="[black]" type="sliced" fillcenter="false" />
+      <sprite color="[mediumGrey]" type="sliced" pos="3,-3" height="44" width="1314" />
+      <rect depth="1" name="steamId" width="172" height="44" pos="3,-3">
+        <label depth="1" name="text" pos="0,-22" text="STEAM ID" text_key="xuiSteamID" font_size="26" pivot="left" />
+      </rect>
+      <rect depth="1" name="level" width="70" height="44" pos="255,-3">
+        <label depth="1" name="text" pos="0,-22" text="LEVEL" text_key="xuiLevel" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="gamestage" width="100" height="44" pos="328,-3">
+        <label depth="1" name="text" pos="0,-22" text="GAME STAGE" text_key="xuiGameStage" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="party" width="70" height="44" pos="432,-3">
+        <label depth="1" name="text" pos="0,-22" text="PARTY" text_key="xuiParty" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="allies" width="70" height="44" pos="505,-3">
+        <label depth="1" name="text" pos="0,-22" text="ALLIES" text_key="xuiAllies" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="voice" width="80" height="44" pos="578,-3">
+        <label depth="1" name="text" pos="0,-22" text="VOICE" text_key="xuiVoice" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="km" width="50" height="44" pos="661,-3">
+        <label depth="1" name="text" pos="0,-22" text="KM" text_key="xuiKM" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="map" width="80" height="44" pos="713,-3">
+        <label depth="1" name="text" pos="0,-22" text="MAP" text_key="xuiMap" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="zombieKills" width="135" height="44" pos="797,-3">
+        <label depth="1" name="text" pos="0,-22" text="ZOMBIE KILLS" text_key="xuiEnemyKills" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="playerKills" width="135" height="44" pos="935,-3">
+        <label depth="1" name="text" pos="0,-22" text="PLAYER KILLS" text_key="xuiPlayerKills" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="deaths" width="90" height="44" pos="1073,-3">
+        <label depth="1" name="text" pos="0,-22" text="DEATHS" text_key="xuiDeaths" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="ping" width="80" height="44" pos="1165,-3">
+        <label depth="1" name="text" pos="0,-22" text="PING" text_key="xuiPing" font_size="24" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="reportheader" width="70" height="44" pos="1247,-3" color="[darkGrey]" type="sliced">
+        <label depth="1" name="text" pos="0,-22" text_key="xuiPlayersReportPlayerCol" font_size="24" justify="center" pivot="left" />
+      </rect>
+    </rect>
+  </players_header>
+  <players_entry>
+    <rect depth="1" width="1320" height="46" pos="0,0" disabled_color="[disabledLabelColor]" alternating_color="[darkestGrey]" controller="PlayersListEntry">
+      <sprite depth="10" name="backgroundMain" sprite="menu_empty3px" width="1320" height="46" color="[black]" type="sliced" fillcenter="false" />
+      <sprite name="background" color="[darkGrey]" height="46" width="1320" type="sliced" />
+      <rect depth="1" name="playerDetails" width="250" height="46" pos="0,0">
+        <player_name width="175" />
+        <grid depth="0" pos="185, -13" cols="3" cell_width="20" cell_height="20" repeat_content="false" arrangement="horizontal">
+          <sprite name="admin" width="20" height="20" color="[selectedColor]" sprite="ui_game_symbol_star" tooltip_key="xuiIsAdmin" foregroundlayer="true" />
+          <sprite name="twitch" width="20" height="20" color="[selectedColor]" sprite="ui_game_symbol_twitch_actions" tooltip_key="xuiTwitchEnabled" foregroundlayer="true" />
+          <sprite name="twitchDisabled" width="20" height="20" color="[selectedColor]" sprite="ui_game_symbol_twitch_action_disabled" tooltip_key="xuiTwitchDisabled" foregroundlayer="true" />
+        </grid>
+      </rect>
+      <rect depth="1" name="level" width="70" height="46" pos="255,-6">
+        <label depth="1" name="levelText" pos="0,-18" height="38" text="" font_size="26" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="gamestage" width="100" height="46" pos="328,-6">
+        <label depth="1" name="gamestageText" pos="0,-18" height="38" text="" font_size="26" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="party" width="70" height="46" pos="432,-6">
+        <label depth="1" name="labelPartyIcon" pos="0,-15" height="38" text="--" font_size="26" justify="center" pivot="left" />
+        <button depth="1" name="iconPartyIcon" style="icon32px, press, hover" pos="34,-16" pivot="center" sprite="ui_game_symbol_party" color="[lightGrey]" disabledcolor="[disabledLabelColor]" sound="[craft_click]" />
+      </rect>
+      <rect depth="1" name="allies" width="70" height="46" pos="505,-6">
+        <label depth="1" name="labelAllyIcon" pos="0,-15" height="38" text="--" font_size="26" justify="center" pivot="left" />
+        <button depth="1" name="iconAllyIcon" style="icon32px, press, hover" pos="34,-16" pivot="center" sprite="ui_game_symbol_players" color="[lightGrey]" disabledcolor="[disabledLabelColor]" sound="[craft_click]" />
+      </rect>
+      <rect depth="1" name="voice" width="80" height="46" pos="578,-6">
+        <button depth="1" name="iconChat" style="icon32px, press, hover" pos="20,-16" sprite="ui_game_symbol_shape_text" pivot="center" color="[lightGrey]" sound="[craft_click]" />
+        <button depth="1" name="iconVoice" style="icon32px, press, hover" pos="60,-16" sprite="ui_game_symbol_mic" pivot="center" color="[lightGrey]" sound="[craft_click]" />
+      </rect>
+      <rect depth="1" name="km" width="50" height="46" pos="661,-6">
+        <label depth="1" name="labelDistanceWalked" pos="0,-18" height="38" text="-" font_size="26" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="map" width="80" height="86" pos="713,-6">
+        <label depth="0" name="labelShowOnMap" pos="0,-15" height="38" text="--" font_size="26" justify="center" pivot="left" />
+        <button depth="1" name="iconShowOnMap" style="icon32px, press, hover" pos="40,-16" pivot="center" sprite="ui_game_symbol_map" color="[lightGrey]" disabledcolor="[disabledLabelColor]" sound="[craft_click]" tooltip="Show on Map" tooltip_key="lblShowOnMap" />
+      </rect>
+      <rect depth="1" name="zombieKills" width="135" height="46" pos="797,-6">
+        <label depth="1" name="zombieKillsText" pos="0,-18" height="38" text="" font_size="26" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="playerKills" width="135" height="46" pos="935,-6">
+        <label depth="1" name="playerKillsText" pos="0,-18" height="38" text="" font_size="26" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="deaths" width="90" height="86" pos="1073,-6">
+        <label depth="1" name="deathsText" pos="0,-18" height="38" font_size="26" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="ping" width="80" height="46" pos="1165,-6">
+        <label depth="1" name="pingText" pos="0,-18" height="38" text="--" font_size="26" justify="center" pivot="left" />
+      </rect>
+      <rect depth="1" name="reportPlayer" width="70" height="46" pos="1247,-6" color="[darkGrey]" type="sliced">
+        <button depth="1" name="btnReportPlayer" style="icon32px, press, hover" pos="35,-16" pivot="center" sprite="ui_game_symbol_report" color="[lightGrey]" sound="[craft_click]" tooltip_key="xuiPlayersReportPlayer" />
+      </rect>
+    </rect>
+  </players_entry>
+  <vehicle_part_slot>
+    <rect controller="VehiclePartStack" style="vehicleStack, hover" sound_play_on_hover="[default_hover]">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="380" height="63" color="[black]" type="sliced" fillcenter="false" />
+      <sprite name="background" color="[darkGrey]" height="59" pos="0,1" type="sliced" />
+      <label depth="4" pos="16,-10" width="250" height="28" text="{partname}" font_size="26" justify="left" />
+      <!-- <label depth="4" pos="230,-10" width="50" height="28" text="{partquality}" font_size="26" justify="right" /> -->
+      <!-- <sprite depth="2" width="265" pos="15, -37" height="10" type="sliced" color="[black]" visible="{partvisible}" foregroundlayer="true" /> -->
+      <!-- <sprite depth="2" width="263" pos="16, -38" height="8" type="sliced" color="[mediumGrey]" visible="{partvisible}" foregroundlayer="true" /> -->
+      <!-- <sprite depth="2" name="sprFill" width="263" pos="16, -38" height="8" type="filled" color="{partcolor}" fill="{partfill}" visible="{partvisible}" foregroundlayer="true" /> -->
+      <sprite name="itemIcon" depth="4" width="50" height="50" atlas="{partatlas}" sprite="{particon}" pos="330,-30" pivot="center" color="{particoncolor}" foregroundlayer="true" />
+      <label depth="4" pos="16,-16" width="350" height="28" text="EMPTY MODIFIER SLOT" text_key="xuiEmptyModifierSlot" font_size="26" justify="center" visible="{emptyvisible}" />
+    </rect>
+  </vehicle_part_slot>
+  <item_part_slot>
+    <rect controller="${controller}" style="itemPartStack, hover" sound_play_on_hover="[default_hover]">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="380" height="63" color="[black]" type="sliced" fillcenter="false" />
+      <sprite name="background" color="[darkGrey]" height="59" pos="0,1" type="sliced" />
+      <label depth="4" pos="16,-13" width="250" height="28" text="{partname}" font_size="26" justify="left" />
+      <!-- <label depth="4" pos="230,-13" width="50" height="28" text="{partquality}" font_size="26" justify="right" /> -->
+      <!-- <sprite depth="2" width="265" pos="15, -37" height="10" type="sliced" color="[black]" visible="{partvisible}" foregroundlayer="true" /> -->
+      <!-- <sprite depth="2" width="263" pos="16, -38" height="8" type="sliced" color="[mediumGrey]" visible="{partvisible}" foregroundlayer="true" /> -->
+      <!-- <sprite depth="2" name="sprFill" width="263" pos="16, -38" height="8" type="filled" color="{partcolor}" fill="{partfill}" visible="{partvisible}" foregroundlayer="true" /> -->
+      <sprite name="itemIcon" depth="4" width="50" height="50" atlas="{partatlas}" sprite="{particon}" color="{particoncolor}" visible="{partvisible}" pos="330,-30" pivot="center" foregroundlayer="true" />
+      <label depth="4" pos="16,-16" width="350" height="28" text="EMPTY MODIFIER SLOT" text_key="${empty_slot_text_key}" font_size="26" justify="center" visible="{emptyvisible}" />
+    </rect>
+  </item_part_slot>
+  <forge_material>
+    <table depth="1" cols="2">
+      <label depth="2" name="material" style="workstation.reserve.name" />
+      <label depth="2" name="weight" style="workstation.reserve.weight" />
+    </table>
+  </forge_material>
+  <radial_entry>
+    <rect depth="15" height="75" width="75" style="hover" highlight_color="[selectedColor]" pivot="center" controller="RadialEntry" sound_play_on_hover="[default_hover]">
+      <sprite depth="1" height="79" width="79" name="border" sprite="ui_game_filled_circle" color="0,0,0,128" pivot="center" />
+      <sprite depth="2" name="background" sprite="ui_game_filled_circle" color="96,96,96,192" pivot="center" />
+      <sprite depth="3" height="56" width="56" name="icon" atlas="UIAtlas" color="255,255,255,255" pivot="center" foregroundlayer="true" />
+      <label depth="4" name="text" width="48" height="48" pos="-15,15" font_size="28" color="[white]" justify="center" effect="outline" pivot="center" />
+    </rect>
+  </radial_entry>
+  <!--Element removed by: "CATUI" (XPath: "/templates/skill_entry")-->
+  <skill_attribute_level>
+    <rect controller="SkillAttributeLevel" width="${width}" height="${height}" style="hover, scroll" color_bg_bought="140,130,100,255" color_bg_available="[lightGrey]" color_bg_locked="[darkGrey]" color_lbl_available="[white]" color_lbl_locked="[lightGrey]" color_lbl_nerfed="204,17,17" color_lbl_buffed="17,204,17" visible="{nothiddenbypager}">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty2px" pos="0,${-height}" height="2" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="backgroundMainColor" sprite="menu_empty" pos="2,0" width="${width-4}" type="sliced" fillcenter="true" color="{color_bg}" visible="{hasentry}" />
+      <label depth="3" pos="5,-${Round(height/2,0)}" text="{level}" pivot="left" justify="center" width="65" font_size="30" color="{color_fg}" visible="{hasentry}" />
+      <label depth="3" pos="77,-${Round(height/2,0)}" text="{text}" pivot="left" justify="left" width="493" font_size="24" color="{color_fg}" visible="{hasentry}" />
+      <button depth="3" name="btnBuy" pos="${width-36},-${Round(height/2,0)}" style="icon30px, press, hover" sprite="{buyicon}" pivot="center" tooltip="{buytooltip}" sound="[paging_click]" defaultcolor="{buycolor}" manualcolors="true" visible="{buyvisible}" />
+    </rect>
+  </skill_attribute_level>
+  <skill_skill_milestone>
+    <rect controller="SkillSkillMilestone" width="${width}" height="${height}" color_lbl_available="[white]" color_lbl_locked="[lightGrey]">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty2px" pos="0,${-height}" height="2" color="[black]" type="sliced" fillcenter="false" visible="{hasentry}" />
+      <sprite depth="1" name="backgroundMainColor" pos="3,0" width="${width-6}" sprite="menu_empty" color="140,130,100,255" type="filled" fillspritepad="true" fill="{progress}" visible="{hasentry}" />
+      <label depth="3" pos="5,-${Round(height/2,0)}" text="{level}" pivot="left" justify="center" width="65" font_size="36" color="{color_fg}" visible="{hasentry}" />
+      <label depth="3" pos="77,-${Round(height/2,0)}" width="260" pivot="left" justify="left" font_size="24" text="{effectsCol1}" color="{color_fg}" visible="{hasentry}" />
+      <label depth="3" pos="345,-${Round(height/2,0)}" width="260" pivot="left" justify="left" font_size="24" text="{effectsCol2}" color="{color_fg}" visible="{hasentry}" />
+      <sprite depth="3" pos="${width-36},-${Round(height/2,0)}" style="icon30px, hover" sprite="{icon}" pivot="center" tooltip="{icontooltip}" visible="{iconvisible}" />
+    </rect>
+  </skill_skill_milestone>
+  <!--Element removed by: "CATUI" (XPath: "/templates/skill_perk_level")-->
+  <!--Element removed by: "CATUI" (XPath: "/templates/skill_book_level")-->
+  <!--Element removed by: "CATUI" (XPath: "/templates/skill_crafting_entry")-->
+  <quest_entry>
+    <rect width="450" height="43" controller="QuestEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]" failed_color="255,0,0,255" complete_color="[disabledLabelColor]" finished_color="0,255,0,255" shared_color="[iconColor]" failed_icon="ui_game_symbol_x" complete_icon="ui_game_symbol_check" finished_icon="ui_game_symbol_check" shared_icon="ui_game_symbol_players" sound_play_on_hover="[default_hover]">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="450" height="49" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" pos="-1,1" height="45" width="446" color="{rowstatecolor}" sprite="{rowstatesprite}" type="sliced" />
+      <sprite depth="5" name="Icon" style="icon32px" pos="8,-3" foregroundlayer="true" sprite="{questicon}" color="{iconcolor}" />
+      <sprite depth="4" name="Tracking" sprite="ui_game_symbol_compass" style="icon32px" pos="52,-4" foregroundlayer="true" visible="{istracking}" />
+      <label depth="4" name="Name" pos="102,-8" width="230" height="30" text="{questname}" color="{textstatecolor}" />
+      <label depth="4" name="Distance" pos="340,-8" width="100" height="30" text="{distance}" justify="right" />
+    </rect>
+  </quest_entry>
+  <quest_objective_entry>
+    <rect width="300" height="43" controller="QuestObjectiveEntry" complete_icon="ui_game_symbol_check" incomplete_icon="ui_game_symbol_x" notstarted_icon="ui_game_symbol_quest" complete_color="[green]" incomplete_color="[red]" notstarted_color="[white]" visible="{hasobjective}">
+      <sprite depth="2" name="iconTrack" style="icon22px" pos="4,0" color="{objectivecompletecolor}" sprite="{objectivecompletesprite}" />
+      <!-- <sprite depth="0" name="Icon" sprite="ui_game_symbol_pen" style="icon32px" pos="8,-3" foregroundlayer="true" /> -->
+      <label depth="4" name="Description" pos="30,2" width="250" height="28" text="{objectiveoptional}{objectivedescription} [DECEA3]{objectivestate}[-]" color="{objectivephasecolor}" font_size="26" />
+    </rect>
+  </quest_objective_entry>
+  <!--Element removed by: "CATUI" (XPath: "/templates/quest_objective_tracker_entry")-->
+  <!--Element removed by: "CATUI" (XPath: "/templates/recipe_ingredient_tracker_entry")-->
+  <quest_reward_entry>
+    <rect width="625" height="43" controller="QuestRewardEntry" visible="{hasreward}">
+      <sprite depth="0" name="Icon" sprite="{rewardicon}" style="icon22px" pos="4,0" foregroundlayer="true" uiatlas="{rewardiconatlas}" />
+      <label depth="4" name="Description" pos="30,0" width="600" height="28" text="{rewardtype}: {rewarddescription}: [DECEA3]{rewardvalue}[-]" font_size="26" />
+    </rect>
+  </quest_reward_entry>
+  <quest_reward_entry2>
+    <rect width="625" controller="QuestRewardEntry2" visible="{hasreward}">
+      <sprite depth="0" name="Icon" sprite="{rewardicon}" style="icon22px" pos="4,0" foregroundlayer="true" uiatlas="{rewardiconatlas}" />
+      <label depth="4" name="Description" pos="30,0" width="600" text="{rewarddescription}" font_size="26" />
+    </rect>
+  </quest_reward_entry2>
+  <challenge_entry>
+    <rect width="58" height="58" style="itemStack, hover, scroll" sound_play_on_hover="[default_hover]" controller="ChallengeEntry" enabled_color="[labelColor]" disabled_color="[disabledLabelColor]" failed_color="255,0,0,255" row_color="[mediumGrey]" hover_color="[lightGrey]" selected_color="222,206,163,255">
+      <!-- visible="{hasentry}" -->
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-1,1" width="60" height="60" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="54" height="54" color="[mediumGrey]" pos="2,-2" type="sliced" />
+      <sprite depth="3" name="background" sprite="menu_empty3px" width="54" height="54" pos="2,-2" color="{rowstatecolor}" type="sliced" fillcenter="false" />
+      <sprite depth="6" name="itemIcon" width="48" height="48" sprite="{iconname}" color="{iconcolor}" pos="30,-30" pivot="center" foregroundlayer="true" />
+      <rect width="60" height="6" pos="-1,-58" visible="{fillactive}">
+        <sprite depth="1" name="border" color="0,0,0,150" type="sliced" />
+        <sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+        <sprite depth="4" name="BarContent" color="0,128,128,255" type="filled" fillspritepad="true" fill="{fillamount}" />
+        <sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false" />
+      </rect>
+      <!-- <label depth="7" name="stackValue" pos="0,-48" width="70" height="28" text="Test" effect="outline" font_size="26" justify="center"/> -->
+    </rect>
+  </challenge_entry>
+  <weather_challenge_entry>
+    <rect width="68" height="68" style="itemStack, hover, scroll" sound_play_on_hover="[default_hover]" controller="ChallengeEntry" enabled_color="[labelColor]" disabled_color="[disabledLabelColor]" failed_color="255,0,0,255" row_color="[mediumGrey]" hover_color="[lightGrey]" selected_color="222,206,163,255">
+      <!-- visible="{hasentry}" -->
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-1,1" width="70" height="70" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="64" height="64" color="[mediumGrey]" pos="2,-2" type="sliced" />
+      <sprite depth="3" name="background" sprite="menu_empty3px" width="64" height="64" pos="2,-2" color="{rowstatecolor}" type="sliced" fillcenter="false" />
+      <sprite depth="6" name="itemIcon" width="58" height="58" sprite="{iconname}" color="{iconcolor}" pos="35,-35" pivot="center" foregroundlayer="true" />
+      <rect width="70" height="6" pos="-1,-68" visible="{fillactive}">
+        <sprite depth="1" name="border" color="0,0,0,150" type="sliced" />
+        <sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+        <sprite depth="4" name="BarContent" color="0,128,128,255" type="filled" fillspritepad="true" fill="{fillamount}" />
+        <sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false" />
+      </rect>
+      <!-- <label depth="7" name="stackValue" pos="0,-48" width="70" height="28" text="Test" effect="outline" font_size="26" justify="center"/> -->
+    </rect>
+  </weather_challenge_entry>
+  <weather_challenge_entry2>
+    <rect width="58" height="58" style="itemStack, hover, scroll" sound_play_on_hover="[default_hover]" controller="ChallengeEntry" enabled_color="[labelColor]" disabled_color="[disabledLabelColor]" failed_color="255,0,0,255" row_color="[mediumGrey]" hover_color="[lightGrey]" selected_color="222,206,163,255">
+      <!-- visible="{hasentry}" -->
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-1,1" width="60" height="60" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="54" height="54" color="[mediumGrey]" pos="2,-2" type="sliced" />
+      <sprite depth="3" name="background" sprite="menu_empty3px" width="54" height="54" pos="2,-2" color="{rowstatecolor}" type="sliced" fillcenter="false" />
+      <sprite depth="6" name="itemIcon" width="48" height="48" sprite="{iconname}" color="{iconcolor}" pos="30,-30" pivot="center" foregroundlayer="true" />
+      <rect width="60" height="6" pos="-1,-58" visible="{fillactive}">
+        <sprite depth="1" name="border" color="0,0,0,150" type="sliced" />
+        <sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+        <sprite depth="4" name="BarContent" color="0,128,128,255" type="filled" fillspritepad="true" fill="{fillamount}" />
+        <sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false" />
+      </rect>
+      <!-- <label depth="7" name="stackValue" pos="0,-48" width="70" height="28" text="Test" effect="outline" font_size="26" justify="center"/> -->
+    </rect>
+  </weather_challenge_entry2>
+  <challenge_list_entry>
+    <rect width="650" style="scroll" height="113" controller="ChallengeGroupEntry">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="650" height="113" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" pos="-1,1" height="111" width="647" color="[darkGrey]" type="sliced" />
+      <!-- <sprite depth="5" name="Icon" style="icon32px" pos="8,-3" foregroundlayer="true" sprite="ui_game_symbol_hammer" color="[white]" /> -->
+      <label depth="4" pos="10,-8" width="330" height="40" text="{groupname}" color="[white]" />
+      <label depth="4" pos="10,-8" width="630" height="40" text="Resets: Day {resetday}" color="[white]" justify="center" visible="{hasreset}" />
+      <label depth="4" pos="300,-8" width="330" height="40" text="{groupreward}" color="[selectedColor]" justify="right" />
+      <grid depth="6" name="newList" rows="1" cols="10" pos="10,-40" width="650" height="80" cell_width="63" cell_height="63" repeat_content="true" arrangement="horizontal" controller="ChallengeEntryList">
+        <challenge_entry name="0" />
+      </grid>
+      <rect depth="20" width="650" height="113" visible="{intro_disabled}">
+        <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" color="[black]" type="sliced" fillcenter="false" />
+        <sprite color="32,32,32,253" type="sliced" width="646" height="110" pos="-1,0" />
+        <label pos="10,-45" depth="3" text="Intro Challenges Disabled" justify="Center" font_size="28" />
+      </rect>
+    </rect>
+  </challenge_list_entry>
+  <weather_challenge_list_entry>
+    <rect width="650" style="scroll" height="170" controller="ChallengeGroupEntry">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="650" height="170" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" pos="-1,1" height="168" width="647" color="[darkGrey]" type="sliced" />
+      <!-- <sprite depth="5" name="Icon" style="icon32px" pos="8,-3" foregroundlayer="true" sprite="ui_game_symbol_hammer" color="[white]" /> -->
+      <label depth="4" pos="10,-8" width="330" height="40" text="{groupname}" color="[white]" />
+      <label depth="4" pos="10,-8" width="630" height="40" text="Resets: Day {resetday}" color="[white]" justify="center" visible="{hasreset}" />
+      <label depth="4" pos="300,-8" width="330" height="40" text="{groupreward}" color="[selectedColor]" justify="right" />
+      <grid depth="6" name="newList" rows="1" cols="7" pos="35,-50" width="650" height="80" cell_width="83" cell_height="83" repeat_content="true" arrangement="horizontal" controller="ChallengeEntryList">
+        <weather_challenge_entry name="0" />
+      </grid>
+      <label depth="4" pos="10,-133" width="630" height="40" text="{groupobjective}" color="[disabledLabelColor]" />
+    </rect>
+  </weather_challenge_list_entry>
+  <!--Element removed by: "CATUI" (XPath: "/templates/trader_item")-->
+  <response_entry>
+    <rect width="700" height="43" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" row_color="[white]" hover_color="[hoverColor]" sound="[recipe_click]" controller="DialogResponseEntry" visible="{showresponse}" sound_play_on_hover="[default_hover]" use_selection_box="false">
+      <sprite depth="5" name="Icon" style="icon22px" pos="8,-6" foregroundlayer="true" sprite="ui_game_symbol_bullet_point" color="{rowstatecolor}" />
+      <label depth="4" name="Text" pos="47,-3" width="700" height="37" text="{response}" effect="outline" color="{rowstatecolor}" />
+    </rect>
+  </response_entry>
+  <option_selector>
+    <rect depth="3" controller="OptionsSelector">
+      <label depth="5" name="lblTitle" pos="0, -9" height="28" text="Start Time" font_size="26" justify="center" />
+      <button depth="4" name="leftArrow" style="icon30px, press" pos="18,-52" sprite="ui_game_symbol_arrow_left" pivot="center" sound="[paging_click]" gamepad_selectable="false" />
+      <rect depth="4" name="textArea" pos="108,-52">
+        <rect name="clickable" pos="0,0" width="130" height="30" snap="true" gamepad_selectable="true" />
+        <sprite name="background" color="[black]" type="sliced" pos="0,0" pivot="center" height="30" width="150" />
+        <label depth="5" name="lblText" pos="0, -3" color="[selectedColor]" text="Test Stuff" font_size="26" justify="center" pivot="center" height="30" width="150" />
+      </rect>
+      <button depth="4" name="rightArrow" style="icon30px, press" pos="207,-52" sprite="ui_game_symbol_arrow_right" pivot="center" sound="[paging_click]" gamepad_selectable="false" />
+    </rect>
+  </option_selector>
+  <prefab_group_entry width="250" height="30">
+    <rect height="${height}" width="${width}" style="press, hover, scroll" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_PrefabGroupList+EntryController">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="0,0" width="${width}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" pos="0,0" width="${width}" type="sliced" style="listentry.background_old" />
+      <label depth="4" name="Name" pos="4,${Round(-height/2,0)}" width="${width-8}" height="${height-4}" text="{name}" font_size="${height-4}" justify="center" pivot="left" />
+    </rect>
+  </prefab_group_entry>
+  <prefab_file_entry width="250" height="30">
+    <rect height="${height}" width="${width}" style="press, hover, scroll" tooltip="{localizedname}" on_doubleclick="true" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_PrefabFileList+EntryController">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="0,0" width="${width}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" pos="0,0" width="${width}" type="sliced" style="listentry.background_old" />
+      <label depth="4" name="Name" pos="6,${Round(-height/2,0)}" width="${width-8}" height="${height-4}" text="{name}" font_size="${height-4}" justify="left" pivot="left" />
+    </rect>
+  </prefab_file_entry>
+  <prefab_folder_entry width="250" height="30">
+    <rect height="${height}" width="${width}" style="press, hover, scroll" tooltip="{name}" on_doubleclick="true" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_PrefabFolderList+EntryController">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="0,0" width="${width}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" pos="0,0" width="${width}" type="sliced" style="listentry.background_old" />
+      <label depth="4" name="Name" pos="6,${Round(-height/2,0)}" width="${width-8}" height="${height-4}" text="{name}" font_size="${height-4}" justify="left" pivot="left" />
+    </rect>
+  </prefab_folder_entry>
+  <prefab_tag_entry width="254" height="30">
+    <rect height="${height}" width="${width-3}" style="press, hover, scroll" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_PrefabFeatureEditorList+EntryController">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="2,0" width="${width-4}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" pos="2,0" width="${width-4}" type="sliced" style="listentry.background_old" />
+      <sprite depth="4" name="tickbox" width="${height-6}" height="${height-6}" pos="7,-4" color="[darkGrey]" sprite="Highlight - Shadowed" type="sliced" visible="{hasentry}" />
+      <sprite depth="5" name="tickmark" width="${height-12}" height="${height-12}" pos="10,-7" color="[iconColor]" sprite="ui_game_symbol_check" visible="{selected}" />
+      <label depth="4" name="Name" pos="${6+height},${Round(-height/2,0)}" width="${width-height-8}" height="${height-4}" text="{name}" font_size="${height-4}" justify="left" pivot="left" />
+    </rect>
+  </prefab_tag_entry>
+  <prefab_marker_entry width="254" height="30">
+    <rect height="${height}" width="${width-3}" style="press, hover, scroll" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_PrefabMarkerList+EntryController">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="2,0" width="${width-4}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" pos="2,0" width="${width-4}" type="sliced" style="listentry.background_old" />
+      <label depth="4" name="GroupName" pos="38,-19" width="100" height="26" text="{groupname}" font_size="26" justify="left" pivot="left" />
+      <label depth="4" name="MarkerType" pos="144,-19" width="100" height="26" text="{markertype}" font_size="26" justify="left" pivot="left" />
+      <label depth="4" name="MarkerSize" pos="250,-19" width="100" height="26" text="{markersize}" font_size="26" justify="left" pivot="left" />
+      <sprite depth="2" color="{groupcolor}" pos="9,-7" width="20" height="20" type="sliced" />
+    </rect>
+  </prefab_marker_entry>
+  <prefab_group_edit_entry width="254" height="30">
+    <rect height="${height}" width="${width-3}" style="press, hover, scroll" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_PrefabFeatureEditorList+EntryController">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="2,0" width="${width-4}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" pos="2,0" width="${width-4}" type="sliced" style="listentry.background_old" />
+      <sprite depth="4" name="tickbox" width="${height-6}" height="${height-6}" pos="7,-4" color="[darkGrey]" sprite="Highlight - Shadowed" type="sliced" visible="{hasentry}" />
+      <sprite depth="5" name="tickmark" width="${height-12}" height="${height-12}" pos="10,-7" color="[iconColor]" sprite="ui_game_symbol_check" visible="{selected}" />
+      <label depth="4" name="Name" pos="${6+height},${Round(-height/2,0)}" width="${width-height-8}" height="${height-4}" text="{name}" font_size="${height-4}" justify="left" pivot="left" />
+    </rect>
+  </prefab_group_edit_entry>
+  <prefab_zone_edit_entry width="254" height="30">
+    <rect height="${height}" width="${width-3}" style="press, hover, scroll" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_PrefabFeatureEditorList+EntryController">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="2,0" width="${width-4}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" pos="2,0" width="${width-4}" type="sliced" style="listentry.background_old" />
+      <sprite depth="4" name="tickbox" width="${height-6}" height="${height-6}" pos="7,-4" color="[darkGrey]" sprite="Highlight - Shadowed" type="sliced" visible="{hasentry}" />
+      <sprite depth="5" name="tickmark" width="${height-12}" height="${height-12}" pos="10,-7" color="[iconColor]" sprite="ui_game_symbol_check" visible="{selected}" />
+      <label depth="4" name="Name" pos="${6+height},${Round(-height/2,0)}" width="${width-height-8}" height="${height-4}" text="{name}" font_size="${height-4}" justify="left" pivot="left" />
+    </rect>
+  </prefab_zone_edit_entry>
+  <prefab_trigger_entry width="254" height="30">
+    <rect height="${height}" width="${width-3}" style="press, hover, scroll" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_PrefabTriggerEditorList+EntryController">
+      <sprite depth="1" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="2,0" width="${width-4}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="0" name="background" pos="2,0" width="${width-4}" type="sliced" style="listentry.background_old" />
+      <sprite depth="1" name="tickbox" width="${height-6}" height="${height-6}" pos="7,-4" color="[darkGrey]" sprite="Highlight - Shadowed" type="sliced" visible="{hasentry}" />
+      <sprite depth="2" name="tickmark" width="${height-12}" height="${height-12}" pos="10,-7" color="[iconColor]" sprite="ui_game_symbol_check" visible="{selected}" />
+      <label depth="1" name="Name" pos="${6+height},${Round(-height/2,0)-2}" width="${width-height-8}" height="${height-4}" text="{name}" font_size="${height-4}" justify="left" pivot="left" />
+    </rect>
+  </prefab_trigger_entry>
+  <spawn_block_selection_entry height="30">
+    <rect height="${height}" style="press, hover, scroll" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_StringList+EntryController">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" color="{# isselected ? '255,255,255' : (hovered ? '96,96,96' : '64,64,64' ) }" style="listentry.background_old" type="sliced" />
+      <label depth="4" name="name" pos="8,${Round(-height/2,0)}" width="${width-16}" text="{name}" font_size="${height-4}" justify="left" pivot="left" />
+    </rect>
+  </spawn_block_selection_entry>
+  <spawners_entry width="254" height="30">
+    <rect height="${height}" width="${width}" style="press, hover, scroll" on_doubleclick="true" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_SpawnersList+EntryController">
+      <sprite depth="1" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="2,0" width="${width-4}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="0" name="background" pos="2,0" width="${width-4}" type="sliced" style="listentry.background_old" />
+      <label depth="1" name="Name" pos="4,${Round(-height/2,0)}" width="${width-8}" height="${height-4}" text="{name}" font_size="${height-4}" justify="center" pivot="left" />
+    </rect>
+  </spawners_entry>
+  <entity_entry width="254" height="30">
+    <rect height="${height}" width="${width}" style="press, hover, scroll" on_doubleclick="true" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_SpawnEntitiesList+EntryController" sound_play_on_hover="[default_hover]">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="2,0" width="${width-4}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" pos="2,0" width="${width-4}" type="sliced" style="listentry.background_old" />
+      <label depth="4" name="Name" pos="4,${Round(-height/2,0)}" width="${width-8}" height="${height-4}" text="{name}" font_size="${height-4}" justify="center" pivot="left" />
+    </rect>
+  </entity_entry>
+  <gameevent_entry width="254" height="30">
+    <rect height="${height}" width="${width}" style="press, hover, scroll" on_doubleclick="true" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_GameEventsList+EntryController" sound_play_on_hover="[default_hover]">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="2,0" width="${width-4}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" pos="2,0" width="${width-4}" type="sliced" style="listentry.background_old" />
+      <label depth="4" name="Name" pos="4,${Round(-height/2,0)}" width="${width-8}" height="${height-4}" text="{name}" font_size="${height-4}" justify="center" pivot="left" />
+    </rect>
+  </gameevent_entry>
+  <poi_teleport_list_entry width="254" height="30">
+    <rect height="${height}" width="${width}" style="press, hover, scroll" on_doubleclick="true" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="XUiC_PoiList+EntryController" sound_play_on_hover="[default_hover]">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty" height="${1+height}" pos="2,0" width="${width-4}" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" pos="2,0" width="${width-4}" type="sliced" style="listentry.background_old" />
+      <label depth="4" name="Name" pos="6,-2" width="${width-116}" height="32" text="{name}" font_size="30" justify="left" pivot="topleft" />
+      <label depth="4" name="Coordinates" pos="${width-6},-4" width="100" height="36" text="{coords}" font_size="18" justify="right" pivot="topright" />
+      <label depth="4" name="LocalizedName" pos="6,-36" width="${width-12}" height="22" text="{localizedname}" font_size="20" justify="left" pivot="topleft" />
+    </rect>
+  </poi_teleport_list_entry>
+  <!--Element removed by: "CATUI" (XPath: "/templates/party_entry")-->
+  <!--Element removed by: "CATUI" (XPath: "/templates/companion_entry")-->
+  <quest_turnin_entry width="652">
+    <rect pos="0,0" height="50" width="653" style="press, hover" controller="QuestTurnInEntry" selected_color="[green]" default_color="[labelColor]" sound_play_on_hover="[default_hover]">
+      <sprite name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="background" color="[darkGrey]" pos="2,-3" width="${width-4}" height="44" type="sliced" />
+      <sprite depth="4" name="ItemIcon" atlas="ItemIconAtlas" sprite="{rewardicon}" color="{rewardicontint}" size="38,38" pos="34,-25" pivot="center" foregroundlayer="true" visible="{hasitemreward}" />
+      <sprite depth="2" name="windowIcon" style="icon30px" pos="20,-10" sprite="{rewardicon}" visible="{hasotherreward}" />
+      <sprite depth="8" name="itemtypeicon" width="12" height="12" sprite="ui_game_symbol_{itemtypeicon}" pos="6,-6" foregroundlayer="true" visible="{hasitemtypeicon}" color="{itemtypeicontint}" />
+      <!-- <sprite depth="2" name="windowIcon" style="icon30px" pos="600,-10" sprite="{chosenicon}" visible="{hasreward}" color="[green]" /> -->
+      <label pos="65,-10" depth="3" text="{rewardname}" color="{namecolor}" font_size="28" />
+      <sprite depth="3" name="durabilityBackground" width="50" height="6" sprite="menu_empty3px" color="[black_half_alpha]" type="sliced" pos="585, -36" foregroundlayer="true" visible="{hasdurability}" />
+      <sprite depth="4" name="durabilityBar" height="6" width="50" color="{durabilitycolor}" type="filled" fill="{durabilityfill}" pos="585, -36" visible="{hasdurability}" />
+      <label depth="4" name="durabilityValue" height="28" width="120" text="{durabilityvalue}" font_size="28" justify="center" pos="550,-6" />
+    </rect>
+  </quest_turnin_entry>
+  <shape_stack>
+    <rect style="itemStack, hover, scroll" controller="ShapeStack" sound_play_on_hover="[default_hover]">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="78" height="78" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="3" name="background" sprite="menu_empty3px" width="73" height="73" color="[darkGrey]" type="sliced" fillcenter="false" />
+      <sprite depth="2" name="highlightOverlay" width="72" height="72" color="[darkGrey]" pos="0,0" type="sliced" />
+      <sprite depth="4" name="itemIcon" width="64" height="64" atlas="ItemIconAtlas" sprite="{itemicon}" color="{itemicontint}" pos="35,-35" pivot="center" foregroundlayer="true" />
+      <sprite depth="8" name="favoriteIcon" width="24" height="24" sprite="server_favorite" pos="2,-2" foregroundlayer="true" visible="{isfavorite}" />
+      <!-- <label depth="7" name="stackValue" pos="0,-48" width="70" height="28" text="Test" effect="outline" font_size="26" justify="center"/> -->
+    </rect>
+  </shape_stack>
+  <player_stats_entry>
+    <rect height="33">
+      <sprite depth="8" sprite="menu_empty3px" height="33" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" color="${backgroundcolor}" type="sliced" />
+      <label depth="3" pos="10,-17" width="200" height="27" font_size="26" text="${textcontent}" pivot="left" justify="left" color="[white]" />
+      <label depth="3" pos="320,-17" width="105" height="27" font_size="26" text="${valuecontent}" justify="right" color="[selectedColor]" pivot="right" />
+    </rect>
+  </player_stats_entry>
+  <twitch_cost_entry>
+    <rect height="33">
+      <sprite depth="8" sprite="menu_empty3px" height="33" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" color="${backgroundcolor}" type="sliced" />
+      <label depth="3" pos="15,-5" width="168" font_size="26" text="${textcontent}" justify="left" color="[white]" />
+      <label depth="3" pos="315,-5" width="128" font_size="26" text="${valuecontent}" justify="right" color="${costcolor}" pivot="topright" />
+    </rect>
+  </twitch_cost_entry>
+  <player_stats_generic_entry>
+    <player_stats_entry backgroundcolor="${backgroundcolor}" textcontent="{playerstattitle${index}}" valuecontent="{playerstat${index}}" />
+  </player_stats_generic_entry>
+  <twitch_leaderboard_stats_entry>
+    <rect height="34">
+      <sprite depth="8" sprite="menu_empty3px" height="34" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" color="${backgroundcolor}" type="sliced" />
+      <label depth="3" pos="15,-5" width="168" font_size="26" text="${textcontent}" justify="left" color="[white]" />
+      <label depth="3" pos="640,-5" width="328" font_size="26" text="${valuecontent}" justify="right" color="[white]" pivot="topright" />
+    </rect>
+  </twitch_leaderboard_stats_entry>
+  <twitch_leaderboard_stats_entry_press>
+    <rect name="statClick" height="34" style="press" on_hover="true" on_scroll="false">
+      <sprite depth="8" sprite="menu_empty3px" height="34" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" color="${backgroundcolor}" type="sliced" />
+      <label depth="3" pos="15,-5" width="168" font_size="26" text="${textcontent}" justify="left" color="[white]" />
+      <label depth="3" pos="640,-5" width="328" font_size="26" text="${valuecontent}" justify="right" color="[white]" pivot="topright" />
+    </rect>
+  </twitch_leaderboard_stats_entry_press>
+  <twitch_command_entry depth="3" pos="0,0" width="200" height="32">
+    <rect width="300" height="33" controller="TwitchCommandEntry" visible="{hascommand}" positive_color="175,175,255" negative_color="255,175,175" disabled_color="[lightGrey]" default_cost_color="[white]" special_cost_color="[selectedColor]">
+      <sprite depth="8" sprite="menu_empty3px" height="33" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" color="${backgroundcolor}" type="sliced" />
+      <!-- <sprite depth="2" name="iconTrack" style="icon22px" pos="280,2" color="{objectivecompletecolor}" sprite="{objectivecompletesprite}" visible="{objectiveshowicon}" /> -->
+      <label depth="3" pos="15,-5" width="198" font_size="26" text="{commandname}" justify="left" color="{commandcolor}" />
+      <label depth="3" pos="295,-5" width="88" font_size="26" text="{commandcost}" justify="right" color="{costcolor}" pivot="topright" />
+    </rect>
+  </twitch_command_entry>
+  <twitch_vote_entry_one height="53">
+    <rect width="300" height="53" controller="TwitchVoteEntry" visible="{hasvote}" positive_color="0,124,0,160" negative_color="255,0,0,160" disabled_color="[lightGrey]">
+      <rect height="40">
+        <sprite depth="8" sprite="menu_empty3px" height="43" color="[black]" type="sliced" fillcenter="false" />
+        <sprite depth="1" color="[darkGrey]" height="41" type="sliced" />
+        <sprite pos="2,0" depth="1" width="296" height="40" name="BarContent" color="{votecolor}" globalopacitymod="0" type="filled" fillspritepad="true" fill="{votefill}" />
+        <!-- <label depth="3" pos="0,-6" width="295" font_size="26" text="{votecommand} - {votecount}" justify="center"  /> -->
+        <label pos="6,-6" depth="3" width="60" font_size="32" text="{votecommand}" justify="left" effect="outline" />
+        <label pos="66,-9" depth="3" width="224" font_size="28" text="{votename}" justify="right" effect="outline" />
+      </rect>
+    </rect>
+  </twitch_vote_entry_one>
+  <twitch_vote_entry_two height="83">
+    <rect width="300" height="83" controller="TwitchVoteEntry" visible="{hasvote}" positive_color="0,124,0,160" negative_color="255,0,0,160" disabled_color="[lightGrey]">
+      <rect height="40">
+        <sprite depth="8" sprite="menu_empty3px" height="43" color="[black]" type="sliced" fillcenter="false" />
+        <sprite depth="1" color="[darkGrey]" height="41" type="sliced" />
+        <sprite pos="2,0" depth="1" width="296" height="40" name="BarContent" color="{votecolor}" globalopacitymod="0" type="filled" fillspritepad="true" fill="{votefill}" />
+        <!-- <label depth="3" pos="0,-6" width="295" font_size="26" text="{votecommand} - {votecount}" justify="center"  /> -->
+        <label pos="6,-6" depth="3" width="60" font_size="32" text="{votecommand}" justify="left" effect="outline" />
+        <label pos="66,-9" depth="3" width="224" font_size="28" text="{votename}" justify="right" effect="outline" />
+      </rect>
+      <rect pos="0,-40" height="33">
+        <sprite depth="8" sprite="menu_empty3px" height="33" color="[black]" type="sliced" fillcenter="false" />
+        <sprite depth="1" color="[darkestGrey]" type="sliced" />
+        <!-- <sprite depth="2" name="iconTrack" style="icon22px" pos="280,2" color="{objectivecompletecolor}" sprite="{objectivecompletesprite}" visible="{objectiveshowicon}" /> -->
+        <!-- <label pos="6,-6" depth="3" width="284" font_size="26" text="{votename}" justify="left" /> -->
+        <label pos="6,-6" depth="3" width="284" font_size="26" text="{voteline1}" color="{line1textcolor}" justify="right" />
+      </rect>
+    </rect>
+  </twitch_vote_entry_two>
+  <twitch_vote_entry height="113">
+    <rect width="300" height="113" controller="TwitchVoteEntry" visible="{hasvote}" positive_color="0,124,0,160" negative_color="255,0,0,160" text_bad="255,175,175" disabled_color="[lightGrey]">
+      <rect height="40">
+        <sprite depth="8" sprite="menu_empty3px" height="43" color="[black]" type="sliced" fillcenter="false" />
+        <sprite depth="1" color="[darkGrey]" height="41" type="sliced" />
+        <sprite pos="2,0" depth="1" width="296" height="40" name="BarContent" color="{votecolor}" globalopacitymod="0" type="filled" fillspritepad="true" fill="{votefill}" />
+        <!-- <label depth="3" pos="0,-6" width="295" font_size="26" text="{votecommand} - {votecount}" justify="center"  /> -->
+        <label pos="6,-6" depth="3" width="60" font_size="32" text="{votecommand}" justify="left" effect="outline" />
+        <label pos="66,-9" depth="3" width="224" font_size="28" text="{votename}" justify="right" effect="outline" />
+      </rect>
+      <rect pos="0,-40" height="33">
+        <sprite depth="8" sprite="menu_empty3px" height="33" color="[black]" type="sliced" fillcenter="false" />
+        <sprite depth="1" color="[darkestGrey]" type="sliced" />
+        <!-- <sprite depth="2" name="iconTrack" style="icon22px" pos="280,2" color="{objectivecompletecolor}" sprite="{objectivecompletesprite}" visible="{objectiveshowicon}" /> -->
+        <!-- <label pos="6,-6" depth="3" width="284" font_size="26" text="{votename}" justify="left" /> -->
+        <label pos="6,-6" depth="3" width="284" font_size="26" text="{voteline1}" color="{line1textcolor}" justify="right" />
+      </rect>
+      <rect pos="0,-70" height="33">
+        <sprite depth="8" sprite="menu_empty3px" height="33" color="[black]" type="sliced" fillcenter="false" />
+        <sprite depth="1" color="[darkGrey]" type="sliced" />
+        <!-- <sprite depth="2" name="iconTrack" style="icon22px" pos="280,2" color="{objectivecompletecolor}" sprite="{objectivecompletesprite}" visible="{objectiveshowicon}" /> -->
+        <label pos="0,-6" depth="3" width="295" font_size="26" text="{voteline2}" color="{line2textcolor}" justify="right" />
+      </rect>
+    </rect>
+  </twitch_vote_entry>
+  <twitch_action_entry depth="3" pos="0,0" width="200" height="32">
+    <rect width="530" height="43" controller="TwitchActionEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" positive_color="175,175,255" negative_color="255,175,175" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]" failed_icon="ui_game_symbol_x" sound_play_on_hover="[default_hover]">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="530" height="49" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" pos="-1,1" height="45" width="526" color="{rowstatecolor}" sprite="{rowstatesprite}" type="sliced" />
+      <!-- <grid depth="0" pos="8,-6" cols="2" cell_width="40" cell_height="40" repeat_content="false" arrangement="horizontal"> -->
+      <sprite depth="5" name="Icon" style="icon32px" pos="8,-3" foregroundlayer="true" sprite="{actionicon}" color="{iconcolor}" visible="{showicon}" />
+      <label depth="4" pos="48,-8" width="330" height="40" text="{actiontitle}" color="{textstatecolor}" />
+      <!-- </grid> -->
+      <label depth="4" pos="520,-20" width="200" font_size="30" text="{actioncommand}" justify="right" color="{commandcolor}" pivot="right" />
+    </rect>
+  </twitch_action_entry>
+  <twitch_voteinfo_entry depth="3" pos="0,0" width="200" height="32">
+    <rect width="530" height="43" controller="TwitchVoteInfoEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" positive_color="175,175,255" negative_color="255,175,175" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]" failed_icon="ui_game_symbol_x" sound_play_on_hover="[default_hover]">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="530" height="49" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" pos="-1,1" height="45" width="526" color="{rowstatecolor}" sprite="{rowstatesprite}" type="sliced" />
+      <!-- <grid depth="0" pos="8,-6" cols="2" cell_width="40" cell_height="40" repeat_content="false" arrangement="horizontal"> -->
+      <sprite depth="5" name="Icon" style="icon32px" pos="8,-3" foregroundlayer="true" sprite="{voteicon}" color="{iconcolor}" visible="{showicon}" />
+      <label depth="4" pos="48,-8" width="460" height="40" text="{votetitle}" color="{votecolor}" />
+      <!-- </grid> -->
+      <!-- <label depth="4" pos="480,-20" width="200" font_size="30" text="{actioncommand}" justify="right" color="{commandcolor}" pivot="right" /> -->
+    </rect>
+  </twitch_voteinfo_entry>
+  <twitch_action_history_entry depth="3" pos="0,0" width="200" height="32">
+    <rect width="530" height="43" controller="TwitchActionHistoryEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" positive_color="175,175,255" negative_color="255,175,175" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]" failed_icon="ui_game_symbol_x" sound_play_on_hover="[default_hover]">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="530" height="49" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" pos="-1,1" height="45" width="526" color="{rowstatecolor}" sprite="{rowstatesprite}" type="sliced" />
+      <!-- <sprite depth="5" name="Icon" style="icon32px" pos="8,-3" foregroundlayer="true" sprite="{actionicon}" color="{iconcolor}" /> -->
+      <label depth="4" pos="8,-8" width="330" height="30" text="{command}" color="{commandcolor}" />
+      <label depth="4" pos="520,-20" width="200" font_size="30" text="{username}" color="{textstatecolor}" justify="right" pivot="right" />
+    </rect>
+  </twitch_action_history_entry>
+  <twitch_leaderboard_entry depth="3" pos="0,0" width="200" height="32">
+    <rect width="530" height="43" controller="TwitchLeaderboardEntry" style="press, hover, scroll" positive_color="175,175,255" negative_color="255,175,175" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]" failed_icon="ui_game_symbol_x" sound_play_on_hover="[default_hover]">
+      <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="530" height="49" color="[black]" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" pos="-1,1" height="45" width="526" color="${backgroundcolor}" type="sliced" />
+      <!-- <sprite depth="5" name="Icon" style="icon32px" pos="8,-3" foregroundlayer="true" sprite="{actionicon}" color="{iconcolor}" /> -->
+      <label depth="4" pos="8,-8" width="330" height="30" text="{username}" />
+      <label depth="4" pos="515,-20" width="200" font_size="30" text="{kills}" justify="right" pivot="right" />
+    </rect>
+  </twitch_leaderboard_entry>
+  <sign_editor_header text_key="text_key" width="350">
+    <rect>
+      <sprite depth="1" name="background" color="[darkGrey]" type="sliced" pos="2,-2" width="${0 + width - 4}" height="41" />
+      <label pos="10,-10" depth="4" width="${width-20}" height="30" style="hover" tooltip_key="" text_key="${text_key}" font_size="28" color="[white]" justify="left" pivot="topleft" />
+    </rect>
+  </sign_editor_header>
+  <sign_editor_header_bake text_key="text_key" width="350">
+    <rect>
+      <sprite depth="1" name="background" color="[darkGrey]" type="sliced" pos="2,-2" width="${0 + width - 4}" height="41" />
+      <label pos="10,-10" depth="4" width="${width-20}" height="30" style="hover" tooltip_key="" text_key="${text_key}" font_size="28" color="[white]" justify="left" pivot="topleft" />
+      <simplebutton name="btnBake" depth="5" pos="${0 + width - 87},-6" width="80" height="34" font_size="24" caption_key="btnSignBake" />
+    </rect>
+  </sign_editor_header_bake>
+  <sign_editor_debug text_key="text" label_width="180" value_width="80">
+    <rect>
+      <label pos="10,-10" depth="4" width="${label_width-20}" height="30" style="hover" tooltip_key="" text_key="${text_key}" font_size="28" color="[white]" justify="right" pivot="topleft" />
+      <label name="value" depth="5" pos="${label_width},-10" width="${value_width}" height="30" text="-" font_size="28" pivot="topLeft" />
+    </rect>
+  </sign_editor_debug>
+  <sign_editor_text1 text="text" label_width="144" value_width="198" justify="right" pos_x="10" pos_y="-10" validation="none">
+    <rect controller="SignEditorControl">
+      <label pos="${pos_x},${pos_y}" depth="4" width="${label_width-20}" height="30" style="hover" tooltip_key="" text_key="${text_key}" font_size="28" color="[white]" justify="${justify}" pivot="topleft" />
+      <textfield name="value" depth="5" pos="${label_width},${pos_y}" width="${value_width}" height="30" font_size="28" pivot="topLeft" on_hover="true" character_limit="50" validation="${validation}" />
+    </rect>
+  </sign_editor_text1>
+  <sign_editor_text2 text="text" label_width="144" value_width="95" value_padding="8" pos_x="10" pos_y="-10" justify="right" validation="none">
+    <rect controller="SignEditorControl">
+      <label pos="${pos_x},${pos_y}" depth="4" width="${label_width-20}" height="30" style="hover" tooltip_key="" text_key="${text_key}" font_size="28" color="[white]" justify="${justify}" pivot="topleft" />
+      <textfield name="valueA" depth="5" pos="${label_width},${pos_y}" width="${value_width}" height="30" font_size="28" on_hover="true" character_limit="50" validation="${validation}" />
+      <textfield name="valueB" depth="5" pos="${0 + value_width + label_width + value_padding},${pos_y}" width="${value_width}" height="30" font_size="28" on_hover="true" character_limit="50" validation="${validation}" />
+    </rect>
+  </sign_editor_text2>
+  <sign_editor_cbx text="" label_width="144" value_width="198" value_padding="8" type="${type}" value_min="@DEF" value_max="@DEF" value_wrap="@DEF" value_increment="@DEF" values="@DEF" reverse_list="@DEF" localization_prefix="" format_string="">
+    <rect controller="SignEditorControl">
+      <label name="label" pos="10,-10" depth="4" width="${label_width-20}" height="30" style="hover, press" text_key="${text_key}" font_size="28" color="[white]" justify="right" pivot="topleft" />
+      <combobox name="value" depth="5" pos="${label_width},-10" width="${value_width}" height="30" type="${type}" value_min="${value_min}" value_max="${value_max}" value_wrap="${value_wrap}" value_increment="${value_increment}" values="${values}" reverse_list="${reverse_list}" localization_prefix="${localization_prefix}" format_string="${format_string}" />
+    </rect>
+  </sign_editor_cbx>
+  <item_stackAGF controller="ItemStack" on_scroll="false" allow_dropping="true" prefix_id="false" show_favorites="false" cell_size="[itemStack:width]">
+    <!--Element appended by: "AGF-BackpackPlus-119Slots"-->
+    <rect controller="${controller}" style="itemStack, hover" width="${cell_size}" height="${cell_size}" on_scroll="${on_scroll}" allow_dropping="${allow_dropping}" prefix_id="${prefix_id}" show_favorites="${show_favorites}" tooltip="{tooltip}" enabled="{# !defined('userlockmode') or !userlockmode}" visible="{# !defined('container_slots') or (int(${repeat_i}) &lt; int(container_slots)) }">
+      <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" color="[black]" type="sliced" fillcenter="false" width="${3+cell_size}" height="${3+cell_size}" />
+      <sprite depth="3" name="background" sprite="menu_empty3px" color="{selectionbordercolor}" type="sliced" fillcenter="false" width="${-2+cell_size}" height="${-2+cell_size}" />
+      <sprite depth="2" name="highlightOverlay" color="{backgroundcolor}" pos="0,0" type="sliced" width="${-3+cell_size}" height="${-3+cell_size}" />
+      <texture depth="3" name="backgroundTexture" material="Materials/Transparent Colored" size="${-2+cell_size},${-2+cell_size}" />
+      <sprite depth="8" name="favoriteIcon" width="24" height="24" sprite="server_favorite" pos="2,-2" foregroundlayer="true" visible="{isfavorite}" />
+      <sprite depth="7" name="itemIcon" width="${-11+cell_size}" height="${-11+cell_size}" atlas="ItemIconAtlas" sprite="{itemicon}" pivot="center" foregroundlayer="true" color="{iconcolor}" pos="${Floor(cell_size/2)},${-Floor(cell_size/2)}" />
+      <sprite depth="8" name="lockTypeIcon" width="24" height="24" sprite="{locktypeicon}" pos="2,-2" foregroundlayer="true" />
+      <sprite depth="8" name="itemtypeicon" width="24" height="24" sprite="ui_game_symbol_{itemtypeicon}" pos="2,-2" foregroundlayer="true" visible="{hasitemtypeicon}" color="{itemtypeicontint}" />
+      <sprite depth="2" name="durabilityBackground" sprite="menu_empty3px" color="185,0,0,255" type="sliced" globalopacitymod="0" visible="{haspermadurability}" width="${-5+cell_size}" height="10" pos="1,${-Floor(4*cell_size/5)}" />
+      <sprite depth="4" name="durability" sprite="menu_empty2px" color="[darkGrey]" fill="{removeddurabilityfill}" type="filled" fillspritepad="true" globalopacitymod="0" visible="{hasdurability}" width="${-5+cell_size}" height="10" pos="1,${-Floor(4*cell_size/5)}" />
+      <filledsprite depth="5" name="durability" sprite="menu_empty2px" color="{durabilitycolor}" fill="{durabilityfill}" type="filled" globalopacitymod="0" visible="{hasdurability}" width="${-5+cell_size}" height="10" pos="1,${-Floor(4*cell_size/5)}" />
+      <label depth="8" name="stackValue" height="28" text="{itemcount}" font_size="26" effect="outline" justify="{#hasdurability ? 'Center' : 'Right'}" pos="-2,${-Floor(3*cell_size/5)}" width="${-5+cell_size}" />
+      <label depth="8" name="timer" height="24" font_size="24" justify="center" pivot="center" color="[beige]" effect="outline" pos="${Floor(cell_size/2)},${-Floor(cell_size/2)}" width="${-5+cell_size}" effect_distance="1,1" effect_color="0,0,0,255" />
+      <sprite depth="9" name="cancel" sprite="ui_game_symbol_x" color="255,0,0,255" type="sliced" visible="{# ishovered and islocked}" foregroundlayer="true" width="${-5+cell_size}" height="${-5+cell_size}" />
+      <sprite depth="13" name="assembleIcon" sprite="{stacklockicon}" color="{stacklockcolor}" visible="{isassemblelocked}" pos="14,-14" foregroundlayer="true" size="${-35+cell_size},${-35+cell_size}" />
+      <sprite depth="14" name="quickswapIcon" size="30,30" sprite="server_refresh" pos="40,-2" foregroundlayer="true" visible="{isQuickSwap}" />
+      <!--Element removed by: "AGF-BackpackPlus-119Slots" (XPath: "/templates/item_stackAGF/rect/button")-->
+      <!--Element removed by: "AGF-BackpackPlus-119Slots" (XPath: "/templates/item_stackAGF/rect/sprite[@name='iconSlotLock']")-->
+      <button name="rectSlotLock" depth="15" style="press, hover" width="${-2+cell_size}" height="${-2+cell_size}" visible="{# defined('userlockmode') and userlockmode}" sprite="" hoverscale="1" use_selection_box="true">
+        <!--Element appended by: "AGF-BackpackPlus-119Slots"-->
+        <sprite name="slotLockOverlayFill" width="${-3+cell_size}" height="${-3+cell_size}" sprite="menu_empty3px" type="sliced" fillcenter="true" color="{# userlockedslot ? '255,0,0,150' : '0,255,0,150' }" />
+        <sprite name="slotLockOverlayBorder" width="${-3+cell_size}" height="${-3+cell_size}" sprite="menu_empty3px" type="sliced" fillcenter="false" color="{# userlockedslot ? '255,0,0,150' : '0,255,0,150' }" />
+      </button>
+      <sprite depth="3" name="iconSlotLockFill" width="${-3+cell_size}" height="${-3+cell_size}" sprite="menu_empty3px" type="sliced" fillcenter="true" visible="{# defined('userlockmode') and !userlockmode and userlockedslot }" color="255,0,0,150">
+        <!--Element appended by: "AGF-BackpackPlus-119Slots"-->
+      </sprite>
+      <sprite depth="3" name="iconSlotLockBorder" width="${-3+cell_size}" height="${-3+cell_size}" sprite="menu_empty3px" type="sliced" fillcenter="false" visible="{# defined('userlockmode') and !userlockmode and userlockedslot }" color="255,0,0,150">
+        <!--Element appended by: "AGF-BackpackPlus-119Slots"-->
+      </sprite>
+    </rect>
+  </item_stackAGF>
+  <item_action_entry7>
+    <!--Element appended by: "AGF-BackpackPlus-119Slots"-->
+    <rect height="31" controller="ItemActionEntry" disabled_font_color="[disabledLabelColor]" default_font_color="[labelColor]" default_background_color="[mediumGrey]">
+      <sprite depth="3" name="background" color="[mediumGrey]" type="sliced" on_press="true" on_hover="true" width="147" sound_play_on_hover="[default_hover]" gamepad_selectable="false" />
+      <sprite depth="4" name="Icon" sprite="{actionicon}" size="24,24" color="{statuscolor}" pos="2,-3" foregroundlayer="true" />
+      <label depth="4" name="Name" pos="32,-15" width="78" height="26" text="{actionname}" font_size="26" color="{statuscolor}" effect="shadow" pivot="left" />
+      <gamepad_icon depth="4" name="gamepadIcon" size="44,44" pos="146,-22" pivot="Right" visible="{inspectheld}" />
+      <label depth="4" name="keyboardButton" pos="145,-15" width="36" height="26" text="&lt;W&gt;" font_size="26" color="{statuscolor}" effect="shadow" pivot="right" justify="center" />
+    </rect>
+  </item_action_entry7>
+  <companion_buff_entry>
+    <!--Element appended by: "Companions"-->
+    <rect name="companionBuffEntry" width="40" height="40" controller="CompanionBuffEntry, CHHusbandry" visible="{buffvisible}">
+      <sprite depth="0" name="backgroundBorder" sprite="menu_empty3px" color="0,0,0,255" width="40" height="40" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" sprite="menu_empty" color="0,0,0,235" pos="1,-1" width="38" height="38" type="sliced" />
+      <sprite depth="2" name="buffIcon" sprite="{bufficon}" color="{buffcolor}" pos="4,-4" width="32" height="32" />
+      <label depth="3" name="buffTime" text="{bufftime}" pos="-20,-23" width="80" height="16" font_size="16" justify="center" />
+    </rect>
+  </companion_buff_entry>
+  <ebr_material_entry>
+    <!--Element appended by: "EfficientBaseRepair"-->
+    <rect depth="12" style="press, hover, scroll" controller="EBRMaterialEntry, EfficientBaseRepair" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" sound_play_on_hover="[default_hover]">
+      <sprite depth="2" name="backgroundMain" pos="0,3" width="260" height="49" color="[black]" type="sliced" />
+      <sprite depth="3" name="background" width="254" height="44" pos="3,0" color="[darkGrey]" type="sliced" />
+      <sprite depth="4" name="icon" atlas="ItemIconAtlas" sprite="{iconName}" size="40,40" pos="5,-2" foregroundlayer="true" />
+      <label depth="8" name="label" pos="60,-12" width="150" height="30" font_size="24" />
+    </rect>
+  </ebr_material_entry>
+  <CATUI_stat_health_bar>
+    <!--Element appended by: "CATUI"-->
+    <rect pos="${inner_pos_x}, ${inner_pos_y}" width="${width}" height="${height}" controller="${controller}" stat_type="${stat_type}" tooltip_key="${tooltip_key}" visible="{statvisible}">
+      <sprite type="filled" width="${inner_width}" color="54,54,54" fill="{#Round(statmodifiedmax, 2)}" sprite="catui_stat_health_bar_bg" globalopacity="false" fillInvert="false" />
+      <sprite type="filled" width="${inner_width}" fill="{#1 - Round(statmodifiedmax, 2)}" sprite="catui_stat_health_bar_disabled" foregroundlayer="true" fillInvert="true" />
+      <sprite type="filled" width="${inner_width}" fill="{statfill}" sprite="catui_stat_health_bar_enabled" foregroundlayer="true" fillInvert="false" />
+      <sprite name="Icon" pos="-20,-14" sprite="ui_game_symbol_add" color="[white]" size="20,20" globalopacity="false" justify="center" pivot="center" />
+      <!-- 生命值小于0.3时显示警告图标 -->
+      <sprite name="Icon" pos="-20,-14" sprite="ui_game_symbol_add" color="[white]" size="20,20" globalopacity="false" justify="center" pivot="center" visible="{# Round(statfill, 1) &lt; 0.3 }">
+        <tween type="scale" start="1,1,1" end="2.5,2.5,1" enabled="{# Round(statfill, 1) &lt; 0.3 }" repeat="Loop" duration="0.8" play_forward="true" />
+        <tween type="Color" start="255,255,255" end="255,0,0,100" enabled="{# Round(statfill, 1) &lt; 0.3 }" repeat="Loop" duration="0.8" play_forward="true" />
+      </sprite>
+      <label pos="16,-3" width="${inner_width}" font_size="22" color="[white]" text="{statcurrentwithmax}" style="CATUI.text.shadow.black.1px" justify="left" />
+    </rect>
+  </CATUI_stat_health_bar>
+  <CATUI_stat_stamina_bar>
+    <!--Element appended by: "CATUI"-->
+    <rect pos="${inner_pos_x}, ${inner_pos_y}" width="${width}" height="${height}" controller="${controller}" stat_type="${stat_type}" tooltip_key="${tooltip_key}" visible="{statvisible}">
+      <sprite type="filled" width="${inner_width}" color="54,54,54" fill="{#Round(statmodifiedmax, 2)}" sprite="catui_stat_stamina_bar_bg" globalopacity="false" fillInvert="true" />
+      <sprite type="filled" width="${inner_width}" fill="{#1 - Round(statmodifiedmax, 2)}" sprite="catui_stat_stamina_bar_disabled" foregroundlayer="true" fillInvert="false" />
+      <sprite type="filled" width="${inner_width}" fill="{statfill}" sprite="catui_stat_stamina_bar_enabled" foregroundlayer="true" fillInvert="true" />
+      <sprite name="Icon" pos="283,-14" sprite="ui_game_symbol_electric_power" color="[white]" size="20,20" globalopacity="false" justify="center" pivot="center" />
+      <label pos="-16,-3" width="${inner_width}" font_size="22" color="[white]" text="{statcurrentwithmax}" style="CATUI.text.shadow.black.1px" justify="right" />
+    </rect>
+  </CATUI_stat_stamina_bar>
+  <CATUI_state_item>
+    <!--Element appended by: "CATUI"-->
+    <rect name="${name}" width="50" height="50" controller="${controller}" tooltip_key="${tooltip_key}" visible="${visible}">
+      <!-- <sprite pos="-1, 1" size="52,52" sprite="catui_bg_state" gradient_start="[mediumGrey]" gradient_end="[lightGrey]" style="CATUI.sprite.filled.prue" /> -->
+      <sprite sprite="catui_bg_state" gradient_start="[darkestGrey]" gradient_end="[black]" style="CATUI.sprite.filled.prue" />
+      <rect pos="25, -20" pivot="center">
+        <sprite size="28,28" sprite="${icon}" pivot="center" gradient_start="[white]" gradient_end="200,200,200" />
+      </rect>
+      <label pos="0,-36" width="${width}" height="14" font_size="14" color="[white]" text="${text}" style="CATUI.text.outline.black.1px" justify="center" />
+    </rect>
+  </CATUI_state_item>
+  <CATUI_quality_item>
+    <!--Element appended by: "CATUI"-->
+    <rect depth="${depth}" pos="${pos}" width="${width}" height="${height}" visible="${visible}" tooltip_key="${tooltip_key}">
+      <sprite size="${Floor(width)+2},${Floor(height)+2}" sprite="catui_icon_hexagon_round" color="${color}" type="sliced" justify="center" pivot="center" globalopacity="false" />
+      <sprite size="${Floor(width)-2},${Floor(height)-2}" sprite="catui_icon_hexagon_round" color="[black]" type="sliced" justify="center" pivot="center" />
+      <label pos="0,-1" crispness="always" text="${durabilitytext}" font_size="${font_size}" justify="center" pivot="center" />
+    </rect>
+  </CATUI_quality_item>
+  <CATUI_entity_buff_item>
+    <!--Element appended by: "CATUI"-->
+    <rect width="${width}" height="${height}" visible="${visible}" buff_icon_text="0" buff_timer="" buff_corner_text="">
+      <sprite depth="1" pos="-2,2" width="${Floor(width) + 4}" height="${Floor(height) + 4}" color="${buff_color},75" style="CATUI.sprite.filled.prue" type="sliced" />
+      <sprite depth="2" color="[black]" type="sliced" />
+      <sprite depth="3" pos="13,-13" pivot="center" size="22,22" color="${buff_color}" sprite="${buff_icon}" globalopacity="false" />
+      <label depth="4" pos="${width-5}, -5" font_size="13" justify="right" pivot="center" text="${buff_corner_text}" overflow="resizefreely" parse_actions="true" color="[gold]" style="CATUI.text.outline.black.1px" visible="${buff_corner_text != ''}" />
+      <label depth="4" pos="13, -15" font_size="13" justify="center" pivot="center" text="${buff_icon_text}" style="CATUI.text.outline.black.1px" visible="${buff_icon_text != ''}" />
+      <label depth="4" pos="13, -30" font_size="14" justify="center" pivot="center" text="${buff_timer}" style="CATUI.text.shadow.black.1px" visible="${buff_timer != '0'}" />
+    </rect>
+  </CATUI_entity_buff_item>
+  <CATUI_ingredient_row>
+    <!--Element appended by: "CATUI"-->
+    <rect name="row" width="110" height="110" controller="IngredientEntry">
+      <rect style="hover" depth="2" tooltip_key="{itemname}" visible="{# itemname != ''}">
+        <!-- <sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" /> -->
+        <sprite depth="2" pos="55,-55" width="90" height="90" sprite="catui_bg_ingredient" color="{# CATUI_HasComplete ? '67, 207, 124' : '255,82,82' }" pivot="center" globalopacity="false" />
+        <sprite pos="55,-55" width="100" height="100" sprite="catui_bg_skill_icon" color="[darkestGrey]" type="sliced" pivot="center" />
+        <!-- 绱犳潗icon -->
+        <sprite depth="2" pos="55,-55" name="icon" size="56,56" atlas="ItemIconAtlas" sprite="{itemicon}" color="{itemicontint}" pivot="center" foregroundlayer="true" />
+        <!-- 绱犳潗鏁伴噺 -->
+        <label depth="3" name="needCount" pos="55,-96" width="110" height="30" font_size="22" color="[labelColor]" justify="center" pivot="center" text="{# CATUI_HasComplete ? '[43CF7C]' + havecount + '[-]' : '[FF5252]' + havecount + '[-]' }/{needcount}" style="CATUI.text.shadow.black.1px" />
+        <!-- 绱犳潗閰嶆柟 -->
+        <button name="btnInventoryRecipe" depth="3" pos="90, -16" style="press, hover" size="26,26" pivot="center" tooltip="{itemname} {# localization('lblContextActionRecipes') }" defaultcolor="[black_threequarters_alpha]" hoverscale="1.0" hovercolor="[black]" visible="{CATUI_InventoryHasRecipe}" sound_play_on_hover="[default_hover]">
+          <sprite depth="1" pos="0,0" sprite="menu_empty" color="[lightGrey]" pivot="center" type="sliced" fillcenter="false" width="28" height="28" />
+          <sprite depth="1" width="26" height="26" pivot="center" type="sliced" gradient_start="[mediumGrey_half_alpha]" gradient_end="[darkGrey_half_alpha]" />
+          <sprite depth="1" pos="-0,0" sprite="ui_game_symbol_search" size="20,20" color="[white]" pivot="center" type="sliced" />
+        </button>
+      </rect>
+    </rect>
+  </CATUI_ingredient_row>
+  <recipe_entry>
+    <!--Element appended by: "CATUI"-->
+    <rect width="96" height="110" style="press, hover, scroll" controller="RecipeEntry" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" sound_play_on_hover="[default_hover]" visible="{# recipename != ''}" tooltip_key="{recipename}">
+      <sprite depth="8" name="border" color="255,255,255,36" type="sliced" fillcenter="false" />
+      <!-- 背景 XUiC_RecipeEntry 硬编码了-->
+      <sprite depth="1" name="background" pos="0,0" color="[darkGrey]" type="sliced" />
+      <!-- 角标 不可制作 -->
+      <sprite depth="2" sprite="catui_background_disabled_recipe" size="96,81" color="255,255,255,190" visible="{# hasingredientsstatecolor == '160,160,160,255' || unlockicon == 'ui_game_symbol_lock' ? true : false}" globalopacity="false" />
+      <!-- 图标 物品-->
+      <sprite depth="3" name="Icon" atlas="{# unlockicon == 'ui_game_symbol_lock' ? 'ItemIconAtlasGreyscale' : 'ItemIconAtlas'}" sprite="{recipeicon}" color="{recipeicontint}" size="68,68" pos="49,-40" pivot="center" foregroundlayer="true" />
+      <!-- 图标 物品类型-->
+      <sprite depth="4" name="itemtypeicon" size="20,20" sprite="ui_game_symbol_{itemtypeicon}" pos="3,-3" foregroundlayer="true" visible="{hasitemtypeicon}" color="{itemtypeicontint}" />
+      <!-- 角标 收藏-->
+      <sprite depth="6" name="Favorite" sprite="server_favorite" size="20,20" pos="72,-59" visible="{isfavorite}" color="255, 203, 61,255" foregroundlayer="true" />
+      <sprite depth="6" name="Unlocked" sprite="{unlockicon}" size="20,20" pos="72,-3" visible="{isunlockable}" color="{# unlockicon == 'ui_game_symbol_lock' ? '187,45,59,255' : unlockstatecolor}" foregroundlayer="true" />
+      <!-- 物品名称 -->
+      <rect depth="5" pos="0,-81" width="96" height="30">
+        <sprite gradient_start="[black_threequarters_alpha]" gradient_end="[black]" type="sliced" />
+        <label pos="48,-15" name="Name" width="96" height="30" text="{recipename}" font_size="14" color="{hasingredientsstatecolor}" justify="center" pivot="center" />
+      </rect>
+    </rect>
+  </recipe_entry>
+  <item_stack controller="ItemStack" on_scroll="false" allow_dropping="true" prefix_id="false" show_favorites="false" show_slotnum="false" allow_clicklock="true" transform_scale="1" cell_size="[itemStack:width]">
+    <!--Element appended by: "CATUI"-->
+    <rect name="itemStackContent" controller="${controller}" style="itemStack, hover" collider_scale="1.0" width="${cell_size}" height="${cell_size}" on_scroll="${on_scroll}" allow_dropping="${allow_dropping}" prefix_id="${prefix_id}" show_favorites="${show_favorites}" tooltip="{tooltip}" enabled="{# !defined('userlockmode') or !userlockmode}" visible="{# !defined('container_slots') or (int(${repeat_i}) &lt; int(container_slots)) }" show_slotnum="${show_slotnum}" allow_clicklock="${allow_clicklock}" mod_highlight="[04FE85]▇[-]" mod_default="[A6A6A6]▇[-]" transform_scale="${transform_scale}">
+      <!-- 边框 - 物品的边框，区分多种状态的多种颜色,各种状态参见：XUiC_ItemStack -->
+      <sprite depth="5" name="background" sprite="menu_empty2px" width="${2+cell_size}" height="${2+cell_size}" pos="-1,1" color="{# selectionbordercolor == '96,96,96,255' ? '96,96,96,150' : selectionbordercolor }" type="sliced" globalopacity="true" fillcenter="false" />
+      <!-- 背景 - 底色 -->
+      <sprite depth="2" name="highlightOverlay" color="25,25,25,255" type="sliced" globalopacity="true" width="${cell_size}" height="${cell_size}" />
+      <!-- 方块助手材质背景（油漆刷子） -->
+      <texture depth="3" pos="1,-1" name="backgroundTexture" material="Materials/Transparent Colored" size="${-2+cell_size},${-2+cell_size}" globalopacity="true" />
+      <!-- 书籍 未读 -->
+      <sprite depth="3" name="backgroundBookLearn" width="${cell_size}" height="${cell_size}" sprite="catui_bg_book_learn" color="[white]" type="sliced" visible="{# itemtypeicon == 'book'}" />
+      <!-- 收藏 -->
+      <sprite depth="8" name="favoriteIcon" width="24" height="24" sprite="server_favorite" pos="2,-2" foregroundlayer="true" visible="{isfavorite}" />
+      <!-- 物品图标 -->
+      <sprite depth="6" name="itemIcon" width="${-6+cell_size}" height="${-6+cell_size}" atlas="ItemIconAtlas" sprite="{itemicon}" pos="${Floor(cell_size/2)-1},${-Floor(cell_size/2)-1}" pivot="center" foregroundlayer="true" color="{iconcolor}" />
+      <!-- 物品状态角标 (特殊属性展示星星，传说装备不展示) -->
+      <!-- 星星不展示，下面单独判断 locktypeicon != 'server_favorite' -->
+      <!-- 传说装备不展示 !(CATUI_itemLegendary and itemcount &gt; 5) -->
+      <!-- 模组角标icon不展示，下面有单独的dom name="itemStackModifications"， locktypeicon != 'ui_game_symbol_modded' -->
+      <sprite depth="8" name="lockTypeIcon" width="24" height="24" sprite="{locktypeicon}" pos="2,-2" foregroundlayer="true" visible="{# locktypeicon != 'ui_game_symbol_modded' and locktypeicon != 'server_favorite' and !(CATUI_itemLegendary and itemcount &gt; 5)}" />
+      <!-- 物品状态角标 属性增强装备-->
+      <sprite depth="8" name="lockTypeIcon" width="20" height="20" sprite="server_favorite" color="[gold]" pos="4,-4" foregroundlayer="true" visible="{# CATUI_itemBoosted and !(CATUI_itemLegendary and itemcount &gt; 5) }" />
+      <!-- 传说装备帧动画（所有属性满级，品质大于5） -->
+      <CATUI_animatedsprite depth="4" atlas="Animatedsprite_Legendary" pos="-5,5" x="0" y="0" width="${10+cell_size}" height="${10+cell_size}" sprite="frame_01" spriteprefix="frame_" loop="true" framerate="48" visible="{# CATUI_itemLegendary and itemcount &gt; 5 }" />
+      <!-- <label depth="15" pos="2,0" width="500" height="70" text="{CATUI_itemBoostList}" font_size="14" style="CATUI.text.outline.black.1px" justify="left" /> -->
+      <!-- 模组插槽提示 -->
+      <label depth="7" name="itemStackModifications" width="${-4+cell_size}" pos="0,${14+cell_size * -1}" text="{CATUI_itemStackModifications}" max_line_count="2" spacing_y="2" font_size="4" justify="Right" visible="{# hasdurability }" />
+      <!-- 物品类型角标 -->
+      <sprite depth="8" name="itemtypeicon" width="24" height="24" sprite="ui_game_symbol_{itemtypeicon}" pos="2,-2" foregroundlayer="true" visible="{hasitemtypeicon}" color="{itemtypeicontint}" />
+      <!-- 品质背景 -->
+      <sprite depth="2" width="${-6+cell_size}" height="${-6+cell_size}" color="{durabilitycolor}" pos="3,-3" type="sliced" sprite="Row Outline" globalopacity="false" visible="{hasdurability}" />
+      <!-- 耐久条 -->
+      <!-- 耐久条：永久损耗背景 -->
+      <sprite depth="6" name="durabilityPermanentBackground" width="${-6+cell_size}" height="5" sprite="menu_empty2px" color="185,0,0,255" type="sliced" pos="3,${7-cell_size}" foregroundlayer="true" visible="{haspermadurability}" />
+      <!-- 耐久条：损失耐久度 -->
+      <sprite depth="7" name="removedDurability" width="${-6+cell_size}" height="5" sprite="menu_empty2px" color="[darkGrey]" fill="{removeddurabilityfill}" type="filled" fillspritepad="true" pos="3,${7-cell_size}" foregroundlayer="true" visible="{# hasdurability and locktypeicon != 'ui_game_symbol_assemble'}" />
+      <!-- 耐久条：当前耐久度 -->
+      <filledsprite depth="8" name="durability" width="${-6+cell_size}" height="5" sprite="menu_empty2px" color="[white]" fill="{durabilityfill}" type="filled" pos="3,${7-cell_size}" foregroundlayer="true" visible="{# hasdurability and locktypeicon != 'ui_game_symbol_assemble'}" />
+      <!-- 物品数量 -->
+      <label depth="7" name="stackValue" pos="-5,${22-cell_size}" width="${cell_size}" height="24" text="{itemcount}" font_size="20" style="CATUI.text.outline.black.1px" justify="Right" visible="{# !hasdurability }" />
+      <!-- 定时器 -->
+      <label depth="7" name="timer" pos="${Floor(cell_size/2)-1},${-Floor(cell_size/2)-1}" width="${cell_size}" height="24" font_size="24" justify="center" pivot="center" color="[beige]" style="CATUI.text.outline.black.1px" />
+      <!-- 不可用 -->
+      <sprite depth="9" name="cancel" sprite="ui_game_symbol_x" color="255,0,0,255" type="sliced" visible="{# ishovered and islocked}" foregroundlayer="true" width="${-5+cell_size}" height="${-5+cell_size}" />
+      <!-- 组装锁定 -->
+      <sprite depth="13" name="assembleIcon" size="${-32+cell_size},${-32+cell_size}" sprite="{stacklockicon}" color="{stacklockcolor}" visible="{isassemblelocked}" pos="14,-14" foregroundlayer="true" />
+      <!-- 栏位锁 -->
+      <button name="rectSlotLock" depth="15" sprite="" style="press, hover" width="${-1+cell_size}" height="${-1+cell_size}" visible="{# defined('userlockmode') and userlockmode}" hoverscale="1" use_selection_box="true">
+        <sprite depth="16" name="slotLockIcon" width="24" height="24" sprite="{# !defined('userlockmode') ? '' : (userlockedslot ? 'ui_game_symbol_lock' : 'ui_game_symbol_unlock') }" pos="${cell_size-16},-16" style="icon32px" pivot="center" color="{# !defined('userlockmode') ? '255,255,255,1' : (userlockedslot ? '222,206,163' : '255,255,255') }" />
+      </button>
+      <sprite depth="3" name="rectSlotLocked" sprite="catui_bg_lock_slot" width="${cell_size}" height="${cell_size}" color="[CATUI_yellow]" type="sliced" fillcenter="false" globalopacity="true" visible="{userlockedslot}" />
+      <!-- 快速切换 -->
+      <sprite depth="14" name="quickswapIcon" size="30,30" sprite="server_refresh" pos="3,${36-cell_size}" foregroundlayer="true" visible="{isQuickSwap}" />
+      <!-- 工具栏数字编号 -->
+      <rect depth="15" pos="0,${-27-cell_size}" width="15" height="15" visible="{# ${show_slotnum} and CATUI_itemStackSlotIndex != '0'}">
+        <sprite size="20,16" type="sliced" justify="center" pivot="center" sprite="catui_bg_toolbelt_slot_num" pos="${Floor(cell_size/2)},16" gradient_start="[white]" gradient_end="225,225,225" />
+        <label pos="${Floor(cell_size/2)},15" text="{CATUI_itemStackSlotIndex}" justify="center" pivot="center" font_size="15" color="[black]" />
+      </rect>
+    </rect>
+  </item_stack>
+  <quest_objective_tracker_entry>
+    <!--Element appended by: "CATUI"-->
+    <rect width="${width}" height="${height}" controller="QuestTrackerObjectiveEntry" visible="{hasobjective}">
+      <sprite pos="-10,3" color="[darkestGrey]" type="sliced" style="CATUI.sprite.filled.prue" visible="{hasobjective}" />
+      <sprite pos="-10,3" color="[darkGrey]" type="sliced" sprite="catui_background_gradient" flip="Vertically" visible="{hasobjective}" />
+      <sprite pos="-10,3" width="3" color="{objectivecompletecolor}" type="sliced" style="CATUI.sprite.filled.prue" visible="{hasobjective}" />
+      <sprite depth="2" name="iconTrack" size="24,24" pos="0,0" color="{objectivecompletecolor}" sprite="{objectivecompletesprite}" visible="{objectiveshowicon}" />
+      <label depth="1" pos="{# objectiveshowicon ? '139' : '109' },-15" text="{objectiveoptional}[{objectivephasehexcolor}]{objectivedescription}[-] [{objectivecompletehexcolor}]{objectivestate}[-]" font_size="20" justify="left" visible="{hasobjective}" width="210" pivot="center" />
+    </rect>
+  </quest_objective_tracker_entry>
+  <recipe_ingredient_tracker_entry>
+    <!--Element appended by: "CATUI"-->
+    <rect width="${width}" height="${height}" controller="RecipeTrackerIngredientEntry" visible="{hasingredient}">
+      <sprite pos="-10,3" color="[darkestGrey]" type="sliced" style="CATUI.sprite.filled.prue" visible="{hasingredient}" />
+      <sprite pos="-10,3" color="[darkGrey]" type="sliced" sprite="catui_background_gradient" flip="Vertically" visible="{hasingredient}" />
+      <sprite pos="-12,3" width="3" color="{CATUI_IngredientCompleteColor}" type="sliced" style="CATUI.sprite.filled.prue" visible="{hasingredient}" />
+      <sprite depth="2" atlas="ItemIconAtlas" name="iconTrack" size="26,26" pos="0,0" color="{itemicontint}" sprite="{itemicon}" visible="{hasingredient}" />
+      <label depth="1" pos="139,-15" text="{itemname} [{ingredientcompletehexcolor}]{itemcount}[-]" font_size="20" justify="left" visible="{hasingredient}" width="210" pivot="center" />
+    </rect>
+  </recipe_ingredient_tracker_entry>
+  <equipment_stack_sdcs slot="" empty_sprite="" empty_tooltip="">
+    <!--Element appended by: "CATUI"-->
+    <rect depth="1" controller="EquipmentStack" style="itemStack, hover" tooltip="test" width="72" height="72" slot="${slot}" empty_sprite="${empty_sprite}" empty_tooltip="${empty_tooltip}" transform_scale="1.16">
+      <sprite depth="4" name="backgroundMain" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" />
+      <!-- 杈规 - 鐗╁搧鐨勮竟妗嗭紝鍖哄垎澶氱鐘舵€佺殑澶氱棰滆壊,鍚勭鐘舵€佸弬瑙侊細XUiC_ItemStack -->
+      <sprite depth="3" name="background" sprite="menu_empty3px" color="{selectionbordercolor}" type="sliced" globalopacity="true" fillcenter="false" />
+      <!-- 鑳屾櫙 - 搴曡壊 -->
+      <sprite depth="2" name="highlightOverlay" color="25,25,25,255" pos="0,0" type="sliced" globalopacity="false" />
+      <!-- 鍥炬爣 - 鐗╁搧鍥炬爣 -->
+      <sprite depth="6" name="itemIcon" width="66" height="66" atlas="ItemIconAtlas" sprite="campfire" pos="35,-37" pivot="center" foregroundlayer="true" />
+      <!-- 瑙掓爣 - 宸插畨瑁呮ā缁?-->
+      <sprite depth="8" name="lockTypeIcon" width="24" height="24" sprite="" pos="2,-2" foregroundlayer="true" />
+      <rect visible="{CATUI_hasQuality}">
+        <!-- 鑳屾櫙 - 鐗╁搧鍝佽川 -->
+        <sprite depth="2" width="66" height="66" color="{CATUI_durabilityColor}" pos="3,-3" type="sliced" sprite="Row Outline" globalopacity="true" />
+        <!-- 鐗╁搧鑰愪箙 -->
+        <sprite depth="7" name="durabilityBackground" width="66" height="4" sprite="menu_empty3px" color="[darkGrey]" type="sliced" pos="3, -65" foregroundlayer="true" />
+        <filledsprite depth="7" name="durabilityFill" width="66" height="4" sprite="menu_empty2px" color="255, 255, 255, 255" fill="{CATUI_durabilityFill}" type="filled" pos="3, -65" foregroundlayer="true" />
+      </rect>
+      <!-- 鐗╁搧鏁伴噺 -->
+      <label name="stackValue" pos="0,0" text="" visible="false" />
+    </rect>
+  </equipment_stack_sdcs>
+  <drag_item_stack>
+    <!--Element appended by: "CATUI"-->
+    <rect controller="ItemStack" width="72" height="72" pos="-35,35">
+      <sprite depth="3" name="background" width="1" height="1" color="{selectionbordercolor}" type="sliced" globalopacity="true" />
+      <sprite depth="6" name="itemIcon" width="66" height="66" atlas="ItemIconAtlas" sprite="{itemicon}" pos="35,-37" pivot="center" foregroundlayer="true" color="{iconcolor}" />
+      <!-- 背景 - 物品品质 -->
+      <sprite depth="5" width="66" height="66" color="{durabilitycolor}" pos="3,-3" type="sliced" sprite="Row Outline" globalopacity="false" visible="{hasdurability}" />
+      <!-- 物品耐久（） -->
+      <!-- <sprite depth="7" name="durabilityBackground" width="66" height="4" sprite="menu_empty3px" color="[darkGrey]" type="sliced" pos="3, -65" foregroundlayer="true" visible="{hasdurability}" />
+				<filledsprite depth="7" name="durability" width="66" height="4" sprite="menu_empty2px" color="255, 255, 255, 255" fill="{durabilityfill}" type="filled" pos="3, -65" foregroundlayer="true" visible="{hasdurability}" /> -->
+      <!-- 物品数量 -->
+      <label depth="7" name="stackValue" pos="-5,-50" text="{itemcount}" font_size="20" effect="outline" effect_distance="1,1" effect_color="0,0,0,255" justify="Right" visible="{#hasdurability ? 'false' : 'true'}" />
+    </rect>
+  </drag_item_stack>
+  <party_entry>
+    <!--Element appended by: "CATUI"-->
+    <rect width="${width}" height="${height}" controller="PartyEntry" visible="{partyvisible}" default_health_color="255,255,255,255" twitch_health_color="100,65,165,255">
+      <sprite pos="-3, 3" width="${Floor(width) + 6}" height="${Floor(height) + 6}" color="[darkestGrey]" style="CATUI.sprite.filled.prue" />
+      <!-- 队友 名称 -->
+      <label name="TextContent" pos="75, -11" font_size="20" color="{arrowcolor}" justify="left" pivot="center" text="{name}" height="26" width="150" style="CATUI.text.shadow.black.1px" />
+      <!-- 队友 血条 -->
+      <rect width="${Floor(width) - 50}" height="16" pos="0, -24">
+        <sprite name="BarHealthModifiedMax" sprite="catui_stat_background_bar" type="filled" color="[black]" fill="{healthmodifiedmax}" globalopacity="false" />
+        <sprite name="PlayerBarHealth" sprite="catui_stat_background_bar" type="filled" color="{# healthfill &lt; 0.4 ? '255,0,0' : (healthfill &lt; 0.6 ? '255, 195, 0' : '255,255,255') }" fill="{# Round(healthfill, 3) }" style="CATUI.sprite.filled.prue" globalopacity="false" />
+      </rect>
+      <!-- 队友 颜色 -->
+      <sprite pos="${Floor(width) - 48}, 0" width="4" color="{arrowcolor}" style="CATUI.sprite.filled.prue" />
+      <!-- 队友 方位 -->
+      <rect width="50" height="${height}" pos="${Floor(width) - 44}, 0">
+        <!-- 队友方向 -->
+        <rect pos="23, -14" pivot="center">
+          <sprite name="arrowContent" size="22,22" sprite="ui_game_symbol_map_player_arrow" pivot="center" color="{arrowcolor}" visible="{showarrow}" />
+        </rect>
+        <!-- 队友距离 -->
+        <label name="TextContent" pos="-1,-30" width="48" height="20" font_size="14" color="{distancecolor}" text="{distance}" style="CATUI.text.outline.black.1px" justify="center" />
+      </rect>
+      <!-- 队友 状态 -->
+      <table cols="5" pos="228,4" padding="1,1" hide_inactive="true" always_reposition="true">
+        <!-- 状态2 -->
+        <rect width="26" height="26" visible="{# CATUI_Ping != '-1' }">
+          <sprite depth="2" color="[black]" type="sliced" />
+          <sprite depth="3" name="signal" pos="13,-13" color="{CATUI_PingColor}" pivot="center" size="22,22" sprite="catui_icon_signal" globalopacity="false" />
+          <!-- <label depth="4" pos="0,-13" width="100%" height="14" font_size="14" color="[gold]" text="{CATUI_Ping}" style="CATUI.text.outline.black.1px" justify="center" /> -->
+        </rect>
+        <!-- 服务器组队 - 麦克风 -->
+        <rect width="26" height="26" visible="{voicevisible}">
+          <sprite depth="2" color="[black]" type="sliced" />
+          <sprite depth="3" name="voiceStatus" pos="13,-13" color="{# voicemuted ? '200,0,0,255' : (voiceactive ? '255,255,255,255' : '128,128,128,255') }" pivot="center" size="22,22" sprite="ui_game_symbol_talk" globalopacity="false" />
+        </rect>
+        <!-- 状态1 -->
+        <rect width="26" height="26" visible="{# icon1 != '' }">
+          <sprite depth="2" color="[black]" type="sliced" />
+          <sprite depth="3" name="icon1" pos="13,-13" pivot="center" size="22,22" sprite="{icon1}" globalopacity="false" />
+        </rect>
+        <!-- 状态2 -->
+        <rect width="26" height="26" visible="{# icon2 != '' }">
+          <sprite depth="2" color="[black]" type="sliced" />
+          <sprite depth="3" name="icon2" pos="13,-13" pivot="center" size="22,22" sprite="{icon2}" globalopacity="false" />
+        </rect>
+      </table>
+    </rect>
+  </party_entry>
+  <companion_entry>
+    <!--Element appended by: "CATUI"-->
+    <rect width="${width}" height="${height}" controller="CompanionEntry" visible="{partyvisible}">
+      <sprite pos="-3, 3" width="${Floor(width) + 6}" height="${Floor(height) + 6}" color="[darkestGrey]" style="CATUI.sprite.filled.prue" />
+      <!-- 队友 名称 -->
+      <label name="TextContent" pos="75, -11" font_size="20" color="{arrowcolor}" justify="left" pivot="center" text="{name}" height="26" width="150" style="CATUI.text.shadow.black.1px" />
+      <!-- 队友 血条 -->
+      <rect width="${Floor(width) - 50}" height="16" pos="0, -24">
+        <sprite name="BarHealthModifiedMax" sprite="catui_stat_background_bar" type="filled" color="[black]" fill="{healthmodifiedmax}" globalopacity="false" />
+        <sprite name="PlayerBarHealth" sprite="catui_stat_background_bar" type="filled" color="{# healthfill &lt; 0.4 ? '255,0,0' : (healthfill &lt; 0.6 ? '255, 195, 0' : '255,255,255') }" fill="{# Round(healthfill, 3) }" style="CATUI.sprite.filled.prue" globalopacity="false" />
+      </rect>
+      <!-- 队友 颜色 -->
+      <sprite pos="${Floor(width) - 48}, 0" width="4" color="{arrowcolor}" style="CATUI.sprite.filled.prue" />
+      <!-- 队友 方位 -->
+      <rect width="50" height="${height}" pos="${Floor(width) - 44}, 0">
+        <!-- 队友方向 -->
+        <rect pos="23, -14" pivot="center">
+          <sprite name="arrowContent" size="22,22" sprite="ui_game_symbol_map_player_arrow" pivot="center" color="{arrowcolor}" visible="{showarrow}" />
+        </rect>
+        <!-- 队友距离 -->
+        <label name="TextContent" pos="-2,-30" width="76" font_size="14" height="20" color="{distancecolor}" text="{distance}" style="CATUI.text.outline.black.1px" justify="center" />
+      </rect>s
+			</rect>
+  </companion_entry>
+  <trader_item>
+    <!--Element appended by: "CATUI"-->
+    <rect width="124" height="124" style="press, hover, scroll" controller="TraderItemEntry" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" sound_play_on_hover="[default_hover]" visible="{# itemprice != '' }" tooltip_key="{CATUI_ItemName}">
+      <sprite depth="8" name="border" color="255,255,255,36" type="sliced" fillcenter="false" />
+      <sprite depth="1" name="background" pos="0,0" width="124" height="124" color="[darkGrey]" type="sliced" />
+      <sprite depth="2" height="124" color="{durabilitycolor}" pos="0,0" type="sliced" sprite="Row Outline" globalopacity="true" visible="{hasdurability}" />
+      <!-- 物品名称 -->
+      <rect depth="3" pos="0,0" height="24">
+        <sprite gradient_start="128,128,128,64" gradient_end="255,255,255,64" type="sliced" height="24" />
+        <label name="Name" pos="66,-13" width="120" height="24" text="{CATUI_ItemName}" font_size="14" color="{statecolor}" pivot="center" justify="left" style="CATUI.text.shadow.black.1px" />
+      </rect>
+      <!-- 物品图标 -->
+      <rect depth="3" pos="0, 0" height="24">
+        <sprite depth="2" name="Icon" atlas="ItemIconAtlas" sprite="{itemicon}" color="{itemicontint}" size="68,68" pos="64,-60" pivot="center" foregroundlayer="true" />
+        <sprite depth="8" name="itemtypeicon" pos="2,-26" atlas="UIAtlas" size="20,20" sprite="ui_game_symbol_{itemtypeicon}" foregroundlayer="true" visible="{hasitemtypeicon}" color="{itemtypeicontint}" />
+        <sprite depth="8" name="boostedIcon" pos="2,-26" width="20" height="20" sprite="server_favorite" foregroundlayer="true" visible="{hasBoostedIcon}" color="[statBoostedColor]" />
+        <CATUI_quality_item depth="3" pos="106, -82" width="30" height="30" font_size="20" visible="{hasdurability}" color="{durabilitycolor}" durabilitytext="{durabilityvalue}" tooltip_key="xuiQuality" />
+      </rect>
+      <!-- 物品价格 -->
+      <rect depth="3" pos="0,-100" height="24">
+        <sprite gradient_start="[black_threequarters_alpha]" gradient_end="[black]" type="sliced" />
+        <sprite pos="2,-2" atlas="UIAtlas" size="20,20" sprite="ui_game_symbol_coin" foregroundlayer="true" color="[gold]" />
+        <label pos="66,-13" depth="4" name="price" height="26" text="{itemprice}" font_size="18" width="80" color="[gold]" pivot="center" justify="left" />
+        <label pos="60,9" depth="4" name="price" height="26" text="x{CATUI_ItemCount}" font_size="20" width="120" color="[white]" style="CATUI.text.outline.black.1px" pivot="center" justify="right" visible="{# CATUI_ItemCount != '1' }" />
+      </rect>
+    </rect>
+  </trader_item>
+  <skill_entry>
+    <!--Element appended by: "CATUI"-->
+    <rect width="${Floor(width) - 6}" height="${Floor(height) - 6}" controller="SkillEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]" sound_play_on_hover="[default_hover]" tooltip_key="{groupname}">
+      <rect width="${Floor(width) - 6}" height="${Floor(height) - 6}" visible="{# groupname != ''}">
+        <!-- 不能删，controller对groupIcon和groupName做了处理，删除后会找不到元素报错 -->
+        <sprite name="groupIcon" sprite="{groupicon}" style="icon32px" color="{statuscolor}" foregroundlayer="true" visible="{#'false'}" />
+        <label name="groupName" text="{groupname}" color="{statuscolor}" visible="{#'false'}" />
+        <!-- 边框 -->
+        <sprite depth="8" name="border" color="255,255,255,36" type="sliced" fillcenter="false" />
+        <!-- 选中状态，hover状态 -->
+        <sprite depth="1" color="{rowstatecolor}" sprite="{rowstatesprite}" type="sliced" />
+        <!-- 技能不可升级 Disabled -->
+        <sprite depth="2" color="255,255,255,140" sprite="catui_background_disabled_recipe" type="sliced" visible="{CATUI_SkillEntryDisabled}" />
+        <!-- 锁定技能 -->
+        <!-- <sprite pos="30,-19" sprite="ui_game_symbol_lock" visible="{islocked}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true" /> -->
+        <rect depth="2" pos="62,-52" width="100" height="100">
+          <!-- 技能进度条 - 背景 -->
+          <sprite sprite="catui_bg_skill" color="0,0,0,220" type="sliced" pivot="center" rotation="144" globalopacity="false" />
+          <!-- 技能进度条 - 速度 72=底部缺失的扇形角度，刻度=(360-72)/16=18；填充80%：0.8=(360-72)/360；-->
+          <sprite depth="2" sprite="catui_bg_skill_current" type="filled" fill="{# CATUI_GroupEntryLevelFill * 0.8 }" filldirection="Radial360" color="{# CATUI_GroupEntryLevel != CATUI_GroupEntryLevelMax ? '67, 207, 124' : '255, 195, 0' }" fillinvert="true" globalopacity="false" pivot="center" rotation="144" visible="{# CATUI_GroupEntryLevel != CATUI_GroupEntryLevelMax}" />
+          <!-- 技能进度条 - 学满 -->
+          <sprite sprite="catui_bg_skill_current" color="255, 195, 0" type="sliced" pivot="center" rotation="144" visible="{# CATUI_GroupEntryLevel == CATUI_GroupEntryLevelMax}" />
+          <!-- 技能进度条 - ICON背景 -->
+          <sprite sprite="catui_bg_skill_icon" color="0,0,0,150" type="sliced" pivot="center" globalopacity="false" />
+          <!-- 普通技能图标：不要强制 ItemIconAtlas -->
+          <sprite depth="2" sprite="{groupicon}" style="icon32px" size="42,42" pos="0,0" pivot="center" color="{statuscolor}" foregroundlayer="true" visible="{# CATUI_GroupType != 'book' }" />
+          <!-- 书籍类图标：如果确实来自 ItemIconAtlas，再单独使用 ItemIconAtlas -->
+          <sprite depth="2" atlas="ItemIconAtlas" sprite="{groupicon}" size="64,64" pos="0,2" pivot="center" color="{statuscolor}" foregroundlayer="true" visible="{# CATUI_GroupType == 'book' }" />
+        </rect>
+        <label depth="2" width="50" height="24" pos="62,-88" text="{# CATUI_GroupEntryLevel != CATUI_GroupEntryLevelMax ? CATUI_GroupEntryLevel + '/' + CATUI_GroupEntryLevelMax : 'MAX' }" font_size="20" pivot="center" justify="center" color="{# CATUI_GroupEntryLevel != CATUI_GroupEntryLevelMax ? statuscolor : '255, 195, 0'}" style="CATUI.text.shadow.black.1px" />
+        <rect depth="2" pos="100,-4">
+          <!-- Buffed -->
+          <sprite depth="2" sprite="catui_icon_level_up" size="20,20" color="67, 207, 124" foregroundlayer="true" visible="{# CATUI_SkillEntryIsBuffed == 'true' }" />
+          <!-- Nerfed -->
+          <sprite depth="2" pos="20,-20" sprite="catui_icon_level_up" size="20,20" color="255,96,96" foregroundlayer="true" visible="{# CATUI_SkillEntryIsNerfed == 'true' }" rotation="180" />
+        </rect>
+        <!-- 技能名称 -->
+        <rect depth="3" pos="60,-112" height="24">
+          <sprite pos="-60,13" gradient_start="[black_threequarters_alpha]" gradient_end="[black]" type="sliced" />
+          <label depth="2" width="${width}" height="24" pivot="center" text="{groupname}" font_size="14" color="{statuscolor}" justify="center" />
+        </rect>
+      </rect>
+    </rect>
+  </skill_entry>
+  <skill_perk_level>
+    <!--Element appended by: "CATUI"-->
+    <rect disableautobackground="true" pos="6,-3" width="${width}" height="${Floor(height) - 6}" style="hover, scroll" controller="${controller}" color_bg_bought="[darkGrey]" color_bg_available="[darkGrey]" color_bg_locked="[darkestGrey]" color_lbl_available="[white]" color_lbl_locked="[lightestGrey]" color_lbl_nerfed="204,17,17" color_lbl_buffed="17,204,17">
+      <rect pos="6,0" width="${Floor(width) - 6}" height="${Floor(height) - 6}" visible="{hasentry}">
+        <!-- 背景色 -->
+        <sprite depth="8" name="border" color="255,255,255,36" type="sliced" fillcenter="false" />
+        <sprite depth="1" sprite="menu_empty" type="sliced" fillcenter="true" color="{color_bg}" />
+        <!-- 技能 Disabled -->
+        <sprite depth="2" sprite="catui_stat_background_disabled" type="sliced" fillcenter="true" color="255,255,255,128" visible="{# CATUI_SkillStat == 'notbuy' or CATUI_IsNerfed == 'true' }" />
+        <!-- 技能 Buffed -->
+        <sprite depth="8" sprite="menu_empty2px" type="sliced" fillcenter="false" color="67, 207, 124" visible="{# CATUI_IsBuffed == 'true' }" />
+        <!-- 技能 Nerfed -->
+        <sprite depth="8" sprite="menu_empty2px" type="sliced" fillcenter="false" color="255, 96, 96" visible="{# CATUI_IsNerfed == 'true' }" />
+        <rect depth="8" pos="${Floor(height) - 26},-4">
+          <!-- Buffed -->
+          <sprite depth="8" sprite="catui_icon_level_up" size="20,20" color="67, 207, 124" foregroundlayer="true" visible="{# CATUI_IsBuffed == 'true' }" />
+          <!-- Nerfed -->
+          <sprite depth="8" pos="20,-20" sprite="catui_icon_level_up" size="20,20" color="255,96,96" foregroundlayer="true" visible="{# CATUI_IsNerfed == 'true' }" rotation="180" />
+        </rect>
+        <!-- 技能等级 -->
+        <rect depth="3" width="${Floor(height) - 6}" height="${Floor(height) - 6}" pivot="center">
+          <sprite depth="1" type="sliced" color="0,0,0,255" />
+          <sprite depth="2" pos="40, -40" sprite="{# CATUI_SkillStat == 'bought' ? 'catui_bg_skill_level_upped' : 'catui_bg_skill_level'}" size="60,60" pivot="center" color="{color_fg}" />
+          <label depth="3" pos="40, -43" text="{level}" color="{color_fg}" font_size="24" justify="center" pivot="center" />
+        </rect>
+        <!-- 技能等级名称 -->
+        <label depth="3" pos="${width/2 + 5}, -${height/2}" width="${width - height - height/2 - 36}" height="${height - 10}" text="{text}" pivot="center" justify="left" font_size="24" max_line_count="4" spacing_y="5" color="{color_fg}" />
+        <!-- 技能学习按钮 - 可消费 -->
+        <button depth="3" name="btnBuy" pos="${width-46},-${Round(height/2,0)-2}" style="press, hover" size="66,32" pivot="center" tooltip="{buytooltip}" sound="[paging_click]" sound_play_on_hover="[default_hover]" defaultcolor="[darkestGrey]" hoverscale="1.0" hovercolor="[lightestGrey]" visible="{# buyvisible &amp;&amp; CATUI_SkillStat == 'buy' }">
+          <!-- 边框 -->
+          <sprite depth="1" pos="0,0" sprite="menu_empty" color="200,200,200" pivot="center" type="sliced" fillcenter="false" width="68" height="34" />
+          <!-- 背景 -->
+          <!-- <sprite depth="1" width="90" height="26" pivot="center" type="sliced" gradient_start="[darkGrey]" gradient_end="[darkestGrey]" /> -->
+          <!-- 图标 -->
+          <sprite depth="1" pos="-17,0" sprite="ui_game_symbol_shopping_cart" color="{color_fg}" size="18,18" pivot="center" type="sliced" />
+          <!-- 文本 -->
+          <label depth="2" pos="15,0" width="36" height="26" text="[FFAD1F]{CATUI_BuyCost}[-] {# localization('xuiSkillPoint')}" pivot="center" justify="left" font_size="18" max_line_count="1" spacing_y="0" color="{color_fg}" />
+        </button>
+        <!-- 技能学习按钮 - 已消费 -->
+        <button depth="3" pos="${width-36},-${Round(height/2,0)-2}" sprite="ui_game_symbol_check" size="32,32" pivot="center" tooltip="{buytooltip}" defaultcolor="{# CATUI_IsNerfed == 'true' ? '255,96,96' : '67, 207, 124' }" hoverscale="1.0" hovercolor="{# CATUI_IsNerfed == 'true' ? '255,96,96' : '67, 207, 124' }" visible="{# buyvisible &amp;&amp; CATUI_SkillStat == 'bought' }" />
+        <!-- 技能学习按钮 - 不可消费 -->
+        <button depth="3" pos="${width-46},-${Round(height/2,0)-2}" style="hover" size="66,32" pivot="center" tooltip="{buytooltip}" defaultcolor="{color_fg}" hoverscale="1.0" hovercolor="{color_fg}" visible="{# buyvisible &amp;&amp; CATUI_SkillStat == 'notbuy' }">
+          <sprite depth="1" pos="0,0" sprite="menu_empty" color="[lightGrey]" pivot="center" type="sliced" fillcenter="false" width="68" height="34" />
+          <sprite depth="1" width="68" height="34" pivot="center" type="sliced" gradient_start="[mediumGrey]" gradient_end="[darkGrey]" />
+          <sprite depth="1" pos="-17,0" sprite="ui_game_symbol_shopping_cart" size="18,18" color="{color_fg}" pivot="center" type="sliced" />
+          <label depth="2" pos="15,0" width="36" height="26" text="{CATUI_BuyCost} {# localization('xuiSkillPoint')}" pivot="center" justify="left" font_size="18" max_line_count="3" spacing_y="0" color="{color_fg}" />
+        </button>
+      </rect>
+    </rect>
+  </skill_perk_level>
+  <skill_book_level>
+    <!--Element appended by: "CATUI"-->
+    <rect disableautobackground="true" pos="6,-3" width="${width}" height="${Floor(height) - 6}" controller="${controller}" color_bg_bought="[darkGrey]" color_bg_available="[darkGrey]" color_bg_locked="[darkestGrey]" color_lbl_available="[white]" color_lbl_locked="[lightestGrey]" visible="{hasentry}">
+      <rect pos="6,0" width="${Floor(width) - 6}" height="${Floor(height) - 6}">
+        <!-- 背景色 -->
+        <sprite depth="8" name="border" color="255,255,255,36" type="sliced" fillcenter="false" />
+        <sprite depth="1" sprite="menu_empty" type="sliced" fillcenter="true" color="{color_bg}" />
+        <!-- 技能等级 -->
+        <rect depth="3" width="${Floor(height) - 6}" height="${Floor(height) - 6}" pivot="center">
+          <sprite depth="1" type="sliced" color="0,0,0,255" />
+          <sprite depth="2" pos="25, -25" sprite="{# CATUI_SkillStat == 'bought' ? 'catui_bg_skill_level_upped' : 'catui_bg_skill_level'}" size="40,40" pivot="center" color="{color_fg}" />
+          <label depth="3" pos="25, -28" text="{level}" color="{color_fg}" font_size="20" justify="center" pivot="center" />
+          <!-- 全收集 -->
+          <label depth="3" pos="25, -26" text="MAX" color="{# CATUI_SkillStat == 'bought' ? '255, 195, 0' : color_fg }" font_size="12" justify="center" pivot="center" visible="{iscomplete}" />
+          <!-- <sprite depth="3" pos="25,-25" style="icon30px" sprite="ui_game_symbol_perk" pivot="center" color="{# CATUI_SkillStat == 'bought' ? '255, 195, 0' : color_fg }" visible="{iscomplete}" /> -->
+        </rect>
+        <!-- 技能等级名称 -->
+        <label depth="3" pos="${width/2 + 6}, -${height/2 - 3}" width="${width - height * 2}" height="${height - 10}" text="{text}" pivot="center" justify="left" font_size="22" max_line_count="2" spacing_y="1" color="{color_fg}" />
+        <!-- 技能状态 -->
+        <sprite depth="3" name="btnBuy" pos="${width-30},-${Round(height/2,0)-2}" size="22,22" sprite="{buyicon}" pivot="center" color="{# CATUI_SkillStat == 'bought' ? '67, 207, 124' : '128,128,128' }" visible="{buyvisible}" gamepad_selectable="false" />
+      </rect>
+    </rect>
+  </skill_book_level>
+  <skill_crafting_entry>
+    <!--Element appended by: "CATUI"-->
+    <rect disableautobackground="true" pos="6,-3" width="${width}" height="${Floor(height) - 6}" style="press, hover" controller="SkillCraftingInfoEntry" color_bg_bought="[darkGrey]" color_bg_available="[darkestGrey]" color_bg_locked="[darkestGrey]" color_lbl_available="[white]" color_lbl_locked="[lightestGrey]" sound="[recipe_click]" sound_play_on_hover="[default_hover]" visible="{hasentry}" tooltip_key="{text}">
+      <rect pos="6,0" width="${Floor(width) - 6}" height="${Floor(height) - 6}">
+        <!-- 背景色 -->
+        <sprite depth="8" name="border" color="255,255,255,36" type="sliced" fillcenter="false" />
+        <sprite depth="1" sprite="menu_empty" type="sliced" fillcenter="true" color="{color_bg}" />
+        <!-- 锁定图标 -->
+        <sprite depth="12" pos="${Round(height-16,0)}, -${Round(height-16,0)}" size="16,16" sprite="ui_game_symbol_lock" pivot="center" color="{color_fg}" visible="{# showlock}" />
+        <!-- 图标 -->
+        <rect depth="3" width="${Floor(height) - 6}" height="${Floor(height) - 6}" pivot="center">
+          <!-- 锁定背景 -->
+          <sprite depth="2" sprite="catui_background_disabled_recipe" type="sliced" fillcenter="true" color="255,255,255,150" visible="{# showlock}" />
+          <!-- 物品品质 - 背景 -->
+          <!-- <sprite depth="2" color="{currentqualitycolor}" pos="1,-1" type="sliced" sprite="Row Outline" globalopacity="true" visible="{showquality}" /> -->
+          <!-- 物品图标 BUG: atlas="{iconatlas}" 滚动条出现时，图标无法裁切 -->
+          <sprite depth="1" pos="${Round(height/2,0)}, -${Round(height/2-4,0)}" name="itemIcon" atlas="{iconatlas}" sprite="{itemicon}" size="${Round(height-30,0)},${Round(height-30,0)}" pivot="center" foregroundlayer="true" color="{itemcolor}" />
+        </rect>
+        <!-- 物品等阶 - 数字 -->
+        <CATUI_quality_item depth="7" pos="${Round(height-20,0)}, -${Round(height-25,0)}" width="20" height="20" font_size="14" visible="{showquality}" color="{currentqualitycolor}" durabilitytext="{currentqualitytext}" tooltip_key="xuiQuality" />
+        <!-- 物品等阶 - 下一级进度条 -->
+        <sprite depth="7" name="durabilityBackground" width="${Round(width-10,0)}" height="4" sprite="menu_empty3px" color="[darkGrey]" type="sliced" pos="2, -${Round(height-12,0)}" foregroundlayer="true" visible="{# showquality and notcomplete}" />
+        <filledsprite depth="8" name="durability" width="${Round(width-10,0)}" height="4" sprite="menu_empty2px" color="{nextqualitycolor}" fill="{CATUI_QualityNextLevelFill}" type="filled" pos="2, -${Round(height-12,0)}" foregroundlayer="true" visible="{# showquality and notcomplete}" />
+        <!-- 物品等阶 - 下一级进度数字 -->
+        <label depth="9" pos="4, -${Round(height-26,0)}" text="{nextpoints}" width="65" font_size="16" color="{color_fg}" style="CATUI.text.shadow.black.1px" visible="{# showquality and notcomplete}" />
+        <!-- 物品解锁进度 -->
+        <label depth="9" pos="4, -${Round(height-26,0)}" text="{CATUI_SkillLevel}/{CATUI_ItemUnlockLevel}" width="65" font_size="16" color="{color_fg}" style="CATUI.text.shadow.black.1px" visible="{# showlock}" />
+        <!-- 物品名称 -->
+        <!-- <label depth="9" pos="6, -6" width="${Round(height-12,0)}" height="32" text="{text}" justify="left" font_size="16" max_line_count="2" color="{color_fg}" /> -->
+      </rect>
+    </rect>
+  </skill_crafting_entry>
+  <Vam_SI>
+    <!--Element appended by: "Vita_Action_Mastery"-->
+    <rect pos="-0, -${(index*height)+height+7}" height="${height}">
+      <sprite color="60,60,60,255" type="sliced" globalopacity="true" fillcenter="false" />
+      <label pos=" 0, -${(font_size/2)+10}" depth="3" text_key="${name_key}" justify="left" width="${Round(width/4,0)*3}" pivot="left" color="[white]" />
+      <label pos="-5, -${(font_size/2)+10}" depth="4" text="Lv.${lv}" justify="right" font_size="${font_size}" pivot="left" color="[white]" />
+      <filledsprite depth="1" name="background" color="0,0,0,0" type="filled" fill="0" />
+      <filledsprite depth="2" name="BarContent" color="0,0,0,0" type="filled" fill="0" />
+      <filledsprite depth="1" name="background" color="0,0,0,255" type="filled" fill="1" />
+      <filledsprite depth="2" name="BarContent" color="${gauge_color}" type="filled" fill="${exp_ratio}" />
+    </rect>
+  </Vam_SI>
+  <Vam_EI>
+    <!--Element appended by: "Vita_Action_Mastery"-->
+    <rect pos="5, -${(index*height)+height+7}" height="${height}">
+      <sprite color="60,60,60,255" type="sliced" globalopacity="true" fillcenter="false" />
+      <label pos=" 0, -${(font_size/2)+10}" depth="3" text_key="${name_key}" width="${Round(width/4,0)*3}" justify="left" pivot="left" color="[white]" />
+      <label pos="${-10+width-Round(width/4,0)*1}, -${(font_size/2)+10}" depth="4" text="${value}" width="${Round(width/4,0)*1}" justify="right" pivot="left" color="[white]" />
+    </rect>
+  </Vam_EI>
+</templates>

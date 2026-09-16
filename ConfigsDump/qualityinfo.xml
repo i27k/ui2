@@ -1,0 +1,40 @@
+﻿<qualityinfo>
+  <!--Broken-->
+  <quality key="0" color="808080" />
+  <!--Junk -->
+  <quality key="1" color="9C8867" />
+  <!--Common-->
+  <quality key="2" color="CF7F29" />
+  <!--Uncommon-->
+  <quality key="3" color="A2A41B" />
+  <!--Rare-->
+  <quality key="4" color="42C234" />
+  <!--Epic-->
+  <quality key="5" color="315DCE" />
+  <!--Legendary-->
+  <quality key="6" color="A42ACC" />
+  <quality key="7" color="FF3646">
+    <!--Element inserted by: "RAM"-->
+  </quality>
+  <quality key="0" color="999999">
+    <!--Element appended by: "CATUI"-->
+  </quality>
+  <quality key="1" color="FFFFFF">
+    <!--Element appended by: "CATUI"-->
+  </quality>
+  <quality key="2" color="00FF00">
+    <!--Element appended by: "CATUI"-->
+  </quality>
+  <quality key="3" color="0066FF">
+    <!--Element appended by: "CATUI"-->
+  </quality>
+  <quality key="4" color="DD00FF">
+    <!--Element appended by: "CATUI"-->
+  </quality>
+  <quality key="5" color="FFBB00">
+    <!--Element appended by: "CATUI"-->
+  </quality>
+  <quality key="6" color="FF0000">
+    <!--Element appended by: "CATUI"-->
+  </quality>
+</qualityinfo>

@@ -1,0 +1,1735 @@
+﻿<paints>
+  <!-- ID: can only be 0-255, name = localization key, ID 0 is the "delete" entry. Do not re-use 0. -->
+  <!-- TextureId: this matches <property name="Texture"/> -->
+  <!-- Group: to organize textures on the paint tool menu, this is also the localization key of the group -->
+  <!-- PaintCost: default=1
+
+Used Groups:
+	Decorations
+	Faux
+	Masonry
+	Metal
+	Painted
+	Wall Coverings
+	Wood and Roofing
+
+1 txGroupDecoration
+2 txGroupFaux
+2 txGroupMasonry
+3 txGroupMetal
+1 txGroupPainted
+2 txGroupWallCovering
+1 txGroupWood
+
+-->
+  <paint id="0" name="txName_Delete">
+    <property name="TextureId" value="0" />
+    <property name="Group" value="txGroupExcluded" />
+    <property name="Hidden" value="true" />
+    <!-- This flag does nothing in creative mode / editor. All paint IDs will show. -->
+  </paint>
+  <paint id="1" name="txName_Brick">
+    <property name="TextureId" value="7" />
+    <property name="Group" value="txGroupFaux" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="2" name="txName_Concrete">
+    <property name="TextureId" value="8" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="3" name="txName_Tile_floor5">
+    <property name="TextureId" value="9" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="4" name="txName_heat_vent_industrial">
+    <property name="TextureId" value="268" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="5" name="txName_Gravel">
+    <property name="TextureId" value="11" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="6" name="txName_Concrete_block">
+    <property name="TextureId" value="12" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+    <property name="SortIndex" value="0" />
+  </paint>
+  <paint id="7" name="txName_Awning1">
+    <property name="TextureId" value="13" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="8" name="txName_Awning2">
+    <property name="TextureId" value="14" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="9" name="txName_Awning3">
+    <property name="TextureId" value="15" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="10" name="txName_Treetrunk_cut">
+    <property name="TextureId" value="21" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="11" name="txName_Rough_cut_wood">
+    <property name="TextureId" value="22" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="12" name="txName_Wood_black">
+    <property name="TextureId" value="23" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 13 - 14 FREE -->
+  <paint id="15" name="txName_Rust_black">
+    <property name="TextureId" value="443" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="16" name="txName_Log_cabin">
+    <property name="TextureId" value="43" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="17" name="txName_Shingles_wood">
+    <property name="TextureId" value="44" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="18" name="txName_Metal_rivet">
+    <property name="TextureId" value="46" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="19" name="txName_Siding_blue">
+    <property name="TextureId" value="50" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="20" name="txName_Siding_green">
+    <property name="TextureId" value="51" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="21" name="txName_Siding_white">
+    <property name="TextureId" value="52" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="22" name="txName_Siding_yellow">
+    <property name="TextureId" value="53" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="23" name="txName_Wood_painted1">
+    <property name="TextureId" value="54" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="24" name="txName_Pillcase_side">
+    <property name="TextureId" value="55" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="25" name="txName_Wood_painted2">
+    <property name="TextureId" value="56" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="26" name="txName_Carpet1">
+    <property name="TextureId" value="57" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 27 - 28 FREE -->
+  <paint id="29" name="txName_Tile_floor1">
+    <property name="TextureId" value="61" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="30" name="txName_Black_TV_Screen">
+    <property name="TextureId" value="62" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="31" name="txName_Shutters1">
+    <property name="TextureId" value="64" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="32" name="txName_Wood_osb">
+    <property name="TextureId" value="65" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="33" name="txName_stones_large">
+    <property name="TextureId" value="600" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="34" name="txName_Garage_door1">
+    <property name="TextureId" value="73" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="35" name="txName_Wood_painted3">
+    <property name="TextureId" value="74" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="36" name="txName_Carpet2">
+    <property name="TextureId" value="75" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="37" name="txName_Tile_floor2">
+    <property name="TextureId" value="76" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="38" name="txName_Siding_tan">
+    <property name="TextureId" value="77" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="39" name="txName_Cabinet_old_counter">
+    <property name="TextureId" value="78" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="40" name="txName_Cabinet_old_ft">
+    <property name="TextureId" value="79" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="41" name="txName_Cabinet_old_top_ft">
+    <property name="TextureId" value="81" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="42" name="txName_Carpet6">
+    <property name="TextureId" value="436" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="43" name="txName_Cabinet_old_wood">
+    <property name="TextureId" value="84" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="44" name="txName_Treetrunk_pine">
+    <property name="TextureId" value="116" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="45" name="txName_Adobe_tan">
+    <property name="TextureId" value="168" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="46" name="txName_Adobe_peach">
+    <property name="TextureId" value="169" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="47" name="txName_Clay_roof">
+    <property name="TextureId" value="170" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="48" name="txName_Adobe_white">
+    <property name="TextureId" value="171" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="49" name="txName_Adobe_trim_white">
+    <property name="TextureId" value="172" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="50" name="txName_Drywall_creme">
+    <property name="TextureId" value="173" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="51" name="txName_Drywall_creme_baseboard">
+    <property name="TextureId" value="174" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="52" name="txName_Taupe_metal">
+    <property name="TextureId" value="531" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 53 FREE -->
+  <paint id="54" name="txName_Beercooler_sides">
+    <property name="TextureId" value="191" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="55" name="txName_Shingles_old">
+    <property name="TextureId" value="192" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="56" name="txName_Barnwood">
+    <property name="TextureId" value="193" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="57" name="txName_Corrugated_metal">
+    <property name="TextureId" value="194" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 58 FREE -->
+  <paint id="59" name="txName_Woodfloor01">
+    <property name="TextureId" value="214" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="60" name="txName_Cabinet_taupe">
+    <property name="TextureId" value="335" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="61" name="txName_bookcaseFull">
+    <property name="TextureId" value="67" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="62" name="txName_Drywall_ceiling">
+    <property name="TextureId" value="217" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="63" name="txName_Flagstone">
+    <property name="TextureId" value="226" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="64" name="txName_Brick01">
+    <property name="TextureId" value="227" />
+    <property name="Group" value="txGroupFaux" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="65" name="txName_BrickBrown">
+    <property name="TextureId" value="591" />
+    <property name="Group" value="txGroupFaux" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="66" name="txName_Shingles_asphalt">
+    <property name="TextureId" value="229" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="67" name="txName_Wood_old">
+    <property name="TextureId" value="241" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="68" name="txName_Plaster">
+    <property name="TextureId" value="245" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="69" name="txName_Fence_wood">
+    <property name="TextureId" value="246" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="70" name="txName_Brick_pavers">
+    <property name="TextureId" value="247" />
+    <property name="Group" value="txGroupFaux" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="71" name="txName_Rug01">
+    <property name="TextureId" value="248" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="72" name="txName_Granite">
+    <property name="TextureId" value="261" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="73" name="txName_Cabinet">
+    <property name="TextureId" value="262" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="74" name="txName_Cabinet_top">
+    <property name="TextureId" value="263" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="75" name="txName_wood_floor_polished">
+    <property name="TextureId" value="603" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="76" name="txName_concrete_wall">
+    <property name="TextureId" value="604" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- "Blue" Metal Stainless Steel -->
+  <paint id="77" name="txName_Fridge_stainless_side">
+    <property name="TextureId" value="267" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="78" name="txName_Cabinet_taupe_drawer">
+    <property name="TextureId" value="336" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 79 FREE -->
+  <paint id="80" name="txName_Wood_fence">
+    <property name="TextureId" value="272" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 81 FREE -->
+  <paint id="82" name="txName_Wrought_iron_metal">
+    <property name="TextureId" value="282" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 83 FREE -->
+  <paint id="84" name="txName_Brick_decayed">
+    <property name="TextureId" value="299" />
+    <property name="Group" value="txGroupFaux" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="85" name="txName_Siding_white_burnt">
+    <property name="TextureId" value="302" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="86" name="txName_WoodPaneling_burnt">
+    <property name="TextureId" value="303" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="87" name="txName_Metal_plate_wall">
+    <property name="TextureId" value="307" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="88" name="txName_Smokestack_red">
+    <property name="TextureId" value="311" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="89" name="txName_Smokestack_white">
+    <property name="TextureId" value="312" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="90" name="txName_Ventilation_duct">
+    <property name="TextureId" value="314" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="91" name="txName_Concrete_reinforced">
+    <property name="TextureId" value="315" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="92" name="txName_Tile_industrial">
+    <property name="TextureId" value="319" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="93" name="txName_Glass_industrial">
+    <property name="TextureId" value="320" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="94" name="txName_Concrete_trim">
+    <property name="TextureId" value="321" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="95" name="txName_Cabinet_taupe_top">
+    <property name="TextureId" value="337" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="96" name="txName_Tanbrick">
+    <property name="TextureId" value="328" />
+    <property name="Group" value="txGroupFaux" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="97" name="txName_Sidewalk_wasteland">
+    <property name="TextureId" value="329" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="98" name="txName_Concrete_trim2">
+    <property name="TextureId" value="330" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="99" name="txName_Concrete_trim3">
+    <property name="TextureId" value="331" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="100" name="txName_Paintedbrick">
+    <property name="TextureId" value="332" />
+    <property name="Group" value="txGroupFaux" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 101 - 105 FREE -->
+  <paint id="106" name="txName_Drop_ceiling01">
+    <property name="TextureId" value="342" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="107" name="txName_Carpet3">
+    <property name="TextureId" value="344" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="108" name="txName_Cabinet_side">
+    <property name="TextureId" value="345" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 109 FREE -->
+  <paint id="110" name="txName_Reinforced_metal_plate_wall">
+    <property name="TextureId" value="352" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="111" name="txName_Steel_floor">
+    <property name="TextureId" value="355" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="112" name="txName_Steel_wall">
+    <property name="TextureId" value="356" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="113" name="txName_Medicine_cabinet">
+    <property name="TextureId" value="358" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="114" name="txName_Tile_floor4">
+    <property name="TextureId" value="361" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="115" name="txName_Chalkboard">
+    <property name="TextureId" value="372" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 116 - 117 FREE -->
+  <paint id="118" name="txName_oak">
+    <property name="TextureId" value="269" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="119" name="txName_Reinforced_wood">
+    <property name="TextureId" value="379" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="120" name="txName_Reinforced_wood_metal">
+    <property name="TextureId" value="380" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="121" name="txName_Crown_oak">
+    <property name="TextureId" value="382" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 122 FREE -->
+  <paint id="123" name="txName_Green_rusty_metal">
+    <property name="TextureId" value="385" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="124" name="txName_Drop_ceiling02">
+    <property name="TextureId" value="391" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="125" name="txName_Wood_barricade">
+    <property name="TextureId" value="407" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="126" name="txName_Wood_barricade02">
+    <property name="TextureId" value="408" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="127" name="txName_Glass_industrial02">
+    <property name="TextureId" value="413" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 128 - 132 FREE -->
+  <paint id="133" name="txName_beige_metal_roof_wStripes">
+    <property name="TextureId" value="605" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="134" name="txName_Tile_floor6">
+    <property name="TextureId" value="589" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 135 FREE -->
+  <paint id="136" name="txName_Green_metal_roof">
+    <property name="TextureId" value="428" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="137" name="txName_Orange_metal_roof">
+    <property name="TextureId" value="429" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 138 FREE -->
+  <paint id="139" name="txName_Concrete_mustard">
+    <property name="TextureId" value="592" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="140" name="txName_Blue_metal_roof">
+    <property name="TextureId" value="435" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="141" name="txName_Garage_door2">
+    <property name="TextureId" value="593" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="142" name="txName_Tread_plate02">
+    <property name="TextureId" value="590" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="143" name="txName_Tread_plate">
+    <property name="TextureId" value="445" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="144" name="txName_Metal_base">
+    <property name="TextureId" value="446" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="145" name="txName_Duct_soft">
+    <property name="TextureId" value="519" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 146 - 147 FREE -->
+  <paint id="148" name="txName_Tarpaper">
+    <property name="TextureId" value="571" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 149 FREE -->
+  <paint id="150" name="txName_Tanbrick02">
+    <property name="TextureId" value="534" />
+    <property name="Group" value="txGroupFaux" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="151" name="txName_Concrete_white">
+    <property name="TextureId" value="535" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="152" name="txName_Concrete_yellow">
+    <property name="TextureId" value="536" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="153" name="txName_Concrete_blue">
+    <property name="TextureId" value="537" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="154" name="txName_Wallpaper03">
+    <property name="TextureId" value="538" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="155" name="txName_Concrete_orange">
+    <property name="TextureId" value="539" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="156" name="txName_Concrete_red">
+    <property name="TextureId" value="540" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="157" name="txName_Carpet5">
+    <property name="TextureId" value="541" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="168" name="txName_Carpet4">
+    <property name="TextureId" value="555" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="158" name="txName_Concrete_pink">
+    <property name="TextureId" value="542" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="159" name="txName_Concrete_purple">
+    <property name="TextureId" value="543" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="160" name="txName_Concrete_green">
+    <property name="TextureId" value="544" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="161" name="txName_Concrete_grey">
+    <property name="TextureId" value="545" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="162" name="txName_Concrete_dark_grey">
+    <property name="TextureId" value="546" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="163" name="txName_Glass_opaque">
+    <property name="TextureId" value="532" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="164" name="txName_Bullseye">
+    <property name="TextureId" value="547" />
+    <property name="Group" value="txGroupDecoration" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="165" name="txName_Drywall">
+    <property name="TextureId" value="548" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="166" name="txName_Concrete_camo">
+    <property name="TextureId" value="549" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="167" name="txName_Plywood">
+    <property name="TextureId" value="525" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="168" name="txName_Carpet4">
+    <property name="TextureId" value="555" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="169" name="txName_GraniteBlack">
+    <property name="TextureId" value="552" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="170" name="txName_Tile_Marble_Grey">
+    <property name="TextureId" value="553" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="171" name="txName_Fabric_Blinds">
+    <property name="TextureId" value="580" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="172" name="txName_Shingles_asphalt_diamond">
+    <property name="TextureId" value="581" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="173" name="txName_wallpaper01">
+    <property name="TextureId" value="582" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="174" name="txName_crown">
+    <property name="TextureId" value="583" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="175" name="txName_wainscotting">
+    <property name="TextureId" value="584" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="176" name="txName_wallpaper02">
+    <property name="TextureId" value="585" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="177" name="txName_wainscotting_Red">
+    <property name="TextureId" value="586" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="178" name="txName_wainscotting_Oak">
+    <property name="TextureId" value="587" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="179" name="txName_wood_ceiling">
+    <property name="TextureId" value="588" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <!-- 180 FREE -->
+  <paint id="181" name="txName_wood_western">
+    <property name="TextureId" value="602" />
+    <property name="Group" value="txGroupWood" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="182" name="txName_concrete_broken">
+    <property name="TextureId" value="606" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <paint id="183" name="txName_metal_roof">
+    <property name="TextureId" value="607" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="PaintCost" value="1" />
+  </paint>
+  <opaque id="asylum_titanium" texture="txName_AsylumTitanium" x="0" y="0" w="1" h="1" blockw="1" blockh="1">
+    <!--Element appended by: "TheAsylumCore"-->
+    <!-- Main color/appearance texture -->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/Textures.unity3d?Titanium" />
+    <!-- OCB will use default normal map if not specified -->
+    <!-- PBR texture for shininess control -->
+    <!-- Option 1: Use texture from bundle (when you create it) -->
+    <!-- <property name="Specular" value="#@modfolder(TheAsylumCore):Resources/Textures.unity3d?TitaniumShiny"/> -->
+    <!-- Option 2: Procedural shiny texture for testing (remove when you have real texture) -->
+    <!-- Format: width:height:red:green:blue:alpha (values 0.0-1.0) -->
+    <!-- Red=Metallic(1.0), Green=AO(1.0), Blue=Emission(0.0), Alpha=Roughness(0.1=very shiny) -->
+    <property name="Specular" value="512:512:1.0:1.0:0.0:0.1" />
+    <property name="PaintCost" value="1" />
+    <property name="Hidden" value="false" />
+    <property name="GlobalUV" value="false" />
+    <property name="Group" value="txGroupMetal" />
+    <property name="SortIndex" value="100" />
+    <property name="Material" value="metal" />
+    <property name="Color" value="0.7,0.7,0.8" />
+    <property name="SwitchUV" value="false" />
+  </opaque>
+  <opaque id="purple_reptile" texture="txName_PurpleReptile" x="0" y="0" w="1" h="1" blockw="1" blockh="1">
+    <!--Element appended by: "TheAsylumCore"-->
+    <!-- Using actual texture from Unity bundle -->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/Textures.unity3d?Purplereptile" />
+    <!-- Non-metallic, smooth painted finish with subtle purple glow -->
+    <!-- Red=Metallic(0.0), Green=AO(0.9), Blue=Emission(0.2=purple glow), Alpha=Roughness(0.3=smooth) -->
+    <property name="Specular" value="512:512:0.0:0.9:0.2:0.3" />
+    <property name="PaintCost" value="2" />
+    <property name="Hidden" value="false" />
+    <!-- Debug: Make sure it's visible and in the right group -->
+    <property name="GlobalUV" value="false" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="SortIndex" value="101" />
+    <property name="Material" value="wood" />
+    <property name="Color" value="0.6,0.2,0.8" />
+    <property name="SwitchUV" value="false" />
+  </opaque>
+  <opaque id="green_lizard" texture="txName_GreenLizard" x="0" y="0" w="1" h="1" blockw="1" blockh="1">
+    <!--Element appended by: "TheAsylumCore"-->
+    <!-- Using actual texture from Unity bundle -->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/Textures.unity3d?GreenLizard" />
+    <!-- Non-metallic, smooth painted finish with subtle green glow -->
+    <!-- Red=Metallic(0.0), Green=AO(0.9), Blue=Emission(0.2=green glow), Alpha=Roughness(0.3=smooth) -->
+    <property name="Specular" value="512:512:0.0:0.9:0.2:0.3" />
+    <property name="PaintCost" value="2" />
+    <property name="Hidden" value="false" />
+    <!-- Debug: Make sure it's visible and in the right group -->
+    <property name="GlobalUV" value="false" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="SortIndex" value="102" />
+    <property name="Material" value="wood" />
+    <property name="Color" value="0.2,0.8,0.3" />
+    <property name="SwitchUV" value="false" />
+  </opaque>
+  <opaque id="magma_lizard" texture="txName_MagmaLizard" x="0" y="0" w="1" h="1" blockw="1" blockh="1">
+    <!--Element appended by: "TheAsylumCore"-->
+    <!-- Using actual texture from Unity bundle -->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/Textures.unity3d?MagmaLizard" />
+    <!-- Non-metallic, smooth painted finish with slight glow for magma effect -->
+    <!-- Red=Metallic(0.0), Green=AO(0.9), Blue=Emission(0.3=magma glow), Alpha=Roughness(0.3=smooth) -->
+    <property name="Specular" value="512:512:0.0:0.9:0.3:0.3" />
+    <property name="PaintCost" value="3" />
+    <property name="Hidden" value="false" />
+    <!-- Debug: Make sure it's visible and in the right group -->
+    <property name="GlobalUV" value="false" />
+    <property name="Group" value="txGroupPainted" />
+    <property name="SortIndex" value="103" />
+    <property name="Material" value="wood" />
+    <property name="Color" value="1.0,0.3,0.1" />
+    <property name="SwitchUV" value="false" />
+  </opaque>
+  <opaque id="asylum_cobblestone" texture="txName_AsylumCobblestone" x="0" y="0" w="1" h="1" blockw="1" blockh="1">
+    <!--Element appended by: "TheAsylumCore"-->
+    <!-- Custom cobblestone albedo texture -->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/cobblestone.unity3d?cobblestone" />
+    <!-- Non-metallic stone surface, slightly rough -->
+    <!-- Red=Metallic(0.0), Green=AO(0.8), Blue=Emission(0.0), Alpha=Roughness(0.7=rough stone) -->
+    <property name="Specular" value="512:512:0.0:0.8:0.0:0.7" />
+    <!-- Custom paint option -->
+    <property name="PaintCost" value="2" />
+    <property name="Hidden" value="false" />
+    <property name="GlobalUV" value="false" />
+    <property name="Group" value="txGroupStone" />
+    <property name="SortIndex" value="106" />
+    <property name="Material" value="stone" />
+    <property name="Color" value="0.6,0.6,0.65" />
+    <property name="SwitchUV" value="false" />
+  </opaque>
+  <opaque id="asylum_cliff" texture="txName_AsylumCliff" x="0" y="0" w="1" h="1" blockw="1" blockh="1">
+    <!--Element appended by: "TheAsylumCore"-->
+    <!-- Main cliff texture from Textures2 bundle -->
+    <property name="Diffuse" value="#@modfolder(TheAsylumCore):Resources/Textures2.unity3d?Cliff" />
+    <!-- Normal map for realistic surface detail and depth -->
+    <property name="Normal" value="#@modfolder(TheAsylumCore):Resources/Textures2.unity3d?Cliff_n" />
+    <!-- Full PBR specular map for realistic material properties -->
+    <property name="Specular" value="#@modfolder(TheAsylumCore):Resources/Textures2.unity3d?Cliff_s" />
+    <!-- Stone material properties -->
+    <property name="PaintCost" value="2" />
+    <property name="Hidden" value="false" />
+    <property name="GlobalUV" value="false" />
+    <property name="Group" value="txGroupStone" />
+    <property name="SortIndex" value="107" />
+    <property name="Material" value="stone" />
+    <property name="Color" value="0.75,0.7,0.65" />
+    <property name="SwitchUV" value="false" />
+  </opaque>
+  <opaque id="PP_carpet_01" name="PP_carpet_01" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_09_A1,Carpet_09_A2,Carpet_09_A3,Carpet_09_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_05_N1,Carpet_05_N2,Carpet_05_N3,Carpet_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="cloth" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_carpet_02" name="PP_carpet_02" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_10_A1,Carpet_10_A2,Carpet_10_A3,Carpet_10_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_05_N1,Carpet_05_N2,Carpet_05_N3,Carpet_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="cloth" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_carpet_03" name="PP_carpet_03" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_06_A1,Carpet_06_A2,Carpet_06_A3,Carpet_06_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_05_N1,Carpet_05_N2,Carpet_05_N3,Carpet_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="cloth" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_carpet_04" name="PP_carpet_04" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_05_A1,Carpet_05_A2,Carpet_05_A3,Carpet_05_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_05_N1,Carpet_05_N2,Carpet_05_N3,Carpet_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="cloth" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_carpet_05" name="PP_carpet_05" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_08_A1,Carpet_08_A2,Carpet_08_A3,Carpet_08_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_05_N1,Carpet_05_N2,Carpet_05_N3,Carpet_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="cloth" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_carpet_06" name="PP_carpet_06" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_07_A1,Carpet_07_A2,Carpet_07_A3,Carpet_07_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Carpet_05_N1,Carpet_05_N2,Carpet_05_N3,Carpet_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="cloth" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_plaster_01" name="PP_plaster_01" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_04_A1,Plaster_04_A2,Plaster_04_A3,Plaster_04_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_04_N1,Plaster_04_N2,Plaster_04_N3,Plaster_04_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_plaster_02" name="PP_plaster_02" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_03_A1,Plaster_03_A2,Plaster_03_A3,Plaster_03_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_03_N1,Plaster_03_N2,Plaster_03_N3,Plaster_03_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_paintedPlaster_01" name="PP_paintedPlaster_01" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_05_A1,Plaster_05_A2,Plaster_05_A3,Plaster_05_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_05_N1,Plaster_05_N2,Plaster_05_N3,Plaster_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_paintedPlaster_02" name="PP_paintedPlaster_02" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_06_A1,Plaster_06_A2,Plaster_06_A3,Plaster_06_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_05_N1,Plaster_05_N2,Plaster_05_N3,Plaster_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_paintedPlaster_03" name="PP_paintedPlaster_03" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_07_A1,Plaster_07_A2,Plaster_07_A3,Plaster_07_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_05_N1,Plaster_05_N2,Plaster_05_N3,Plaster_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_paintedPlaster_04" name="PP_paintedPlaster_04" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_08_A1,Plaster_08_A2,Plaster_08_A3,Plaster_08_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_05_N1,Plaster_05_N2,Plaster_05_N3,Plaster_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_paintedPlaster_05" name="PP_paintedPlaster_05" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_09_A1,Plaster_09_A2,Plaster_09_A3,Plaster_09_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_05_N1,Plaster_05_N2,Plaster_05_N3,Plaster_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_paintedPlaster_06" name="PP_paintedPlaster_06" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_10_A1,Plaster_10_A2,Plaster_10_A3,Plaster_10_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_05_N1,Plaster_05_N2,Plaster_05_N3,Plaster_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_paintedPlaster_07" name="PP_paintedPlaster_07" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_11_A1,Plaster_11_A2,Plaster_11_A3,Plaster_11_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_05_N1,Plaster_05_N2,Plaster_05_N3,Plaster_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_paintedPlaster_08" name="PP_paintedPlaster_08" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_12_A1,Plaster_12_A2,Plaster_12_A3,Plaster_12_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Plaster_05_N1,Plaster_05_N2,Plaster_05_N3,Plaster_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWallCovering" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_01" name="PP_tiles_01">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_01_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_01_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_01_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_02" name="PP_tiles_02">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_02_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_02_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_02_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_03" name="PP_tiles_03">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_03_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_03_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_03_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_04" name="PP_tiles_04" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_11_A1,Tiles_11_A2,Tiles_11_A3,Tiles_11_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_11_N1,Tiles_11_N2,Tiles_11_N3,Tiles_11_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_05" name="PP_tiles_05" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_12_A1,Tiles_12_A2,Tiles_12_A3,Tiles_12_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_12_N1,Tiles_12_N2,Tiles_12_N3,Tiles_12_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_12_S1,Tiles_12_S1,Tiles_12_S1,Tiles_12_S1" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_06" name="PP_tiles_06">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_06_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_06_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_06_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_07" name="PP_tiles_07" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_13_A1,Tiles_13_A2,Tiles_13_A3,Tiles_13_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_13_N,Tiles_13_N,Tiles_13_N,Tiles_13_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_13_S,Tiles_13_S,Tiles_13_S,Tiles_13_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_08" name="PP_tiles_08" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_08_A1,Tiles_08_A2,Tiles_08_A3,Tiles_08_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_08_N1,Tiles_08_N2,Tiles_08_N3,Tiles_08_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_08_S1,Tiles_08_S2,Tiles_08_S3,Tiles_08_S4" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_09" name="PP_tiles_09" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_14_A1,Tiles_14_A2,Tiles_14_A3,Tiles_14_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_20_N,Tiles_20_N,Tiles_20_N,Tiles_20_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_20_S,Tiles_20_S,Tiles_20_S,Tiles_20_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_10" name="PP_tiles_10">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_10_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_10_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_10_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_01" name="PP_wallpaper_01">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_02" name="PP_wallpaper_02">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_A2" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_03" name="PP_wallpaper_03">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_A3" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_04" name="PP_wallpaper_04">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_05" name="PP_wallpaper_05">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_A5" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_06" name="PP_wallpaper_06">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_A6" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_07" name="PP_wallpaper_07">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_A7" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_08" name="PP_wallpaper_08">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_A8" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_09" name="PP_wallpaper_09">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_A9" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_01_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodFloor_01" name="PP_WoodFloor_01" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_01_A1,WoodFloor_01_A2,WoodFloor_01_A3,WoodFloor_01_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_01_N1,WoodFloor_01_N2,WoodFloor_01_N3,WoodFloor_01_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupWood" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodFloor_02" name="PP_WoodFloor_02" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_02_A1,WoodFloor_02_A2,WoodFloor_02_A3,WoodFloor_02_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_02_N1,WoodFloor_02_N2,WoodFloor_02_N3,WoodFloor_02_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupWood" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodFloor_03" name="PP_WoodFloor_03" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_03_A1,WoodFloor_03_A2,WoodFloor_03_A3,WoodFloor_03_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_03_N1,WoodFloor_03_N1,WoodFloor_03_N1,WoodFloor_03_N1" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupWood" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodFloor_04" name="PP_WoodFloor_04" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_04_A1,WoodFloor_04_A2,WoodFloor_04_A3,WoodFloor_04_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_04_N1,WoodFloor_04_N2,WoodFloor_04_N3,WoodFloor_04_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupWood" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodFloor_05" name="PP_WoodFloor_05" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_05_A1,WoodFloor_05_A2,WoodFloor_05_A1,WoodFloor_05_A2" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_05_N1,WoodFloor_05_N2,WoodFloor_05_N1,WoodFloor_05_N2" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupWood" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodFloor_06" name="PP_WoodFloor_06" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_06_A1,WoodFloor_06_A2,WoodFloor_06_A3,WoodFloor_06_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodFloor_06_N1,WoodFloor_06_N2,WoodFloor_06_N3,WoodFloor_06_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupWood" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_stone_01" name="PP_stone_01" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Marble_03_A1,Marble_03_A2,Marble_03_A3,Marble_03_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Marble_03_N,Marble_03_N,Marble_03_N,Marble_03_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_smooth_S,Default_smooth_S,Default_smooth_S,Default_smooth_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_11" name="PP_tiles_11" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_15_A1,Tiles_15_A2,Tiles_15_A3,Tiles_15_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_15_N1,Tiles_15_N2,Tiles_15_N3,Tiles_15_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_15_S,Tiles_15_S,Tiles_15_S,Tiles_15_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_12" name="PP_tiles_12" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_16_A1,Tiles_16_A2,Tiles_16_A3,Tiles_16_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_15_N1,Tiles_15_N2,Tiles_15_N3,Tiles_15_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_15_S,Tiles_15_S,Tiles_15_S,Tiles_15_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_13" name="PP_tiles_13" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_17_A1,Tiles_17_A2,Tiles_17_A3,Tiles_17_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_15_N1,Tiles_15_N2,Tiles_15_N3,Tiles_15_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_15_S,Tiles_15_S,Tiles_15_S,Tiles_15_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_14" name="PP_tiles_14" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_18_A1,Tiles_18_A2,Tiles_18_A3,Tiles_18_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_15_N1,Tiles_15_N2,Tiles_15_N3,Tiles_15_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_15_S,Tiles_15_S,Tiles_15_S,Tiles_15_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_FineWood_01" name="PP_FineWood_01" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_01_A1,FineWood_01_A2,FineWood_01_A3,FineWood_01_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_01_N1,FineWood_01_N2,FineWood_01_N3,FineWood_01_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_FineWood_02" name="PP_FineWood_02" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_02_A1,FineWood_02_A2,FineWood_02_A3,FineWood_02_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_02_N1,FineWood_02_N2,FineWood_02_N3,FineWood_02_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_FineWood_03" name="PP_FineWood_03" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_03_A1,FineWood_03_A2,FineWood_03_A3,FineWood_03_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_03_N1,FineWood_03_N2,FineWood_03_N3,FineWood_03_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_FineWood_04" name="PP_FineWood_04" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_04_A1,FineWood_04_A2,FineWood_04_A3,FineWood_04_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_04_N1,FineWood_04_N2,FineWood_04_N3,FineWood_04_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S,Default_med_S,Default_med_S,Default_med_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodWall_01" name="PP_WoodWall_01" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_01_A1,WoodWall_01_A2,WoodWall_01_A3,WoodWall_01_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_01_N1,WoodWall_01_N2,WoodWall_01_N3,WoodWall_01_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodWall_02" name="PP_WoodWall_02" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_02_A1,WoodWall_02_A2,WoodWall_02_A3,WoodWall_02_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_02_N1,WoodWall_02_N2,WoodWall_02_N3,WoodWall_02_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodWall_03" name="PP_WoodWall_03" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_03_A1,WoodWall_03_A2,WoodWall_03_A3,WoodWall_03_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_03_N1,WoodWall_03_N2,WoodWall_03_N3,WoodWall_03_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodWall_04" name="PP_WoodWall_04" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_04_A1,WoodWall_04_A2,WoodWall_04_A3,WoodWall_04_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_03_N1,WoodWall_03_N2,WoodWall_03_N3,WoodWall_03_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodWall_05" name="PP_WoodWall_05" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_05_A1,WoodWall_05_A2,WoodWall_05_A3,WoodWall_05_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_03_N1,WoodWall_03_N2,WoodWall_03_N3,WoodWall_03_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodWall_06" name="PP_WoodWall_06" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_06_A1,WoodWall_06_A2,WoodWall_06_A3,WoodWall_06_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_03_N1,WoodWall_03_N2,WoodWall_03_N3,WoodWall_03_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_WoodWall_07" name="PP_WoodWall_07" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_07_A1,WoodWall_07_A2,WoodWall_07_A3,WoodWall_07_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?WoodWall_03_N1,WoodWall_03_N2,WoodWall_03_N3,WoodWall_03_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_StoneFloor_01" name="PP_StoneFloor_01" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?StoneFloor_01_A1,StoneFloor_01_A2,StoneFloor_01_A3,StoneFloor_01_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?StoneFloor_01_N1,StoneFloor_01_N2,StoneFloor_01_N3,StoneFloor_01_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_StoneFloor_02" name="PP_StoneFloor_02" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?StoneFloor_02_A1,StoneFloor_02_A2,StoneFloor_02_A3,StoneFloor_02_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?StoneFloor_02_N1,StoneFloor_02_N2,StoneFloor_02_N3,StoneFloor_02_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_StoneFloor_03" name="PP_StoneFloor_03" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?StoneFloor_03_A1,StoneFloor_03_A2,StoneFloor_03_A3,StoneFloor_03_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?StoneFloor_03_N1,StoneFloor_03_N2,StoneFloor_03_N3,StoneFloor_03_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_StoneWall_01" name="PP_StoneWall_01" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?StoneWall_05_A1,StoneWall_05_A2,StoneWall_05_A3,StoneWall_05_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?StoneWall_05_N1,StoneWall_05_N2,StoneWall_05_N3,StoneWall_05_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_StoneWall_03" name="PP_StoneWall_03" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?StoneWall_03_A1,StoneWall_03_A2,StoneWall_03_A3,StoneWall_03_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?StoneWall_03_N1,StoneWall_03_N2,StoneWall_03_N3,StoneWall_03_N4" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_rough_S,Default_rough_S,Default_rough_S,Default_rough_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_15" name="PP_tiles_15" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_19_A1,Tiles_19_A2,Tiles_19_A3,Tiles_19_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_13_N,Tiles_13_N,Tiles_13_N,Tiles_13_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_13_S,Tiles_13_S,Tiles_13_S,Tiles_13_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_16" name="PP_tiles_16" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_20_A1,Tiles_20_A2,Tiles_20_A3,Tiles_20_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_20_N,Tiles_20_N,Tiles_20_N,Tiles_20_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_20_S,Tiles_20_S,Tiles_20_S,Tiles_20_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_tiles_17" name="PP_tiles_17" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_21_A1,Tiles_21_A2,Tiles_21_A3,Tiles_21_A4" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_20_N,Tiles_20_N,Tiles_20_N,Tiles_20_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Tiles_20_S,Tiles_20_S,Tiles_20_S,Tiles_20_S" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_10" name="PP_wallpaper_10">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_02_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_02_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_02_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_11" name="PP_wallpaper_11">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_03_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_03_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_02_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_12" name="PP_wallpaper_12">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_04_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_04_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_02_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_13" name="PP_wallpaper_13">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_05_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_05_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_02_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_14" name="PP_wallpaper_14">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_06_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_06_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_02_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_wallpaper_17" name="PP_wallpaper_17">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_09_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_09_N" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wallpaper_02_S" />
+    <property name="GlobalUV" value="True" />
+    <property name="Group" value="txGroupMasonry" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="stone" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_Wainscotting" name="PP_Wainscotting">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wainscoting_01_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_01_N1" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_Wainscotting_02" name="PP_Wainscotting_02">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wainscoting_02_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_03_N1" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_Wainscotting_03" name="PP_Wainscotting_03">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wainscoting_03_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_01_N1" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_Wainscotting_03b" name="PP_Wainscotting_03b">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wainscoting_03b_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_01_N1" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_Wainscotting_04" name="PP_Wainscotting_04">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wainscoting_04_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_04_N1" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+  <opaque id="PP_Wainscotting_05" name="PP_Wainscotting_05">
+    <!--Element appended by: "PyroPaints"-->
+    <property name="Diffuse" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Wainscoting_01b_A" />
+    <property name="Normal" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?FineWood_01_N1" />
+    <property name="Specular" value="#@modfolder(PyroPaints):Resources/Atlas.unity3d?Default_med_S" />
+    <property name="Group" value="txGroupWood" />
+    <property name="GlobalUV" value="True" />
+    <property name="Color" value="0.4823529,0.3490196,0.2901961" />
+    <property name="Material" value="wood" />
+    <property name="PaintCost" value="1" />
+  </opaque>
+</paints>
