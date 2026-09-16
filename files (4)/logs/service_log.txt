@@ -1,0 +1,6 @@
+Tue Sep 15 22:30:41 2026 UTC : Failed to load Steam Service (GLE 126)
+Tue Sep 15 22:30:41 2026 UTC : BOpenService failed (GLE 1060)
+Tue Sep 15 22:30:41 2026 UTC : ServiceStart: failed to start (GLE 183)
+Tue Sep 15 23:13:12 2026 UTC : Failed to load Steam Service (GLE 126)
+Tue Sep 15 23:13:12 2026 UTC : BOpenService failed (GLE 1060)
+Tue Sep 15 23:13:12 2026 UTC : ServiceStart: failed to start (GLE 183)

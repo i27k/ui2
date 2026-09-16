@@ -1,0 +1,12 @@
+
+
+[2026-09-16 00:30:41] Client version: no bootstrapper found
+[2026-09-16 00:30:41] Loaded store 'install' from 'D:\bluefang\servers\server54065\config\config.vdf' successfully
+[2026-09-16 00:30:41] Failed to read store 'userlocal' from 'D:\bluefang\servers\server54065\config\localconfig.vdf.tmp'
+[2026-09-16 00:30:42] Flushed store 'install' to 'D:\bluefang\servers\server54065\config\config.vdf'
+
+
+[2026-09-16 01:13:12] Client version: no bootstrapper found
+[2026-09-16 01:13:12] Loaded store 'install' from 'D:\bluefang\servers\server54065\config\config.vdf' successfully
+[2026-09-16 01:13:12] Failed to read store 'userlocal' from 'D:\bluefang\servers\server54065\config\localconfig.vdf.tmp'
+[2026-09-16 01:13:13] Flushed store 'install' to 'D:\bluefang\servers\server54065\config\config.vdf'

@@ -1,0 +1,12 @@
+
+
+[2026-09-16 00:30:41] Client version: no bootstrapper found
+[2026-09-16 00:30:41] Connectivity test: Starting test, fetching 'http://test.steampowered.com/204'
+[2026-09-16 00:30:41] Connectivity test: OK!
+[2026-09-16 00:30:41] Connectivity test: result=Connected (since 0.0s ago), prev=Unknown, in progress=0
+
+
+[2026-09-16 01:13:12] Client version: no bootstrapper found
+[2026-09-16 01:13:12] Connectivity test: Starting test, fetching 'http://test.steampowered.com/204'
+[2026-09-16 01:13:12] Connectivity test: OK!
+[2026-09-16 01:13:12] Connectivity test: result=Connected (since 0.0s ago), prev=Unknown, in progress=0
